@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard — VoteInformado</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/dashboard.css" />
+</head>
+<body>
+
+  <!-- Navbar (inyectado por nav.js) -->
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header__inner">
+      <div class="page-header__eyebrow">Análisis</div>
+      <h1>Dashboard Electoral</h1>
+      <p>Métricas agregadas y cobertura temática de todas las candidaturas</p>
+    </div>
+  </header>
+
+  <!-- Dashboard -->
+  <main class="dashboard">
+
+    <!-- KPI Row -->
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <div class="kpi-card__label">Candidatos</div>
+        <div class="kpi-card__value" id="kpi-candidatos">—</div>
+        <div class="kpi-card__sub">Perfiles completos</div>
+      </div>
+      <div class="kpi-card" style="--accent:#b8960c;">
+        <div class="kpi-card__label">Ejes temáticos</div>
+        <div class="kpi-card__value">5</div>
+        <div class="kpi-card__sub">Analizados</div>
+      </div>
+      <div class="kpi-card" style="--accent:#2a7a3b;">
+        <div class="kpi-card__label">Propuestas</div>
+        <div class="kpi-card__value" id="kpi-propuestas">—</div>
+        <div class="kpi-card__sub">Registradas en total</div>
+      </div>
+      <div class="kpi-card" style="--accent:#1a1a1a;">
+        <div class="kpi-card__label">Fuente principal</div>
+        <div class="kpi-card__value" style="font-size:1.1rem;letter-spacing:0;">JNE</div>
+        <div class="kpi-card__sub">Planes de gobierno oficiales</div>
+      </div>
+    </div>
+
+    <!-- Main grid -->
+    <div class="dash-grid">
+
+      <!-- Panel: Propuestas por candidato -->
+      <div class="panel">
+        <div class="panel__header">
+          <span class="panel__title">📊 Propuestas por candidato</span>
+          <div class="filter-tabs">
+            <button class="filter-tab active" data-eje="todas">Todas</button>
+            <button class="filter-tab" data-eje="economia">Economía</button>
+            <button class="filter-tab" data-eje="seguridad">Seguridad</button>
+            <button class="filter-tab" data-eje="educacion">Educación</button>
+          </div>
+        </div>
+        <div class="panel__body">
+          <div class="bar-chart" id="chart-propuestas">
+            <p style="color:var(--ink-muted);font-size:0.88rem;">Cargando...</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel: Distribución por eje -->
+      <div class="panel">
+        <div class="panel__header">
+          <span class="panel__title">🥧 Ejes más abordados</span>
+        </div>
+        <div class="panel__body">
+          <div class="donut-chart">
+            <div class="donut-visual"></div>
+            <div class="donut-legend"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Full-width: Cobertura por eje -->
+    <div class="dash-grid--full">
+      <div class="panel">
+        <div class="panel__header">
+          <span class="panel__title">📋 Cobertura por eje temático</span>
+          <a href="comparador.html" class="btn btn-outline"
+             style="font-size:0.78rem;padding:0.35rem 0.85rem;">Comparar →</a>
+        </div>
+        <div class="panel__body" style="padding:0;">
+          <table class="ejes-table">
+            <thead>
+              <tr>
+                <th>Eje temático</th>
+                <!-- Columnas de candidatos generadas por dashboard.js -->
+              </tr>
+            </thead>
+            <tbody id="tabla-cobertura">
+              <tr><td colspan="5" style="padding:1.5rem;color:var(--ink-muted);">Cargando...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer (inyectado por nav.js) -->
+
+  <script src="assets/js/dashboard.js"></script>
+  <script src="assets/js/nav.js"></script>
+</body>
+</html>

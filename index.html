@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoteInformado — Conoce a tus candidatos</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/index.css" />
+</head>
+<body>
+
+  <!-- Navbar (inyectado por nav.js) -->
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <span class="hero__eyebrow">Elecciones Perú 2026</span>
+        <h1>Elige con <em>criterio,</em> no con ruido</h1>
+        <p class="hero__sub">
+          Compara candidatos, analiza propuestas y toma decisiones informadas.
+          Sin sesgos, sin ruido mediático.
+        </p>
+        <div class="hero__actions">
+          <a href="candidato.html" class="btn btn-primary">Ver candidatos →</a>
+          <a href="comparador.html" class="btn btn-outline"
+             style="border-color:rgba(255,255,255,0.3);color:#fff;">Comparar ahora</a>
+        </div>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <div class="hero__stat-num" id="kpi-candidatos">—</div>
+          <div class="hero__stat-label">Candidatos</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-num">5</div>
+          <div class="hero__stat-label">Ejes temáticos</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-num">100%</div>
+          <div class="hero__stat-label">Sin publicidad</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-num">Libre</div>
+          <div class="hero__stat-label">Acceso gratuito</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Candidatos Destacados -->
+  <section class="section">
+    <div class="section__header">
+      <h2 class="section__title">
+        <span></span>
+        Candidatos
+      </h2>
+      <a href="candidato.html" class="btn btn-outline">Ver todos</a>
+    </div>
+    <div class="candidatos-grid" id="candidatos-grid">
+      <!-- Poblado dinámicamente por index.js -->
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section features">
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature__icon">📋</div>
+        <h3>Perfiles detallados</h3>
+        <p>Trayectoria, propuestas por eje y posiciones clave de cada candidato en un solo lugar.</p>
+      </div>
+      <div class="feature">
+        <div class="feature__icon">⚖️</div>
+        <h3>Comparador lado a lado</h3>
+        <p>Selecciona dos candidatos y compara sus posiciones tema por tema.</p>
+      </div>
+      <div class="feature">
+        <div class="feature__icon">📊</div>
+        <h3>Dashboard de datos</h3>
+        <p>Visualiza métricas, tendencias y análisis agregados de todas las candidaturas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (inyectado por nav.js) -->
+
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/nav.js"></script>
+</body>
+</html>

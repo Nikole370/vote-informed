@@ -1,0 +1,25 @@
+{
+  "glosario": [
+    {
+      "concepto": "Democracia",
+      "categoria": "Sistema de gobierno",
+      "definicion": "Sistema político en el que el poder reside en el pueblo, ejercido directamente o a través de representantes elegidos por votación libre y periódica.",
+      "ejemplo": "En las elecciones generales de 2024, los ciudadanos eligieron a sus representantes al Congreso mediante voto universal y secreto.",
+      "espectro": "Neutral"
+    },
+    {
+      "concepto": "Populismo",
+      "categoria": "Ideología política",
+      "definicion": "Corriente política que apela a los intereses y sentimientos del pueblo común, generalmente en contraposición a una élite percibida como corrupta o alejada de la ciudadanía.",
+      "ejemplo": "El candidato utilizó un discurso populista al prometer eliminar los privilegios de los partidos tradicionales y devolver el poder al ciudadano de a pie.",
+      "espectro": "Variable (puede ser de izquierda o derecha)"
+    },
+    {
+      "concepto": "Sufragio universal",
+      "categoria": "Derecho político",
+      "definicion": "Derecho de todos los ciudadanos adultos a votar en las elecciones, sin distinción de sexo, raza, religión, nivel educativo o condición económica.",
+      "ejemplo": "Con la aprobación del sufragio universal en 1979, las mujeres obtuvieron por primera vez el derecho a votar en las elecciones nacionales.",
+      "espectro": "Neutral"
+    }
+  ]
+}

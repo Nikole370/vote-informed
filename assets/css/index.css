@@ -1,0 +1,180 @@
+/* ── Hero ── */
+.hero {
+  background: var(--ink);
+  color: #fff;
+  padding: 5rem 2rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero::after {
+  content: 'VOTA';
+  position: absolute;
+  right: -1rem;
+  bottom: -2rem;
+  font-family: var(--font-display);
+  font-size: 18rem;
+  font-weight: 900;
+  opacity: 0.04;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+.hero__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+.hero__eyebrow {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0.25rem 0.65rem;
+  border-radius: 2px;
+  margin-bottom: 1.2rem;
+}
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+.hero h1 em { font-style: normal; color: var(--accent); }
+.hero__sub {
+  margin-top: 1.2rem;
+  color: rgba(255,255,255,0.6);
+  font-size: 1.05rem;
+  max-width: 440px;
+  line-height: 1.65;
+}
+.hero__actions { display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; }
+.hero__stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius);
+}
+.hero__stat { background: rgba(255,255,255,0.04); padding: 1.5rem; text-align: center; }
+.hero__stat-num {
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: var(--accent);
+  line-height: 1;
+}
+.hero__stat-label { font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 0.35rem; letter-spacing: 0.04em; }
+
+/* ── Section ── */
+.section { padding: 4rem 2rem; }
+.section__header {
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.section__title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.section__title span {
+  display: block;
+  width: 36px;
+  height: 4px;
+  background: var(--accent);
+  margin-bottom: 0.5rem;
+  border-radius: 2px;
+}
+
+/* ── Candidate Grid ── */
+.candidatos-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+.candidato-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: box-shadow var(--transition), transform var(--transition);
+  cursor: pointer;
+}
+.candidato-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-3px); }
+.candidato-card__img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  object-position: top;
+  background: #e0dbd0;
+}
+.candidato-card__img-placeholder {
+  width: 100%;
+  aspect-ratio: 3/4;
+  background: linear-gradient(160deg, #e8e2d8 0%, #d5cfc4 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: var(--border);
+  font-weight: 900;
+}
+.candidato-card__body { padding: 1rem 1.1rem 1.25rem; }
+.candidato-card__partido {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+}
+.candidato-card__nombre {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+.candidato-card__desc { font-size: 0.82rem; color: var(--ink-muted); line-height: 1.5; }
+.candidato-card__footer {
+  padding: 0.75rem 1.1rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* ── Features ── */
+.features { background: var(--ink); color: #fff; }
+.features-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.feature { padding: 0.5rem 0; }
+.feature__icon { font-size: 2rem; margin-bottom: 1rem; }
+.feature h3 { font-family: var(--font-display); font-size: 1.1rem; margin-bottom: 0.5rem; }
+.feature p { color: rgba(255,255,255,0.55); font-size: 0.88rem; line-height: 1.65; }
+
+@media (max-width: 768px) {
+  .hero__inner { grid-template-columns: 1fr; }
+  .hero__stats { display: none; }
+  .features-grid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil de Candidato — VoteInformado</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/candidato.css" />
+</head>
+<body>
+
+  <!-- Navbar (inyectado por nav.js) -->
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header__inner">
+      <div class="page-header__eyebrow">Perfil</div>
+      <h1>Perfil del Candidato</h1>
+      <p>Trayectoria, propuestas y posiciones detalladas</p>
+    </div>
+  </header>
+
+  <!-- Selector de candidatos (poblado por candidato.js) -->
+  <div class="candidato-selector">
+    <div class="candidato-selector__inner" id="selector-candidatos">
+      <!-- Botones generados dinámicamente -->
+    </div>
+  </div>
+
+  <!-- Profile Layout -->
+  <main>
+    <div class="profile-layout">
+
+      <!-- Sidebar -->
+      <aside class="profile-sidebar">
+        <div class="profile-photo-placeholder" id="profile-photo">—</div>
+        <div class="profile-meta">
+          <div class="profile-meta__partido" id="profile-partido"></div>
+          <div class="profile-meta__nombre" id="profile-nombre"></div>
+          <div class="profile-meta__cargo" id="profile-cargo"></div>
+        </div>
+        <div class="profile-tags" id="profile-tags"></div>
+        <div class="profile-sidebar__actions">
+          <a href="comparador.html" class="btn btn-primary">Comparar con otro candidato</a>
+          <a href="dashboard.html" class="btn btn-outline">Ver en Dashboard</a>
+        </div>
+      </aside>
+
+      <!-- Main -->
+      <div class="profile-main">
+
+        <!-- Biografía -->
+        <div class="section-block">
+          <div class="section-block__header">
+            <span class="section-block__icon">👤</span>
+            <span class="section-block__title">Biografía</span>
+          </div>
+          <div class="section-block__body" id="profile-bio">
+            <p style="color:var(--ink-muted);">Cargando...</p>
+          </div>
+        </div>
+
+        <!-- Propuestas -->
+        <div class="section-block">
+          <div class="section-block__header">
+            <span class="section-block__icon">📋</span>
+            <span class="section-block__title">Propuestas principales</span>
+          </div>
+          <div class="section-block__body" style="padding:0 1.4rem;">
+            <ul class="propuestas-list" id="profile-propuestas"></ul>
+          </div>
+        </div>
+
+        <!-- Trayectoria / Fuentes (poblado por candidato.js) -->
+        <div class="section-block">
+          <div class="section-block__header">
+            <span class="section-block__icon">🗓️</span>
+            <span class="section-block__title">Trayectoria</span>
+          </div>
+          <div class="section-block__body">
+            <div class="timeline" id="profile-timeline">
+              <p style="color:var(--ink-muted);font-size:0.88rem;">Información biográfica disponible en la sección de Biografía.</p>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.profile-main -->
+    </div><!-- /.profile-layout -->
+  </main>
+
+  <!-- Footer (inyectado por nav.js) -->
+
+  <script src="assets/js/candidato.js"></script>
+  <script src="assets/js/nav.js"></script>
+</body>
+</html>

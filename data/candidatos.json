@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "nombre": "Keiko Fujimori Higuchi",
+    "partido": "Fuerza Popular",
+    "partido_color": "#F97316",
+    "foto": "/assets/img/keiko.jpg",
+    "orden": 1,
+    "biografia": "Lideresa de Fuerza Popular, hija del expresidente Alberto Fujimori. Candidata presidencial por tercera vez. Congresista y figura central de la derecha peruana. Actualmente bajo investigación por financiamiento ilícito.",
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Transformar la relación del Estado con las MYPES, eliminando la 'extorsión burocrática' y permitiendo la formalización con un solo documento, reduciendo los actuales 120 días de trámites.",
+          "fuente": "Presentación del Plan Económico - Villa El Salvador, marzo 2026",
+          "url": "https://peru21.pe/politica/keiko-fujimori-presento-el-plan-economico-de-fuerza-popular/"
+        },
+        {
+          "texto": "Modernizar la Ley General de Minería para evitar la especulación mediante plazos obligatorios de exploración y producción, asegurando la independencia del BCR y el respeto a los contratos.",
+          "fuente": "Plan de Gobierno Fuerza Popular 2026",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-de-candidata-keiko-fujimori-higuchi-1065386.aspx"
+        },
+        {
+          "texto": "Crear un seguro para pescadores artesanales ante desastres naturales y acelerar la infraestructura hídrica para la pequeña agricultura.",
+          "fuente": "Plan de Gobierno Fuerza Popular 2026",
+          "url": "https://fuerzapopular.com.pe/"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Reducir la anemia infantil al 20% mediante cobertura universal de vacunación, chequeos preventivos y servicios de salud reforzados.",
+          "fuente": "Plan de Gobierno Fuerza Popular 2026",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-de-candidata-keiko-fujimori-higuchi-1065386.aspx"
+        }
+      ],
+      "educacion": [
+        {
+          "texto": "Fortalecer los programas sociales y la labor del COFOPRI para dar mayores facilidades a los peruanos en la obtención del título de sus propiedades.",
+          "fuente": "Declaraciones en campaña - Agencia Andina",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-candidata-keiko-fujimori-ofrece-fortalecer-programas-sociales-1065119.aspx"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Reducir en 20% la tasa nacional de homicidios al 2031 mediante patrullaje integrado, prevención juvenil y recuperación de espacios públicos.",
+          "fuente": "Plan de Gobierno Fuerza Popular 2026",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-de-candidata-keiko-fujimori-higuchi-1065386.aspx"
+        },
+        {
+          "texto": "Controlar fronteras y cárceles con equipos especializados como el general Marco Miyashiro (ex-GEIN) y el general César Astudillo (Chavín de Huántar).",
+          "fuente": "Discurso en Junín - Agencia Andina",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-keiko-fujimori-senala-su-prioridad-sera-recuperar-orden-y-seguridad-1064666.aspx"
+        }
+      ],
+      "medioambiente": [
+        {
+          "texto": "Intervención directa de las Fuerzas Armadas en la lucha frontal contra la minería ilegal.",
+          "fuente": "Plan de Gobierno Fuerza Popular 2026",
+          "url": "https://fuerzapopular.com.pe/"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "nombre": "Plan de Gobierno Fuerza Popular 2026 - JNE",
+        "url": "https://declara.jne.gob.pe/assets/plangobierno/fileplangobierno/16490.pdf",
+        "tipo": "documento"
+      },
+      {
+        "nombre": "Cobertura Agencia Andina - Propuestas Keiko Fujimori",
+        "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-de-candidata-keiko-fujimori-higuchi-1065386.aspx",
+        "tipo": "nota de prensa"
+      },
+      {
+        "nombre": "Tu Decisión 2026 - TVPerú",
+        "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-keiko-fujimori-de-fuerza-popular",
+        "tipo": "entrevista"
+      }
+    ],
+    "fechaActualizacion": "2026-03-13"
+  },
+  {
+    "id": 2,
+    "nombre": "Rafael López Aliaga Cazorla",
+    "partido": "Renovación Popular",
+    "partido_color": "#1E3A8A",
+    "foto": "/assets/img/lopez-aliaga.jpg",
+    "orden": 2,
+    "biografia": "Empresario y exalcalde de Lima (2022-2026). Líder de Renovación Popular, partido de orientación conservadora y cristiana. Candidato presidencial por segunda vez. Conocido por su estilo confrontacional.",
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Disponer la venta o liquidación de Petroperú y privatización de las empresas eléctricas de distribución de propiedad estatal.",
+          "fuente": "Plan de Gobierno Renovación Popular 2026 - El Peruano",
+          "url": "https://elperuano.pe/noticia/290945-elecciones-2026-conoce-el-plan-de-gobierno-de-rafael-lopez-aliaga"
+        },
+        {
+          "texto": "Recortar el aparato estatal y eliminar el gasto público innecesario como medida prioritaria en los primeros 100 días de gobierno.",
+          "fuente": "Tu Decisión 2026 - TVPerú",
+          "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-rafael-lopez-aliaga-del-partido-renovacion-popular"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Implementar servicios de Hospitales Solidarios en todo el país y construir nuevos nosocomios públicos.",
+          "fuente": "Plan de Gobierno Renovación Popular 2026 - El Peruano",
+          "url": "https://elperuano.pe/noticia/290945-elecciones-2026-conoce-el-plan-de-gobierno-de-rafael-lopez-aliaga"
+        },
+        {
+          "texto": "Combatir la anemia y el problema de falta de agua como prioridades de los primeros 100 días de gobierno.",
+          "fuente": "Tu Decisión 2026 - TVPerú",
+          "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-rafael-lopez-aliaga-del-partido-renovacion-popular"
+        }
+      ],
+      "educacion": [],
+      "seguridad": [
+        {
+          "texto": "Firmar convenio con el Gobierno de Estados Unidos para inteligencia, tecnología y extradición inmediata de cabecillas del crimen organizado como el Tren de Aragua.",
+          "fuente": "Plan de Gobierno Renovación Popular 2026 - Andina",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-rafael-lopez-aliaga-1065624.aspx"
+        },
+        {
+          "texto": "Crear penales en la selva inhóspita, instaurar jueces y fiscales sin rostro, y jueces militares para procesos rápidos de flagrancia.",
+          "fuente": "Tu Decisión 2026 - TVPerú",
+          "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-rafael-lopez-aliaga-del-partido-renovacion-popular"
+        }
+      ],
+      "medioambiente": [
+        {
+          "texto": "Establecer la intervención directa de las Fuerzas Armadas en la lucha frontal contra la minería ilegal.",
+          "fuente": "Plan de Gobierno Renovación Popular 2026 - El Peruano",
+          "url": "https://elperuano.pe/noticia/290945-elecciones-2026-conoce-el-plan-de-gobierno-de-rafael-lopez-aliaga"
+        }
+      ]
+    },
+    "fuentes": [
+      {
+        "nombre": "Plan de Gobierno Renovación Popular 2026 - El Peruano",
+        "url": "https://elperuano.pe/noticia/290945-elecciones-2026-conoce-el-plan-de-gobierno-de-rafael-lopez-aliaga",
+        "tipo": "nota de prensa"
+      },
+      {
+        "nombre": "Tu Decisión 2026 - TVPerú",
+        "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-rafael-lopez-aliaga-del-partido-renovacion-popular",
+        "tipo": "entrevista"
+      },
+      {
+        "nombre": "Presentación Plan de Gobierno 2026–2031 - Caretas",
+        "url": "https://caretas.pe/politica/lopez-aliaga-presenta-su-plan/",
+        "tipo": "nota de prensa"
+      }
+    ],
+    "fechaActualizacion": "2026-03-13"
+  },
+  {
+    "id": 3,
+    "nombre": "Jorge Nieto Montesinos",
+    "partido": "Partido del Buen Gobierno",
+    "partido_color": "#15803D",
+    "foto": "/assets/img/jorge-nieto.jpg",
+    "orden": 3,
+    "biografia": "Sociólogo y exministro de Cultura y Defensa durante el gobierno de PPK (2016-2018). Nació en Arequipa en 1951. Maestría en Ciencias Sociales por FLACSO. Candidato de centro con énfasis en reforma del Estado e institucionalidad.",
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Fortalecer el emprendimiento y las MYPES como motor económico del país, con reformas que reduzcan trabas burocráticas para el sector productivo.",
+          "fuente": "Plan de Gobierno Partido del Buen Gobierno 2026",
+          "url": "https://actualidadnoticia.com/peru/elecciones-generales-2026-jorge-nieto-montesinos-del-partido-del-buen-gobierno-principales-propuestas-de-su-plan-de-gobierno-71/"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Crear un sistema prestacional único que integre EsSalud, el Ministerio de Salud y los sistemas médicos de las Fuerzas Armadas y la Policía, con historia clínica única y tarifario nacional unificado.",
+          "fuente": "Entrevistas de campaña - Actualidad Noticia",
+          "url": "https://actualidadnoticia.com/peru/elecciones-generales-2026-jorge-nieto-montesinos-del-partido-del-buen-gobierno-principales-propuestas-de-su-plan-de-gobierno-71/"
+        }
+      ],
+      "educacion": [
+        {
+          "texto": "Mejorar la capacitación docente e implementar incentivos salariales para profesores con buenos resultados de aprendizaje en el aula.",
+          "fuente": "Entrevistas de campaña - Actualidad Noticia",
+          "url": "https://actualidadnoticia.com/peru/elecciones-generales-2026-jorge-nieto-montesinos-del-partido-del-buen-gobierno-principales-propuestas-de-su-plan-de-gobierno-71/"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Crear una unidad especializada anticriminal con resultados visibles en aproximadamente un año. El presidente lideraría diariamente reuniones de coordinación con el Ministerio del Interior y la Policía.",
+          "fuente": "Entrevistas de campaña - Actualidad Noticia",
+          "url": "https://actualidadnoticia.com/peru/elecciones-generales-2026-jorge-nieto-montesinos-del-partido-del-buen-gobierno-principales-propuestas-de-su-plan-de-gobierno-71/"
+        }
+      ],
+      "medioambiente": []
+    },
+    "fuentes": [
+      {
+        "nombre": "Perfil y propuestas - Actualidad Noticia",
+        "url": "https://actualidadnoticia.com/peru/elecciones-generales-2026-jorge-nieto-montesinos-del-partido-del-buen-gobierno-principales-propuestas-de-su-plan-de-gobierno-71/",
+        "tipo": "nota de prensa"
+      },
+      {
+        "nombre": "Candidatos Elecciones 2026 - Canal N",
+        "url": "https://canaln.pe/actualidad/elecciones-2026-conoce-planes-gobierno-n489012",
+        "tipo": "nota de prensa"
+      }
+    ],
+    "fechaActualizacion": "2026-03-13"
+  },
+  {
+    "id": 4,
+    "nombre": "Wolfgang Grozo Costa",
+    "partido": "Integridad Democrática",
+    "partido_color": "#7C3AED",
+    "foto": "/assets/img/Wolfgang_Grozo_Costa.png",
+    "orden": 4,
+    "biografia": "Mayor general en retiro de la Fuerza Aérea del Perú y exdirector de Inteligencia de la FAP. Doctor en Desarrollo y Seguridad Estratégica. Fundó Integridad Democrática en 2023. Outsider con fuerte presencia en redes sociales, especialmente entre jóvenes.",
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Fortalecer el emprendimiento peruano: los 10 millones de emprendedores representan el 80% de la economía. Propone acompañamiento estatal activo al sector emprendedor como tercer eje programático.",
+          "fuente": "Entrevista Perú 21 - Wolfgang Grozo",
+          "url": "https://peru21.pe/politica/wolfgang-grozo-candidato-presidencial-de-integridad-democratica-me-indigna-ver-asi-mi-pais/"
+        }
+      ],
+      "salud": [],
+      "educacion": [],
+      "seguridad": [
+        {
+          "texto": "Usar inteligencia estratégica y tecnológica (inteligencia de comunicaciones, de imágenes, de redes y la unidad de inteligencia financiera) para investigar y neutralizar al crimen organizado, con mejoras visibles en 6 meses.",
+          "fuente": "Entrevista RPP - Wolfgang Grozo",
+          "url": "https://rpp.pe/politica/elecciones/wolfgang-grozo-candidato-presidencial-por-integridad-democratica-revela-sus-propuestas-y-se-perfila-como-outsider-noticia-1677358"
+        },
+        {
+          "texto": "Crear megacárceles, reformar el sistema penitenciario y judicial. Derogar leyes 'pro-crimen'. Eliminar los estados de emergencia y el patrullaje militar, reemplazándolos por acciones de inteligencia.",
+          "fuente": "Entrevista Ojo Público - Wolfgang Grozo",
+          "url": "https://ojo-publico.com/politica/elecciones-2026/wolfgang-grozo-los-estados-emergencia-no-sirven"
+        },
+        {
+          "texto": "Establecer cadena perpetua por corrupción para presidentes y funcionarios del Estado, procesados por traición a la patria.",
+          "fuente": "La República - Perfil Wolfgang Grozo",
+          "url": "https://larepublica.pe/politica/2026/02/22/elecciones-2026-wolfgang-grozo-quien-es-el-candidato-presidencial-de-integridad-democratica-hnews-1091728"
+        }
+      ],
+      "medioambiente": []
+    },
+    "fuentes": [
+      {
+        "nombre": "Entrevista Ojo Público - Seguridad y propuestas",
+        "url": "https://ojo-publico.com/politica/elecciones-2026/wolfgang-grozo-los-estados-emergencia-no-sirven",
+        "tipo": "entrevista"
+      },
+      {
+        "nombre": "Entrevista RPP - Propuestas y trayectoria",
+        "url": "https://rpp.pe/politica/elecciones/wolfgang-grozo-candidato-presidencial-por-integridad-democratica-revela-sus-propuestas-y-se-perfila-como-outsider-noticia-1677358",
+        "tipo": "entrevista"
+      },
+      {
+        "nombre": "Hoja de vida JNE - Wolfgang Grozo",
+        "url": "https://votoinformado.jne.gob.pe/hoja-vida/2985/07260881",
+        "tipo": "documento"
+      },
+      {
+        "nombre": "Wikipedia - Wolfgang Grozo",
+        "url": "https://es.wikipedia.org/wiki/Wolfgang_Grozo",
+        "tipo": "referencia"
+      }
+    ],
+    "fechaActualizacion": "2026-03-13"
+  }
+]

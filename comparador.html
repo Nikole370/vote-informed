@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comparador — VoteInformado</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/comparador.css" />
+</head>
+<body>
+
+  <!-- Navbar (inyectado por nav.js) -->
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header__inner">
+      <div class="page-header__eyebrow">Herramienta</div>
+      <h1>Comparador de Candidatos</h1>
+      <p>Selecciona dos candidatos y compara sus posiciones tema por tema</p>
+    </div>
+  </header>
+
+  <!-- Selection Bar -->
+  <div class="compare-bar">
+    <div class="compare-bar__inner">
+      <div class="compare-bar__label">Seleccionar candidatos a comparar</div>
+      <div class="compare-selects">
+        <div class="compare-select-wrapper">
+          <label for="select-a">Candidato A</label>
+          <select class="compare-select" id="select-a" onchange="updateComparacion()">
+            <option value="">— Seleccionar —</option>
+          </select>
+        </div>
+        <div class="vs-badge">VS</div>
+        <div class="compare-select-wrapper">
+          <label for="select-b">Candidato B</label>
+          <select class="compare-select" id="select-b" onchange="updateComparacion()">
+            <option value="">— Seleccionar —</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Compare Content -->
+  <main>
+    <div class="compare-container">
+
+      <!-- Estado inicial -->
+      <div class="empty-compare" id="empty-state">
+        <div class="empty-compare__icon">⚖️</div>
+        <h3>Selecciona dos candidatos</h3>
+        <p>Usa los selectores de arriba para comenzar la comparación</p>
+      </div>
+
+      <!-- Tabla (oculta hasta selección) -->
+      <div id="compare-table" style="display:none;">
+
+        <!-- Cabecera -->
+        <div class="compare-header-row">
+          <div class="compare-col-header"></div>
+          <div class="compare-col-header">
+            <div class="compare-col-header__photo" id="photo-a">A</div>
+            <div class="compare-col-header__partido" id="partido-a"></div>
+            <div class="compare-col-header__nombre" id="nombre-a"></div>
+          </div>
+          <div class="compare-col-header">
+            <div class="compare-col-header__photo" id="photo-b">B</div>
+            <div class="compare-col-header__partido" id="partido-b"></div>
+            <div class="compare-col-header__nombre" id="nombre-b"></div>
+          </div>
+        </div>
+
+        <!-- Filas generadas por comparador.js -->
+        <table style="width:100%;border-collapse:collapse;">
+          <tbody id="compare-tbody"></tbody>
+        </table>
+
+        <!-- Acciones -->
+        <div style="display:flex;gap:1rem;margin-top:2rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <a href="dashboard.html" class="btn btn-outline">Ver en Dashboard →</a>
+        </div>
+
+      </div><!-- /#compare-table -->
+    </div>
+  </main>
+
+  <!-- Footer (inyectado por nav.js) -->
+
+  <script src="assets/js/comparador.js"></script>
+  <script src="assets/js/nav.js"></script>
+</body>
+</html>
