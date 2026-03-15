@@ -34,14 +34,24 @@
     nav.className = 'navbar';
     nav.setAttribute('role', 'navigation');
     nav.setAttribute('aria-label', 'Navegación principal');
-
-    // Brand
+    
     const brand = document.createElement('a');
     brand.className = 'navbar__brand';
     brand.href = 'index.html';
     brand.innerHTML = 'Vote<span>Informado</span>';
 
-    // Links list
+    // ── NUEVO: botón hamburguesa ──
+    const toggle = document.createElement('button');
+    toggle.className = 'navbar__toggle';
+    toggle.setAttribute('aria-label', 'Abrir menú');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.innerHTML = '☰';
+    toggle.addEventListener('click', () => {
+      const isOpen = ul.classList.toggle('navbar__nav--open');
+      toggle.setAttribute('aria-expanded', isOpen);
+      toggle.innerHTML = isOpen ? '✕' : '☰';
+    });
+
     const ul = document.createElement('ul');
     ul.className = 'navbar__nav';
     ul.setAttribute('role', 'list');
@@ -60,6 +70,7 @@
     });
 
     nav.appendChild(brand);
+    nav.appendChild(toggle);  // ← nuevo
     nav.appendChild(ul);
     return nav;
   }

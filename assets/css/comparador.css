@@ -73,7 +73,19 @@
 .empty-compare__icon { font-size: 3rem; margin-bottom: 1rem; }
 .empty-compare h3 { font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 0.5rem; color: var(--ink); }
 
+/* ─── Responsive ─── */
 @media (max-width: 768px) {
+  .compare-bar { padding: 1rem; }
+  .compare-selects { flex-direction: column; }
+  .vs-badge { margin-top: 0; align-self: center; }
   .compare-header-row,
-  .compare-row { grid-template-columns: 110px 1fr 1fr; }
+  .compare-row { grid-template-columns: 90px 1fr 1fr; }
+  .compare-container { padding: 0 0.75rem; }
+}
+
+@media (max-width: 480px) {
+  /* En celular muy chico: scroll horizontal en vez de aplastar */
+  .compare-header-row,
+  .compare-row { min-width: 480px; }
+  .compare-container { overflow-x: auto; }
 }

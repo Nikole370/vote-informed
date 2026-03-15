@@ -165,4 +165,44 @@ ul { list-style: none; }
   .navbar__nav a { padding: 0.4rem 0.5rem; font-size: 0.78rem; }
   .container { padding: 0 1rem; }
   .page-header { padding: 2rem 1rem 1.5rem; }
+
+  .navbar__nav { gap: 0; }
+  img { max-width: 100%; height: auto; }
+  .btn { min-height: 44px; padding: 0.75rem 1.25rem; }
+  .section { padding: 2.5rem 1rem; }
+  .page-header h1 { font-size: 1.8rem; }
+  .navbar__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .navbar__nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: var(--ink);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 0.5rem 0;
+    z-index: 99;
+  }
+  .navbar__nav--open { display: flex; }
+  .navbar__nav li { width: 100%; }
+  .navbar__nav a {
+    display: block;
+    padding: 0.85rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0;
+  }
 }
+.navbar__toggle { display: none; }

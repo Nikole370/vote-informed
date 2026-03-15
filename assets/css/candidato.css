@@ -965,4 +965,62 @@
   .congreso-grid { grid-template-columns: repeat(2, 1fr); }
   .datos-grid { grid-template-columns: 1fr; }
   .profile-tab { font-size: 0.75rem; padding: 0.55rem 0.8rem; }
+
+  /* ↓ AGREGAR ESTAS LÍNEAS */
+  .candidato-selector { padding: 0.75rem 1rem; }
+  .selector-btn { font-size: 0.78rem; padding: 0.4rem 0.75rem; }
+
+  .posiciones-table td:first-child { width: 40%; }
+  .posiciones-table td { padding: 0.65rem 0.75rem; font-size: 0.8rem; }
+
+  .patrimonio-stat__val { font-size: 1rem; }
+  .patrimonio-grid { gap: 0.5rem; }
+
+  .section-block__body { padding: 1rem; }
+  .section-block__header { padding: 0.75rem 1rem; }
+
+  .electoral-table { font-size: 0.78rem; }
+  .electoral-table td, .electoral-table th { padding: 0.5rem; }
+
+  .fin-total__valor { font-size: 1.4rem; }
+}
+@media (max-width: 480px) {
+  /* Tabla de posiciones: apila en vez de 2 columnas */
+  .posiciones-table,
+  .posiciones-table tbody,
+  .posiciones-table tr,
+  .posiciones-table td {
+    display: block;
+    width: 100%;
+  }
+  .posiciones-table td:first-child {
+    width: 100%;
+    padding-bottom: 0.25rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  /* Tabla electoral con scroll horizontal */
+  .section-block__body:has(.electoral-table) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0;
+  }
+  .electoral-table { min-width: 400px; }
+  /* Compensar padding quitado */
+  .electoral-table th:first-child,
+  .electoral-table td:first-child { padding-left: 1rem; }
+
+  /* Patrimonio y congreso: 1 columna */
+  .patrimonio-grid,
+  .congreso-grid { grid-template-columns: 1fr 1fr; }
+
+  /* Selector de candidatos: scroll horizontal */
+  .candidato-selector__inner {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.25rem;
+  }
+  .selector-btn { flex-shrink: 0; }
 }

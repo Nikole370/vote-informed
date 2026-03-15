@@ -96,7 +96,15 @@
 }
 .filter-tab.active, .filter-tab:hover { border-color: var(--ink); background: var(--ink); color: #fff; }
 
+/* ─── Responsive ─── */
 @media (max-width: 768px) {
   .kpi-row { grid-template-columns: repeat(2, 1fr); }
   .dash-grid { grid-template-columns: 1fr; }
+
+  /* ↓ AGREGAR ESTAS LÍNEAS */
+  .dashboard { padding: 0 1rem; margin: 1.5rem auto; }
+  .bar-item { grid-template-columns: 100px 1fr 40px; font-size: 0.78rem; }
+  .filter-tabs { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 0.25rem; }
+  .filter-tab { flex-shrink: 0; }
+  .panel__body { padding: 1rem; }
 }
