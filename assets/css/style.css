@@ -204,5 +204,6 @@ ul { list-style: none; }
     font-size: 1rem;
     border-radius: 0;
   }
+  .navbar { position: relative; }
 }
 .navbar__toggle { display: none; }

@@ -972,7 +972,7 @@
   }
   .profile-sidebar { position: static; }
   .profile-photo,
-  .profile-photo-placeholder { aspect-ratio: 4/3; }
+  .profile-photo-placeholder { aspect-ratio: 16/9; max-height: 220px; }
   .patrimonio-grid,
   .congreso-grid { grid-template-columns: repeat(2, 1fr); }
   .datos-grid { grid-template-columns: 1fr; }
