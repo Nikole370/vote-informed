@@ -26,6 +26,7 @@
 
   function renderCard(c) {
     const id    = slugId(c);
+    console.log(c.nombre, '→ slug:', id, '→ href:', `candidato.html?id=${id}`);
     const inits = iniciales(c.nombre);
     const total = totalPropuestas(c.propuestas);
 

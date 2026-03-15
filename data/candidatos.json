@@ -6,7 +6,306 @@
     "partido_color": "#F97316",
     "foto": "/assets/img/keiko.jpg",
     "orden": 1,
-    "biografia": "Lideresa de Fuerza Popular, hija del expresidente Alberto Fujimori. Candidata presidencial por tercera vez. Congresista y figura central de la derecha peruana. Actualmente bajo investigación por financiamiento ilícito.",
+    "fechaActualizacion": "2026-03-14",
+    "biografia": "Lideresa de Fuerza Popular e hija del expresidente Alberto Fujimori. Candidata presidencial por cuarta vez consecutiva. Única mujer que alcanzó la segunda vuelta en tres elecciones seguidas (2011, 2016, 2021). Actualmente en juicio oral por financiamiento ilícito (caso Cócteles).",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1975-05-25",
+      "lugarNacimiento": { "ciudad": "Jesús María", "departamento": "Lima", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Santiago de Surco", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Estudios de Administración (no concluidos)",
+          "institucion": "State University of New York at Stony Brook",
+          "pais": "Estados Unidos",
+          "anoInicio": 1994,
+          "anoFin": 1995,
+          "verificado": true,
+          "nota": "Periodo no concluido, según hoja de vida JNE"
+        },
+        {
+          "grado": "Licenciada en Administración de Empresas",
+          "institucion": "Boston University",
+          "pais": "Estados Unidos",
+          "anoInicio": 1995,
+          "anoFin": 1997,
+          "verificado": true,
+          "entidadVerificadora": "Reconocida oficialmente en Perú (resolución 27 mar 2025). NYT y AFP registraron la ceremonia del 18 may 1997. Columbia University confirmó el pregrado para admitirla al MBA."
+        },
+        {
+          "grado": "MBA - Maestría en Administración de Empresas",
+          "institucion": "Columbia Business School, Columbia University",
+          "pais": "Estados Unidos",
+          "anoInicio": 2004,
+          "anoFin": 2008,
+          "verificado": true,
+          "entidadVerificadora": "Columbia University confirmó a PerúCheck: graduada el 21 may 2008. Reconocida en Perú el 11 nov 2024."
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Fuerza Popular",
+          "desde": 2009,
+          "hasta": null,
+          "esFundadora": true,
+          "nota": "Fundó el partido en 2009; lo preside desde 2010"
+        },
+        {
+          "partido": "Alianza por el Futuro",
+          "desde": 2006,
+          "hasta": 2009,
+          "esFundadora": false,
+          "nota": "Postuló como invitada al Congreso 2006"
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Primera Dama de la Nación (no electa)",
+          "sector": "Público",
+          "institucion": "Presidencia de la República",
+          "desde": 1994,
+          "hasta": 2000,
+          "descripcion": "Asumió el rol a los 19 años tras la separación de sus padres. Representó al gobierno en eventos internacionales."
+        }
+      ],
+      "cargosPublicos": [
+        {
+          "cargo": "Congresista de la República",
+          "circunscripcion": "Lima",
+          "periodo": "2006-2011",
+          "fuerza": "Alianza por el Futuro",
+          "resultado": "Elegida con la mayor votación preferencial de la historia del Congreso peruano (más de 600 000 votos)"
+        },
+        {
+          "cargo": "Presidenta del Partido Fuerza Popular",
+          "circunscripcion": null,
+          "periodo": "2010-presente",
+          "fuerza": "Fuerza Popular",
+          "resultado": null
+        }
+      ],
+      "participacionElectoral": [
+        {
+          "ano": 2006,
+          "cargo": "Congresista",
+          "vuelta": "única",
+          "votosObtenidos": 602869,
+          "porcentaje": null,
+          "resultado": "Elegida"
+        },
+        {
+          "ano": 2011,
+          "cargo": "Presidenta de la República",
+          "vuelta": "primera",
+          "votosObtenidos": 7614023,
+          "porcentaje": 23.51,
+          "resultado": "Pasó a segunda vuelta"
+        },
+        {
+          "ano": 2011,
+          "cargo": "Presidenta de la República",
+          "vuelta": "segunda",
+          "votosObtenidos": null,
+          "porcentaje": 48.55,
+          "resultado": "Perdió ante Ollanta Humala"
+        },
+        {
+          "ano": 2016,
+          "cargo": "Presidenta de la República",
+          "vuelta": "primera",
+          "votosObtenidos": 8857006,
+          "porcentaje": 39.86,
+          "resultado": "Pasó a segunda vuelta"
+        },
+        {
+          "ano": 2016,
+          "cargo": "Presidenta de la República",
+          "vuelta": "segunda",
+          "votosObtenidos": null,
+          "porcentaje": 49.87,
+          "resultado": "Perdió ante Pedro Pablo Kuczynski por menos de 0.3%"
+        },
+        {
+          "ano": 2021,
+          "cargo": "Presidenta de la República",
+          "vuelta": "primera",
+          "votosObtenidos": 7921872,
+          "porcentaje": 13.40,
+          "resultado": "Pasó a segunda vuelta"
+        },
+        {
+          "ano": 2021,
+          "cargo": "Presidenta de la República",
+          "vuelta": "segunda",
+          "votosObtenidos": null,
+          "porcentaje": 49.87,
+          "resultado": "Perdió ante Pedro Castillo"
+        },
+        {
+          "ano": 2026,
+          "cargo": "Presidenta de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Derecha",
+      "justificacionEditorial": "Defensora del modelo económico de libre mercado, reducción del Estado y mano dura en seguridad. Sus posiciones en materia social son conservadoras. Históricamente alineada con el fujimorismo.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Aborto",
+          "posicion": "En contra",
+          "declaracion": "Se opone al aborto incluso en casos de violación. Ha votado contra proyectos de despenalización en el Congreso.",
+          "fuente": "Votaciones Congreso 2006-2011 y declaraciones de campaña",
+          "url": null
+        },
+        {
+          "tema": "Matrimonio igualitario",
+          "posicion": "En contra",
+          "declaracion": "No reconoce el matrimonio entre personas del mismo sexo. Apoya la unión civil sin derecho a adopción.",
+          "fuente": "Declaraciones públicas 2021",
+          "url": null
+        },
+        {
+          "tema": "Pena de muerte",
+          "posicion": "A favor (violadores de menores, vía referéndum)",
+          "declaracion": "Propuso aplicar pena de muerte para violadores de niños mediante referéndum constitucional.",
+          "fuente": "Debate presidencial 2021",
+          "url": "https://gestion.pe/peru/politica/keiko-fujimori-pide-pena-de-muerte-para-violadores-de-menores-noticia/"
+        },
+        {
+          "tema": "Modelo económico",
+          "posicion": "Libre mercado con Estado subsidiario",
+          "declaracion": "Defiende el modelo económico vigente. Propone reducción de trámites y respeto a los contratos.",
+          "fuente": "Plan de Gobierno Fuerza Popular 2026",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-de-candidata-keiko-fujimori-higuchi-1065386.aspx"
+        }
+      ],
+      "coherenciaHistorica": [
+        {
+          "tema": "Lucha anticorrupción",
+          "tension": "Propone transparencia y lucha contra la corrupción, pero enfrenta juicio oral por lavado de activos ligado al caso Odebrecht (caso Cócteles).",
+          "documentado": true,
+          "fuente": "Fiscalía Especial Lava Jato",
+          "url": "https://larepublica.pe/politica/caso-cocteles/"
+        },
+        {
+          "tema": "Legado fujimorista",
+          "tension": "No deslinda explícitamente del autogolpe de 1992 ni de las violaciones a derechos humanos documentadas durante el gobierno de su padre.",
+          "documentado": true,
+          "fuente": "Múltiples medios y debates presidenciales",
+          "url": null
+        }
+      ]
+    },
+
+    "integridad": {
+      "antecedentesLegales": [
+        {
+          "proceso": "Caso Cócteles – Lavado de activos y financiamiento ilícito",
+          "entidad": "Fiscalía Especializada en Delitos de Corrupción de Funcionarios",
+          "estadoActual": "En juicio oral (activo)",
+          "descripcion": "Acusada de recibir aportes ilegales de Odebrecht y empresas nacionales para sus campañas de 2011 y 2016. Estuvo en prisión preventiva 13 meses (2018-2019). El caso fue archivado en primera instancia en 2024 por el juez Concepción Carhuancho, pero reinstaurado posteriormente. Proceso activo al 2026.",
+          "fechaInicio": "2017",
+          "urlReferencia": "https://larepublica.pe/politica/caso-cocteles/"
+        },
+        {
+          "proceso": "Investigación por enriquecimiento ilícito – Dionisio Romero",
+          "entidad": "Fiscalía de la Nación",
+          "estadoActual": "Investigación preparatoria (8 meses, compleja)",
+          "descripcion": "Investigada por presunto enriquecimiento ilícito al no declarar el ingreso de USD 3.65 millones de Dionisio Romero Paoletti (Credicorp) en sus declaraciones juradas de 2010-2011 como congresista.",
+          "fechaInicio": "2026",
+          "urlReferencia": "https://www.infobae.com/peru/2026/02/04/investigan-a-keiko-fujimori-por-enriquecimiento-ilicito-por-los-36-millones-de-dionisio-romero/"
+        }
+      ],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2025,
+        "periodoFiscalDeclarado": 2024,
+        "inmuebles": [],
+        "vehiculos": [
+          { "descripcion": "Subaru Forester (adquirido 2017, embargado)", "valorDeclarado": 115998 }
+        ],
+        "cuentasBancarias": null,
+        "acciones": [
+          { "empresa": "Summit Products S.A.C.", "acciones": 3500, "nota": "Empresa dada de baja de oficio en 2009. No declarada inicialmente; incorporada por anotación marginal del JEE (Res. 01408-2026)." },
+          { "empresa": "KYARA29 E.I.R.L.", "acciones": null, "nota": "Empresa de su hija. Figuro como titular y gerente hasta el 6 de febrero de 2026. No declarada inicialmente; incorporada por anotación marginal." }
+        ],
+        "deudas": 0,
+        "observaciones": "No declaró inmuebles. El JEE ordenó anotación marginal por omitir vínculos empresariales y rentas de tercera categoría. No se determinó ocultamiento doloso.",
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Presidenta de Fuerza Popular",
+          "tipo": "Remuneración sector privado",
+          "montoAnualDeclarado": 271853,
+          "moneda": "PEN"
+        },
+        {
+          "actividad": "Profesora global – Adam Smith Center for Economic Freedom, Universidad de Florida",
+          "tipo": "Honorarios (rentas de tercera categoría)",
+          "montoAnualDeclarado": 45597,
+          "moneda": "PEN"
+        }
+      ],
+      "controversias": [
+        {
+          "titulo": "Prisión preventiva 2018-2019",
+          "descripcion": "Recluida en el penal Anexo Mujeres de Chorrillos por 13 meses por el caso Cócteles. Liberada por hábeas corpus del Tribunal Constitucional.",
+          "fechas": "2018-2019",
+          "fuente": "Múltiples medios verificados",
+          "url": null
+        },
+        {
+          "titulo": "Omisión en declaración jurada JNE 2026",
+          "descripcion": "El JEE de Lima Centro 1 detectó que no declaró vínculos con Summit Products S.A.C. ni con KYARA29 E.I.R.L. El órgano electoral concluyó que no hubo ocultamiento doloso y ordenó anotación marginal.",
+          "fechas": "Febrero 2026",
+          "fuente": "Resolución N.° 01408-2026-JEE-LIC1/JNE",
+          "url": "https://larepublica.pe/politica/2026/02/22/elecciones-2026-jee-aprueba-anotacion-marginal-en-la-hoja-de-vida-de-keiko-fujimori-hnews-1792010"
+        },
+        {
+          "titulo": "Obstrucción al gobierno de Kuczynski 2016-2018",
+          "descripcion": "La bancada de Fuerza Popular fue acusada de obstruir sistemáticamente el gobierno de PPK mediante interpelaciones, censura de ministros y vacancia presidencial.",
+          "fechas": "2016-2018",
+          "fuente": "Múltiples medios",
+          "url": null
+        }
+      ],
+      "asistenciaCongreso": {
+        "periodo": "2006-2011",
+        "porcentajeAsistencia": 87,
+        "nota": "Solicitó dos licencias de maternidad y dos meses para terminar el MBA (2008)"
+      }
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": null,
+        "observaciones": "Datos ONPE pendientes de publicación oficial al cierre de esta edición.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 82,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": false,
+        "congreso": true
+      }
+    },
+
     "propuestas": {
       "economia": [
         {
@@ -59,25 +358,15 @@
         }
       ]
     },
+
     "fuentes": [
-      {
-        "nombre": "Plan de Gobierno Fuerza Popular 2026 - JNE",
-        "url": "https://declara.jne.gob.pe/assets/plangobierno/fileplangobierno/16490.pdf",
-        "tipo": "documento"
-      },
-      {
-        "nombre": "Cobertura Agencia Andina - Propuestas Keiko Fujimori",
-        "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-de-candidata-keiko-fujimori-higuchi-1065386.aspx",
-        "tipo": "nota de prensa"
-      },
-      {
-        "nombre": "Tu Decisión 2026 - TVPerú",
-        "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-keiko-fujimori-de-fuerza-popular",
-        "tipo": "entrevista"
-      }
-    ],
-    "fechaActualizacion": "2026-03-13"
+      { "nombre": "Plan de Gobierno Fuerza Popular 2026 - JNE", "url": "https://declara.jne.gob.pe/assets/plangobierno/fileplangobierno/16490.pdf", "tipo": "documento" },
+      { "nombre": "Infobae - Hoja de vida y patrimonio Keiko Fujimori 2026", "url": "https://www.infobae.com/peru/2026/02/23/keiko-fujimori-2026-hoja-de-vida-estudios-experiencia-y-patrimonio-de-la-candidata-presidencial-de-fuerza-popular/", "tipo": "nota de prensa" },
+      { "nombre": "La República - Caso Cócteles", "url": "https://larepublica.pe/politica/caso-cocteles/", "tipo": "investigación" },
+      { "nombre": "Resolución JEE Lima Centro 1 - Anotación marginal", "url": "https://larepublica.pe/politica/2026/02/22/elecciones-2026-jee-aprueba-anotacion-marginal-en-la-hoja-de-vida-de-keiko-fujimori-hnews-1792010", "tipo": "resolución electoral" }
+    ]
   },
+
   {
     "id": 2,
     "nombre": "Rafael López Aliaga Cazorla",
@@ -85,7 +374,261 @@
     "partido_color": "#1E3A8A",
     "foto": "/assets/img/lopez-aliaga.jpg",
     "orden": 2,
-    "biografia": "Empresario y exalcalde de Lima (2022-2026). Líder de Renovación Popular, partido de orientación conservadora y cristiana. Candidato presidencial por segunda vez. Conocido por su estilo confrontacional.",
+    "fechaActualizacion": "2026-03-14",
+    "biografia": "Empresario y exalcalde de Lima (2023-2025). Fundador y líder de Renovación Popular. Miembro numerario del Opus Dei. Candidato presidencial por segunda vez. Conocido por su estilo confrontacional y sus posiciones ultraconservadoras.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1961-02-11",
+      "lugarNacimiento": { "ciudad": "Lima", "departamento": "Lima", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Lima", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Bachiller en Ciencias de la Ingeniería",
+          "institucion": "Universidad de Piura (UDEP)",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": 1983,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE (Scribd/JNE)"
+        },
+        {
+          "grado": "Magíster en Administración (MBA)",
+          "institucion": "Universidad del Pacífico",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": 1996,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE"
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Renovación Popular",
+          "desde": 2020,
+          "hasta": null,
+          "esFundador": true,
+          "nota": "Fundó Renovación Popular en octubre 2020 tras la disolución de Solidaridad Nacional"
+        },
+        {
+          "partido": "Solidaridad Nacional",
+          "desde": 2019,
+          "hasta": 2020,
+          "esFundador": false,
+          "nota": "Fue secretario general y luego presidente del partido hasta su disolución"
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Presidente del Directorio",
+          "sector": "Privado",
+          "institucion": "Peruval Corp S.A. (empresa de inversiones y ferrocarriles)",
+          "desde": 1995,
+          "hasta": 2023,
+          "descripcion": "Fundó Peruval Corp. en 1995. Accionista del consorcio Ferrocarril Transandino S.A., concesionario del ferrocarril del Sur y Sur Oriente desde 1999."
+        },
+        {
+          "cargo": "Presidente del Directorio",
+          "sector": "Privado",
+          "institucion": "PeruRail S.A.",
+          "desde": 1999,
+          "hasta": 2023,
+          "descripcion": "Operador del tren Vistadome y Hiram Bingham (Cusco). Gestión compartida con Lorenzo Sousa Debarbieri en alternancia anual."
+        },
+        {
+          "cargo": "Presidente del Directorio",
+          "sector": "Privado",
+          "institucion": "Perú Belmond Hotels (Hotel Monasterio, Cusco, y otros)",
+          "desde": 1999,
+          "hasta": 2023,
+          "descripcion": null
+        },
+        {
+          "cargo": "Director",
+          "sector": "Privado / Educación",
+          "institucion": "Promotora de Educación y Cultura (PRODEC) – Colegio Los Álamos",
+          "desde": 1994,
+          "hasta": null,
+          "descripcion": "Desde 2025 también administra los colegios Humtec y Miravalles en Comas."
+        },
+        {
+          "cargo": "Profesor universitario",
+          "sector": "Académico",
+          "institucion": "No especificado",
+          "desde": null,
+          "hasta": null,
+          "descripcion": "Se desempeña como profesor universitario"
+        }
+      ],
+      "cargosPublicos": [
+        {
+          "cargo": "Regidor Metropolitano de Lima",
+          "circunscripcion": "Lima",
+          "periodo": "2007-2010",
+          "fuerza": "No especificado",
+          "resultado": null
+        },
+        {
+          "cargo": "Alcalde Metropolitano de Lima",
+          "circunscripcion": "Lima",
+          "periodo": "2023-2025",
+          "fuerza": "Renovación Popular",
+          "resultado": "Renunció el 13 de octubre de 2025 para postular a la presidencia. Lo reemplazó el teniente alcalde Renzo Reggiardo."
+        }
+      ],
+      "participacionElectoral": [
+        {
+          "ano": 2021,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": 11.75,
+          "resultado": "Tercer lugar. No pasó a segunda vuelta. Apoyó a Fujimori en segunda vuelta."
+        },
+        {
+          "ano": 2022,
+          "cargo": "Alcalde Metropolitano de Lima",
+          "vuelta": "única",
+          "votosObtenidos": 1372216,
+          "porcentaje": 26.29,
+          "resultado": "Elegido. Venció a Daniel Urresti (Podemos Perú) por menos de un punto."
+        },
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Derecha / Ultraderecha conservadora",
+      "justificacionEditorial": "Se autocalifica socialcristiano, pero los medios y analistas lo ubican en la extrema derecha. Es uno de los firmantes de la Carta de Madrid junto a Bolsonaro, Kast y Milei. Posiciones antiaborto absolutas, rechazo a derechos LGBTQ+, libre mercado radical y privatizaciones.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Aborto",
+          "posicion": "En contra (posición absoluta)",
+          "declaracion": "Rechaza el aborto en todos los casos, incluidas violaciones. En enero 2026 defendió que el Estado no debe intervenir ante embarazos de menores víctimas de violación.",
+          "fuente": "Wikipedia / Declaraciones enero 2026",
+          "url": "https://es.wikipedia.org/wiki/Rafael_L%C3%B3pez_Aliaga"
+        },
+        {
+          "tema": "Matrimonio igualitario",
+          "posicion": "En contra (incluida la unión civil)",
+          "declaracion": "Se opone al matrimonio igualitario y también a la unión civil. Considera la homosexualidad 'un problema que hay que curar'.",
+          "fuente": "Declaraciones públicas verificadas - Ojo Público",
+          "url": null
+        },
+        {
+          "tema": "Modelo económico",
+          "posicion": "Libre mercado radical, privatizaciones",
+          "declaracion": "Propone privatizar Petroperú, empresas eléctricas estatales y reducir ministerios de 20 a 9.",
+          "fuente": "Plan de Gobierno Renovación Popular 2026",
+          "url": "https://elperuano.pe/noticia/290945-elecciones-2026-conoce-el-plan-de-gobierno-de-rafael-lopez-aliaga"
+        },
+        {
+          "tema": "Religión y Estado",
+          "posicion": "Católico militante (Opus Dei), respeto formal al Estado laico",
+          "declaracion": "Miembro numerario del Opus Dei desde los 19 años. Practica el celibato. Afirmó respetar el carácter laico del Estado.",
+          "fuente": "Entrevistas y Wikipedia",
+          "url": null
+        }
+      ],
+      "coherenciaHistorica": [
+        {
+          "tema": "Transparencia empresarial",
+          "tension": "Propone honestidad y transparencia en el Estado, pero omitió en su hoja de vida al JNE su participación en Peruval Corp S.A. de Lima, empresa con deuda coactiva de S/12.9 millones con la Sunat.",
+          "documentado": true,
+          "fuente": "La República / Infobae - enero 2026",
+          "url": "https://larepublica.pe/politica/2026/01/08/lopez-aliaga-omitio-informar-al-jne-sobre-empresa-que-debe-millones-a-sunat-rafel-lopez-aliaga-renovacion-popular-peruval-corp-hnews-181531"
+        }
+      ]
+    },
+
+    "integridad": {
+      "antecedentesLegales": [
+        {
+          "proceso": "Investigación por lavado de activos – Panamá Papers",
+          "entidad": "Fiscalía Peruana",
+          "estadoActual": "Investigación preparatoria (iniciada sep 2022)",
+          "descripcion": "Investigado por presunto lavado de activos a raíz de ganancias de sociedades offshore vinculadas a un esquema de corrupción en la Caja Metropolitana durante la gestión de Susana Villarán.",
+          "fechaInicio": "2022",
+          "urlReferencia": "https://es.wikipedia.org/wiki/Rafael_L%C3%B3pez_Aliaga"
+        }
+      ],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2025,
+        "periodoFiscalDeclarado": 2024,
+        "inmuebles": null,
+        "vehiculos": null,
+        "acciones": [
+          { "empresa": "Peruval Corp S.A. (Panamá)", "nota": "Declarada en hoja de vida" },
+          { "empresa": "Peruval Corp S.A. (Lima)", "nota": "NO declarada inicialmente. JNE revisó el caso por omisión. La empresa tiene deuda coactiva de S/12.9 M con Sunat y calificación 'sociedad irregular'." }
+        ],
+        "deudas": null,
+        "observaciones": "Según medios, durante candidatura 2021 declaró participación en 17 empresas. En 2026 no consignó Peruval Corp Lima. Expertos en derecho electoral calificaron la omisión como relevante.",
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Empresas privadas (Peruval Corp, PeruRail, PRODEC y otras)",
+          "tipo": "Dividendos y honorarios",
+          "montoAnualDeclarado": null,
+          "nota": "Ingresos del sector privado; monto exacto no disponible en fuentes verificadas al cierre"
+        }
+      ],
+      "controversias": [
+        {
+          "titulo": "Panamá Papers – Sociedades offshore",
+          "descripcion": "Incluido en la filtración de Panamá Papers 2016 por empresas inscritas en paraísos fiscales. Anteriormente (2001) involucrado en investigación del Congreso sobre Lan Perú y Peruval Corp.",
+          "fechas": "2016 / 2001",
+          "fuente": "Wikipedia / medios internacionales",
+          "url": null
+        },
+        {
+          "titulo": "Omisión de empresa en hoja de vida JNE 2026",
+          "descripcion": "No declaró su vinculación con Peruval Corp S.A. de Lima, empresa con deuda coactiva de S/12.9 millones con Sunat, calificada como 'sociedad irregular'. El JNE solicitó información a Sunarp.",
+          "fechas": "Enero 2026",
+          "fuente": "La República / Infobae",
+          "url": "https://larepublica.pe/politica/2026/01/09/jne-revisara-caso-de-lopez-aliaga-por-omitir-informacion-en-hoja-de-vida-rafel-lopez-aliaga-renovacion-popular-peruval-corp-hnews-498488"
+        },
+        {
+          "titulo": "Sanción JEE por neutralidad electoral (como alcalde)",
+          "descripcion": "El JEE de Lima Centro I determinó que infringió el deber de neutralidad electoral con publicaciones en redes sociales mientras era alcalde. El organismo remitió documentos al Ministerio Público y la Contraloría.",
+          "fechas": "2025",
+          "fuente": "Infobae",
+          "url": null
+        }
+      ],
+      "asistenciaCongreso": null
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": null,
+        "observaciones": "Datos ONPE pendientes de publicación oficial al cierre de esta edición.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 72,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": false,
+        "congreso": false
+      }
+    },
+
     "propuestas": {
       "economia": [
         {
@@ -94,7 +637,7 @@
           "url": "https://elperuano.pe/noticia/290945-elecciones-2026-conoce-el-plan-de-gobierno-de-rafael-lopez-aliaga"
         },
         {
-          "texto": "Recortar el aparato estatal y eliminar el gasto público innecesario como medida prioritaria en los primeros 100 días de gobierno.",
+          "texto": "Recortar el aparato estatal fusionando ministerios hasta reducirlos a 9 y eliminar el gasto público innecesario como medida prioritaria en los primeros 100 días de gobierno.",
           "fuente": "Tu Decisión 2026 - TVPerú",
           "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-rafael-lopez-aliaga-del-partido-renovacion-popular"
         }
@@ -132,25 +675,14 @@
         }
       ]
     },
+
     "fuentes": [
-      {
-        "nombre": "Plan de Gobierno Renovación Popular 2026 - El Peruano",
-        "url": "https://elperuano.pe/noticia/290945-elecciones-2026-conoce-el-plan-de-gobierno-de-rafael-lopez-aliaga",
-        "tipo": "nota de prensa"
-      },
-      {
-        "nombre": "Tu Decisión 2026 - TVPerú",
-        "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-rafael-lopez-aliaga-del-partido-renovacion-popular",
-        "tipo": "entrevista"
-      },
-      {
-        "nombre": "Presentación Plan de Gobierno 2026–2031 - Caretas",
-        "url": "https://caretas.pe/politica/lopez-aliaga-presenta-su-plan/",
-        "tipo": "nota de prensa"
-      }
-    ],
-    "fechaActualizacion": "2026-03-13"
+      { "nombre": "Plan de Gobierno Renovación Popular 2026 - El Peruano", "url": "https://elperuano.pe/noticia/290945-elecciones-2026-conoce-el-plan-de-gobierno-de-rafael-lopez-aliaga", "tipo": "nota de prensa" },
+      { "nombre": "Wikipedia – Rafael López-Aliaga", "url": "https://es.wikipedia.org/wiki/Rafael_L%C3%B3pez_Aliaga", "tipo": "referencia" },
+      { "nombre": "La República – Omisión empresa hoja de vida JNE", "url": "https://larepublica.pe/politica/2026/01/08/lopez-aliaga-omitio-informar-al-jne-sobre-empresa-que-debe-millones-a-sunat-rafel-lopez-aliaga-renovacion-popular-peruval-corp-hnews-181531", "tipo": "investigación" }
+    ]
   },
+
   {
     "id": 3,
     "nombre": "Jorge Nieto Montesinos",
@@ -158,7 +690,188 @@
     "partido_color": "#15803D",
     "foto": "/assets/img/jorge-nieto.jpg",
     "orden": 3,
-    "biografia": "Sociólogo y exministro de Cultura y Defensa durante el gobierno de PPK (2016-2018). Nació en Arequipa en 1951. Maestría en Ciencias Sociales por FLACSO. Candidato de centro con énfasis en reforma del Estado e institucionalidad.",
+    "fechaActualizacion": "2026-03-14",
+    "biografia": "Sociólogo, exministro de Cultura (2016) y Defensa (2016-2018) en el gobierno de PPK. Nació en Arequipa en 1951. Candidato de centro con énfasis en reforma del Estado e institucionalidad. Sin antecedentes judiciales.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1951-10-29",
+      "lugarNacimiento": { "ciudad": "Arequipa", "departamento": "Arequipa", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Lima", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Bachiller en Ciencias Sociales con mención en Sociología",
+          "institucion": "Pontificia Universidad Católica del Perú (PUCP)",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE - Voto Informado"
+        },
+        {
+          "grado": "Magíster en Ciencias Sociales con mención en Sociología",
+          "institucion": "Facultad Latinoamericana de Ciencias Sociales (FLACSO)",
+          "pais": "México",
+          "anoInicio": null,
+          "anoFin": 1984,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE"
+        },
+        {
+          "grado": "Estudios de Doctorado en Ciencias Sociales con mención en Sociología (no concluidos)",
+          "institucion": "El Colegio de México – Centro de Estudios Sociológicos",
+          "pais": "México",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "nota": "Estudios declarados ante JNE; grado doctoral no concluido según fuentes verificadas"
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Partido del Buen Gobierno",
+          "desde": 2023,
+          "hasta": null,
+          "esFundador": true,
+          "nota": "Presidente del partido 2023-2025"
+        },
+        {
+          "partido": "Peruanos Por el Kambio (PPK)",
+          "desde": 2016,
+          "hasta": 2018,
+          "esFundador": false,
+          "nota": "Designado ministro en el gobierno de PPK, no como militante formal"
+        },
+        {
+          "partido": "Independiente / sociedad civil",
+          "desde": null,
+          "hasta": 2016,
+          "esFundador": false,
+          "nota": null
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Investigador y académico en sociología política",
+          "sector": "Académico",
+          "institucion": "Diversas instituciones (DESCO, IDL, entre otras)",
+          "desde": 1980,
+          "hasta": 2016,
+          "descripcion": "Amplia trayectoria en análisis político, seguridad democrática y reforma del Estado. Publicaciones en seguridad ciudadana y reforma de las fuerzas armadas."
+        }
+      ],
+      "cargosPublicos": [
+        {
+          "cargo": "Ministro de Cultura",
+          "circunscripcion": null,
+          "periodo": "2016",
+          "fuerza": "Gobierno de PPK",
+          "resultado": "Cargo breve durante el inicio del gobierno de Kuczynski"
+        },
+        {
+          "cargo": "Ministro de Defensa",
+          "circunscripcion": null,
+          "periodo": "2016-2018",
+          "fuerza": "Gobierno de PPK",
+          "resultado": "Gestionó las relaciones cívico-militares y los conflictos internos durante el período de mayor tensión política del gobierno de PPK"
+        }
+      ],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Centro",
+      "justificacionEditorial": "Se posiciona en el centro del espectro. Enfatiza la reforma institucional, el fortalecimiento del Estado de derecho y la tecnocracia moderada. No tiene posiciones extremas en temas económicos ni sociales.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Modelo económico",
+          "posicion": "Economía social de mercado con fortalecimiento institucional",
+          "declaracion": "Propone fortalecer el emprendimiento y las MYPES con reformas que reduzcan trabas burocráticas.",
+          "fuente": "Plan de Gobierno / Entrevistas de campaña",
+          "url": "https://actualidadnoticia.com/peru/elecciones-generales-2026-jorge-nieto-montesinos-del-partido-del-buen-gobierno-principales-propuestas-de-su-plan-de-gobierno-71/"
+        },
+        {
+          "tema": "Seguridad",
+          "posicion": "Anticriminal con énfasis en inteligencia e institucionalidad",
+          "declaracion": "Propone una unidad especializada anticriminal liderada directamente por el presidente.",
+          "fuente": "Entrevistas de campaña",
+          "url": "https://actualidadnoticia.com/peru/elecciones-generales-2026-jorge-nieto-montesinos-del-partido-del-buen-gobierno-principales-propuestas-de-su-plan-de-gobierno-71/"
+        }
+      ],
+      "coherenciaHistorica": [
+        {
+          "tema": "Fotografía con Víctor Polay",
+          "tension": "Circuló una fotografía de Nieto junto al exlíder terrorista del MRTA, Víctor Polay, durante su trayectoria como investigador social. Nieto minimizó el hecho comparándolo con la situación de candidatos con casos de corrupción activos.",
+          "documentado": true,
+          "fuente": "La República - Entrevista 13 mar 2026",
+          "url": "https://larepublica.pe/politica/2026/03/13/jorge-nieto-sobre-dina-boluarte-pretenden-vincularme-con-ella-yo-que-le-dije-despida-a-sus-ministros-hnews-1125319"
+        }
+      ]
+    },
+
+    "integridad": {
+      "antecedentesLegales": [],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2025,
+        "periodoFiscalDeclarado": 2024,
+        "inmuebles": [
+          { "descripcion": "Predio en Punta Hermosa", "valorDeclarado": 641796, "moneda": "PEN" },
+          { "descripcion": "Predio en Punta Hermosa", "valorDeclarado": 612493, "moneda": "PEN" },
+          { "descripcion": "Predio en Lurín", "valorDeclarado": 832400, "moneda": "PEN" },
+          { "descripcion": "Inmueble en México", "valorDeclarado": 363000, "moneda": "PEN" },
+          { "descripcion": "Inmueble en México", "valorDeclarado": 99000, "moneda": "PEN" }
+        ],
+        "vehiculos": [],
+        "acciones": [],
+        "deudas": null,
+        "observaciones": "Sin acciones en empresas. No registra sentencias penales ni familiares.",
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Actividades académicas, asesoría y partido político",
+          "tipo": "Honorarios y otros",
+          "montoAnualDeclarado": 180000,
+          "moneda": "PEN",
+          "fuente": "candidatos.pe"
+        }
+      ],
+      "controversias": [],
+      "asistenciaCongreso": null
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": null,
+        "observaciones": "Datos ONPE pendientes de publicación oficial al cierre de esta edición.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 65,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": false,
+        "congreso": false
+      }
+    },
+
     "propuestas": {
       "economia": [
         {
@@ -190,20 +903,14 @@
       ],
       "medioambiente": []
     },
+
     "fuentes": [
-      {
-        "nombre": "Perfil y propuestas - Actualidad Noticia",
-        "url": "https://actualidadnoticia.com/peru/elecciones-generales-2026-jorge-nieto-montesinos-del-partido-del-buen-gobierno-principales-propuestas-de-su-plan-de-gobierno-71/",
-        "tipo": "nota de prensa"
-      },
-      {
-        "nombre": "Candidatos Elecciones 2026 - Canal N",
-        "url": "https://canaln.pe/actualidad/elecciones-2026-conoce-planes-gobierno-n489012",
-        "tipo": "nota de prensa"
-      }
-    ],
-    "fechaActualizacion": "2026-03-13"
+      { "nombre": "RPP - Hoja de vida JNE Jorge Nieto", "url": "https://rpp.pe/politica/elecciones/jorge-nieto-esta-es-la-hoja-de-vida-del-candidato-presidencial-registrada-ante-el-jne-noticia-1668790", "tipo": "nota de prensa" },
+      { "nombre": "Andina - Hoja de vida Nieto Montesinos 2026", "url": "https://andina.pe/agencia/noticia-elecciones-2026-revisa-hoja-vida-jorge-nieto-partido-del-buen-gobierno-1065628.aspx", "tipo": "nota de prensa" },
+      { "nombre": "candidatos.pe - Perfil Jorge Nieto", "url": "https://candidatos.pe/candidatos/jorge-nieto-montesinos-candidato-a-presidente-de-la-republica-del-peru-elecciones-generales-2026/", "tipo": "perfil electoral" }
+    ]
   },
+
   {
     "id": 4,
     "nombre": "Wolfgang Grozo Costa",
@@ -211,7 +918,213 @@
     "partido_color": "#7C3AED",
     "foto": "/assets/img/Wolfgang_Grozo_Costa.png",
     "orden": 4,
-    "biografia": "Mayor general en retiro de la Fuerza Aérea del Perú y exdirector de Inteligencia de la FAP. Doctor en Desarrollo y Seguridad Estratégica. Fundó Integridad Democrática en 2023. Outsider con fuerte presencia en redes sociales, especialmente entre jóvenes.",
+    "fechaActualizacion": "2026-03-14",
+    "biografia": "Mayor general en retiro de la Fuerza Aérea del Perú y exdirector de Inteligencia de la FAP. Doctor en Desarrollo y Seguridad Estratégica. Fundó Integridad Democrática en 2023. Outsider con fuerte presencia en redes sociales, especialmente en jóvenes.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1967-09-21",
+      "lugarNacimiento": { "ciudad": "San Borja", "departamento": "Lima", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Lima", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Licenciado en Ciencias de la Administración Aeroespacial",
+          "institucion": "Escuela de Oficiales de la Fuerza Aérea del Perú (FAP)",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE / Andina"
+        },
+        {
+          "grado": "Bachiller en Ciencias de la Administración Aeroespacial",
+          "institucion": "Escuela de Oficiales de la FAP",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE"
+        },
+        {
+          "grado": "Maestría en Desarrollo y Defensa Nacional",
+          "institucion": "Centro de Altos Estudios Nacionales (CAEN)",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE / Andina"
+        },
+        {
+          "grado": "Doctorado en Desarrollo y Seguridad Estratégica",
+          "institucion": "Centro de Altos Estudios Nacionales (CAEN)",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE / Andina"
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Integridad Democrática",
+          "desde": 2023,
+          "hasta": null,
+          "esFundador": true,
+          "nota": "Segundo intento de inscripción (el primero, en 2021, no llegó a concretarse). Intento de alianza con Peruanos Unidos: ¡Somos Libres! en mayo 2025, finalmente postuló solo."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Mayor General / Director de Inteligencia de la FAP",
+          "sector": "Militar",
+          "institucion": "Fuerza Aérea del Perú",
+          "desde": null,
+          "hasta": null,
+          "descripcion": "Carrera militar completa en la FAP. Participó como agente de inteligencia durante la guerra del Cenepa (1995). Fue Director de Inteligencia de la FAP."
+        },
+        {
+          "cargo": "Catedrático",
+          "sector": "Académico / Militar",
+          "institucion": "CAEN, ESFAP (Escuela Superior de Guerra Aérea), EIFAP (Escuela de Inteligencia FAP), ESCAP (Escuela de Capacitación FAP)",
+          "desde": null,
+          "hasta": null,
+          "descripcion": "Docente en múltiples centros de formación militar."
+        },
+        {
+          "cargo": "Profesor de Gerencia",
+          "sector": "Académico",
+          "institucion": "Universidad de Lima",
+          "desde": 2022,
+          "hasta": 2025,
+          "descripcion": "Docente en la Universidad de Lima según hoja de vida JNE."
+        }
+      ],
+      "cargosPublicos": [],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso. Intención de voto: 1.2% (IEP, feb 2026)"
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Derecha / Derecha nacionalista",
+      "justificacionEditorial": "Combina posiciones de derecha en seguridad y orden con un discurso anti-establishment. Defiende el uso de inteligencia estratégica contra el crimen, la pena máxima por corrupción y el fortalecimiento de las Fuerzas Armadas. Ha justificado el uso de la fuerza durante las protestas de 2022-2023.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Seguridad y orden",
+          "posicion": "Mano dura con inteligencia estratégica",
+          "declaracion": "Propone usar inteligencia de comunicaciones, de imágenes, de redes y la UIF para neutralizar el crimen organizado. Rechaza los estados de emergencia como ineficaces.",
+          "fuente": "Entrevista RPP / Ojo Público",
+          "url": "https://rpp.pe/politica/elecciones/wolfgang-grozo-candidato-presidencial-por-integridad-democratica-revela-sus-propuestas-y-se-perfila-como-outsider-noticia-1677358"
+        },
+        {
+          "tema": "Corrupción",
+          "posicion": "Cadena perpetua para funcionarios corruptos",
+          "declaracion": "Propone cadena perpetua por corrupción para presidentes y funcionarios del Estado, procesados por traición a la patria.",
+          "fuente": "La República - Perfil Wolfgang Grozo",
+          "url": "https://larepublica.pe/politica/2026/02/22/elecciones-2026-wolfgang-grozo-quien-es-el-candidato-presidencial-de-integridad-democratica-hnews-1091728"
+        },
+        {
+          "tema": "Derechos humanos internacionales",
+          "posicion": "Crítico de la CIDH y tratados internacionales",
+          "declaracion": "Ha expresado posiciones favorables a la revisión de los fallos de la Corte IDH y a la posible salida de Perú de la Convención Americana sobre Derechos Humanos.",
+          "fuente": "Wikipedia / La República",
+          "url": "https://es.wikipedia.org/wiki/Wolfgang_Grozo"
+        },
+        {
+          "tema": "Modelo económico",
+          "posicion": "Emprendimiento con acompañamiento estatal",
+          "declaracion": "Los 10 millones de emprendedores representan el 80% de la economía. Propone acompañamiento estatal activo al sector emprendedor.",
+          "fuente": "Entrevista Perú 21",
+          "url": "https://peru21.pe/politica/wolfgang-grozo-candidato-presidencial-de-integridad-democratica-me-indigna-ver-asi-mi-pais/"
+        }
+      ],
+      "coherenciaHistorica": [
+        {
+          "tema": "Protestas 2022-2023 y derechos humanos",
+          "tension": "Calificó a los manifestantes contra Boluarte como 'violentistas orquestados' y defendió el accionar de las FF.AA., cuya respuesta fue calificada de 'graves violaciones a derechos humanos' por la CIDH.",
+          "documentado": true,
+          "fuente": "La República / CIDH",
+          "url": "https://larepublica.pe/politica/2026/03/07/la-vez-que-wolfgang-grozo-llamo-violentistas-a-manifestantes-contra-boluarte-militares-hicieron-debido-uso-de-la-defensa-hnews-278593"
+        },
+        {
+          "tema": "Zamir Villaverde",
+          "tension": "El empresario Zamir Villaverde (investigado en múltiples casos de corrupción) compartió públicamente una imagen junto a Grozo y afirmó una relación desde 2018.",
+          "documentado": true,
+          "fuente": "La República",
+          "url": "https://larepublica.pe/politica/2026/02/22/elecciones-2026-wolfgang-grozo-quien-es-el-candidato-presidencial-de-integridad-democratica-hnews-1091728"
+        }
+      ]
+    },
+
+    "integridad": {
+      "antecedentesLegales": [],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2025,
+        "periodoFiscalDeclarado": 2024,
+        "inmuebles": null,
+        "vehiculos": null,
+        "acciones": [],
+        "deudas": null,
+        "observaciones": "Información detallada de patrimonio no disponible en fuentes verificadas al cierre. Ver hoja de vida JNE.",
+        "urlJNE": "https://votoinformado.jne.gob.pe/hoja-vida/2985/07260881"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Docente universitario – Universidad de Lima",
+          "tipo": "Honorarios",
+          "montoAnualDeclarado": null,
+          "nota": "2022-2025 según hoja de vida JNE"
+        }
+      ],
+      "controversias": [
+        {
+          "titulo": "Defensa del uso de la fuerza en protestas 2022-2023",
+          "descripcion": "Respaldó públicamente la actuación de las FF.AA. durante las protestas contra Boluarte, que dejaron decenas de muertos. La CIDH concluyó que hubo 'graves violaciones a los derechos humanos' y uso desproporcionado de la fuerza.",
+          "fechas": "2023",
+          "fuente": "La República / CIDH",
+          "url": "https://larepublica.pe/politica/2026/03/07/la-vez-que-wolfgang-grozo-llamo-violentistas-a-manifestantes-contra-boluarte-militares-hicieron-debido-uso-de-la-defensa-hnews-278593"
+        },
+        {
+          "titulo": "Vínculos con Zamir Villaverde",
+          "descripcion": "El empresario Zamir Villaverde (señalado en varios casos de corrupción) publicó una imagen junto a Grozo afirmando conocerlo desde 2018. Grozo no ha dado explicaciones públicas detalladas.",
+          "fechas": "2026 (publicación)",
+          "fuente": "La República",
+          "url": null
+        }
+      ],
+      "asistenciaCongreso": null
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": null,
+        "observaciones": "Datos ONPE pendientes de publicación oficial al cierre de esta edición.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 60,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": false,
+        "congreso": false
+      }
+    },
+
     "propuestas": {
       "economia": [
         {
@@ -241,28 +1154,12 @@
       ],
       "medioambiente": []
     },
+
     "fuentes": [
-      {
-        "nombre": "Entrevista Ojo Público - Seguridad y propuestas",
-        "url": "https://ojo-publico.com/politica/elecciones-2026/wolfgang-grozo-los-estados-emergencia-no-sirven",
-        "tipo": "entrevista"
-      },
-      {
-        "nombre": "Entrevista RPP - Propuestas y trayectoria",
-        "url": "https://rpp.pe/politica/elecciones/wolfgang-grozo-candidato-presidencial-por-integridad-democratica-revela-sus-propuestas-y-se-perfila-como-outsider-noticia-1677358",
-        "tipo": "entrevista"
-      },
-      {
-        "nombre": "Hoja de vida JNE - Wolfgang Grozo",
-        "url": "https://votoinformado.jne.gob.pe/hoja-vida/2985/07260881",
-        "tipo": "documento"
-      },
-      {
-        "nombre": "Wikipedia - Wolfgang Grozo",
-        "url": "https://es.wikipedia.org/wiki/Wolfgang_Grozo",
-        "tipo": "referencia"
-      }
-    ],
-    "fechaActualizacion": "2026-03-13"
+      { "nombre": "Andina - Hoja de vida Wolfgang Grozo 2026", "url": "https://andina.pe/agencia/noticia-elecciones-2026-revisa-hoja-vida-wolfgang-grozo-integridad-democratica-1065435.aspx", "tipo": "nota de prensa" },
+      { "nombre": "Wikipedia - Wolfgang Grozo", "url": "https://es.wikipedia.org/wiki/Wolfgang_Grozo", "tipo": "referencia" },
+      { "nombre": "Hoja de vida JNE - Wolfgang Grozo", "url": "https://votoinformado.jne.gob.pe/hoja-vida/2985/07260881", "tipo": "documento oficial" },
+      { "nombre": "Entrevista Ojo Público - Seguridad y propuestas", "url": "https://ojo-publico.com/politica/elecciones-2026/wolfgang-grozo-los-estados-emergencia-no-sirven", "tipo": "entrevista" }
+    ]
   }
 ]

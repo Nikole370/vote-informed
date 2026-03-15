@@ -31,58 +31,296 @@
   <main>
     <div class="profile-layout">
 
-      <!-- Sidebar -->
+      <!-- ── SIDEBAR ── -->
       <aside class="profile-sidebar">
+
+        <!-- Foto -->
         <div class="profile-photo-placeholder" id="profile-photo">—</div>
+
+        <!-- Meta -->
         <div class="profile-meta">
           <div class="profile-meta__partido" id="profile-partido"></div>
-          <div class="profile-meta__nombre" id="profile-nombre"></div>
-          <div class="profile-meta__cargo" id="profile-cargo"></div>
+          <div class="profile-meta__nombre"  id="profile-nombre"></div>
+          <div class="profile-meta__cargo"   id="profile-cargo"></div>
         </div>
+
+        <!-- RF-41: Indicador de completitud del perfil -->
+        <div class="completitud-card" id="completitud-card">
+          <div class="completitud-card__header">
+            <span class="completitud-card__label">Completitud del perfil</span>
+            <span class="completitud-card__pct" id="completitud-pct">—%</span>
+          </div>
+          <div class="completitud-bar">
+            <div class="completitud-bar__fill" id="completitud-bar-fill"></div>
+          </div>
+          <div class="completitud-items" id="completitud-items">
+            <!-- generado por JS -->
+          </div>
+        </div>
+
+        <!-- Tags de ejes temáticos -->
         <div class="profile-tags" id="profile-tags"></div>
+
+        <!-- Acciones -->
         <div class="profile-sidebar__actions">
-          <a href="comparador.html" class="btn btn-primary">Comparar con otro candidato</a>
+          <a href="comparador.html" class="btn btn-primary" id="btn-comparar">Comparar con otro candidato</a>
           <a href="dashboard.html" class="btn btn-outline">Ver en Dashboard</a>
         </div>
       </aside>
 
-      <!-- Main -->
+      <!-- ── MAIN CONTENT ── -->
       <div class="profile-main">
 
-        <!-- Biografía -->
-        <div class="section-block">
-          <div class="section-block__header">
-            <span class="section-block__icon">👤</span>
-            <span class="section-block__title">Biografía</span>
-          </div>
-          <div class="section-block__body" id="profile-bio">
-            <p style="color:var(--ink-muted);">Cargando...</p>
-          </div>
-        </div>
+        <!-- Pestañas de navegación -->
+        <nav class="profile-tabs" id="profile-tabs">
+          <button class="profile-tab active" data-panel="datos">Datos</button>
+          <button class="profile-tab" data-panel="trayectoria">Trayectoria</button>
+          <button class="profile-tab" data-panel="ideologia">Ideología</button>
+          <button class="profile-tab" data-panel="propuestas">Propuestas</button>
+          <button class="profile-tab" data-panel="integridad">Integridad</button>
+          <button class="profile-tab" data-panel="finanzas">Finanzas</button>
+        </nav>
 
-        <!-- Propuestas -->
-        <div class="section-block">
-          <div class="section-block__header">
-            <span class="section-block__icon">📋</span>
-            <span class="section-block__title">Propuestas principales</span>
-          </div>
-          <div class="section-block__body" style="padding:0 1.4rem;">
-            <ul class="propuestas-list" id="profile-propuestas"></ul>
-          </div>
-        </div>
+        <!-- ① DATOS BÁSICOS: RF-25, RF-26, RF-27, RF-28 -->
+        <div class="tab-panel active" id="panel-datos">
 
-        <!-- Trayectoria / Fuentes (poblado por candidato.js) -->
-        <div class="section-block">
-          <div class="section-block__header">
-            <span class="section-block__icon">🗓️</span>
-            <span class="section-block__title">Trayectoria</span>
-          </div>
-          <div class="section-block__body">
-            <div class="timeline" id="profile-timeline">
-              <p style="color:var(--ink-muted);font-size:0.88rem;">Información biográfica disponible en la sección de Biografía.</p>
+          <!-- RF-25 + RF-26: Datos personales -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">👤</span>
+              <span class="section-block__title">Datos personales</span>
+              <span class="section-block__rf">RF-25, RF-26</span>
+            </div>
+            <div class="section-block__body">
+              <div class="datos-grid" id="datos-personales">
+                <!-- generado por JS -->
+              </div>
             </div>
           </div>
-        </div>
+
+          <!-- RF-27: Formación académica -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">🎓</span>
+              <span class="section-block__title">Formación académica</span>
+              <span class="section-block__rf">RF-27</span>
+            </div>
+            <div class="section-block__body" id="formacion-academica">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+          <!-- RF-28: Historial de partidos -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">🏛️</span>
+              <span class="section-block__title">Historial de partidos políticos</span>
+              <span class="section-block__rf">RF-28</span>
+            </div>
+            <div class="section-block__body">
+              <div class="party-timeline" id="historial-partidos">
+                <!-- generado por JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Biografía (siempre en datos) -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">📄</span>
+              <span class="section-block__title">Biografía</span>
+            </div>
+            <div class="section-block__body" id="profile-bio">
+              <p style="color:var(--ink-muted);">Cargando...</p>
+            </div>
+          </div>
+
+        </div><!-- /panel-datos -->
+
+        <!-- ② TRAYECTORIA: RF-29, RF-30, RF-31 -->
+        <div class="tab-panel" id="panel-trayectoria">
+
+          <!-- RF-29: Experiencia profesional -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">💼</span>
+              <span class="section-block__title">Experiencia profesional</span>
+              <span class="section-block__rf">RF-29</span>
+            </div>
+            <div class="section-block__body" id="experiencia-previa">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+          <!-- RF-30: Cargos públicos -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">🏅</span>
+              <span class="section-block__title">Cargos públicos ejercidos</span>
+              <span class="section-block__rf">RF-30</span>
+            </div>
+            <div class="section-block__body" id="cargos-publicos">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+          <!-- RF-31: Participación electoral previa -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">🗳️</span>
+              <span class="section-block__title">Participación electoral previa</span>
+              <span class="section-block__rf">RF-31</span>
+            </div>
+            <div class="section-block__body" id="participacion-electoral">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+        </div><!-- /panel-trayectoria -->
+
+        <!-- ③ IDEOLOGÍA: RF-32, RF-33, RF-34 -->
+        <div class="tab-panel" id="panel-ideologia">
+
+          <!-- RF-32: Espectro político -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">🧭</span>
+              <span class="section-block__title">Espectro político</span>
+              <span class="section-block__rf">RF-32</span>
+            </div>
+            <div class="section-block__body" id="espectro-politico">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+          <!-- RF-33: Posiciones en temas clave -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">📋</span>
+              <span class="section-block__title">Posiciones en temas clave</span>
+              <span class="section-block__rf">RF-33</span>
+            </div>
+            <div class="section-block__body" style="padding:0;" id="posiciones-temas">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+          <!-- RF-34: Coherencia propuesta vs historial -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">⚖️</span>
+              <span class="section-block__title">Coherencia propuesta vs. historial</span>
+              <span class="section-block__rf">RF-34</span>
+            </div>
+            <div class="section-block__body" id="coherencia-historica">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+        </div><!-- /panel-ideologia -->
+
+        <!-- ④ PROPUESTAS -->
+        <div class="tab-panel" id="panel-propuestas">
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">📌</span>
+              <span class="section-block__title">Propuestas principales</span>
+            </div>
+            <div class="section-block__body" style="padding:0 1.4rem;">
+              <ul class="propuestas-list" id="profile-propuestas"></ul>
+            </div>
+          </div>
+
+          <!-- Fuentes -->
+          <div class="section-block" id="fuentes-block" style="display:none;">
+            <div class="section-block__header">
+              <span class="section-block__icon">🔗</span>
+              <span class="section-block__title">Fuentes y referencias</span>
+            </div>
+            <div class="section-block__body" style="padding:0 1.4rem;">
+              <ul class="fuentes-list" id="fuentes-list"></ul>
+            </div>
+          </div>
+        </div><!-- /panel-propuestas -->
+
+        <!-- ⑤ INTEGRIDAD: RF-35, RF-36, RF-37, RF-38, RF-39 -->
+        <div class="tab-panel" id="panel-integridad">
+
+          <!-- RF-35: Antecedentes legales -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">⚖️</span>
+              <span class="section-block__title">Antecedentes legales y judiciales</span>
+              <span class="section-block__rf">RF-35</span>
+            </div>
+            <div class="section-block__body" id="antecedentes-legales">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+          <!-- RF-36: Declaración jurada de bienes -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">🏠</span>
+              <span class="section-block__title">Declaración jurada de bienes</span>
+              <span class="section-block__rf">RF-36</span>
+            </div>
+            <div class="section-block__body" id="declaracion-bienes">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+          <!-- RF-37: Fuentes de ingresos -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">💰</span>
+              <span class="section-block__title">Fuentes de ingresos declaradas</span>
+              <span class="section-block__rf">RF-37</span>
+            </div>
+            <div class="section-block__body" id="fuentes-ingreso">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+          <!-- RF-38: Controversias -->
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">📰</span>
+              <span class="section-block__title">Controversias documentadas</span>
+              <span class="section-block__rf">RF-38</span>
+            </div>
+            <div class="section-block__body" id="controversias">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+          <!-- RF-39: Congreso (solo si aplica) -->
+          <div class="section-block" id="bloque-congreso">
+            <div class="section-block__header">
+              <span class="section-block__icon">🏛️</span>
+              <span class="section-block__title">Asistencia y votación en el Congreso</span>
+              <span class="section-block__rf">RF-39</span>
+            </div>
+            <div class="section-block__body" id="asistencia-congreso">
+              <!-- generado por JS -->
+            </div>
+          </div>
+
+        </div><!-- /panel-integridad -->
+
+        <!-- ⑥ FINANZAS: RF-40 -->
+        <div class="tab-panel" id="panel-finanzas">
+          <div class="section-block">
+            <div class="section-block__header">
+              <span class="section-block__icon">📊</span>
+              <span class="section-block__title">Financiamiento de campaña</span>
+              <span class="section-block__rf">RF-40</span>
+            </div>
+            <div class="section-block__body" id="financiamiento-campana">
+              <!-- generado por JS -->
+            </div>
+          </div>
+        </div><!-- /panel-finanzas -->
 
       </div><!-- /.profile-main -->
     </div><!-- /.profile-layout -->

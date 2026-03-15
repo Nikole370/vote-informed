@@ -1,3 +1,8 @@
+/* ==========================================================================
+   candidato.css — VoteInformado 2026
+   Light mode · Paleta: #1a1a1a · #c8372d · #f5f2eb
+   ========================================================================== */
+
 /* ── Selector de candidatos ── */
 .candidato-selector {
   background: var(--bg-card);
@@ -15,7 +20,7 @@
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.5rem 1rem;
+  padding: 0.45rem 1rem;
   border: 1.5px solid var(--border);
   border-radius: var(--radius);
   background: #fff;
@@ -24,12 +29,17 @@
   font-family: var(--font-body);
   font-size: 0.85rem;
   font-weight: 500;
+  color: var(--ink);
 }
 .selector-btn:hover { border-color: var(--ink); }
-.selector-btn.active { border-color: var(--accent); color: var(--accent); background: #fef2f1; }
+.selector-btn.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: #fef2f1;
+}
 .selector-btn__avatar {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   background: var(--border);
   object-fit: cover;
@@ -39,23 +49,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   font-weight: 700;
+  color: #fff;
 }
 
 /* ── Profile layout ── */
 .profile-layout {
   max-width: 1100px;
-  margin: 2.5rem auto;
+  margin: 2rem auto;
   padding: 0 2rem;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 280px 1fr;
   gap: 2rem;
   align-items: start;
 }
 
-/* ── Sidebar ── */
-.profile-sidebar { position: sticky; top: 80px; }
+/* ══════════════════════════════════════════════
+   SIDEBAR
+══════════════════════════════════════════════ */
+.profile-sidebar {
+  position: sticky;
+  top: 80px;
+  align-self: start;
+  will-change: transform;
+}
 .profile-photo {
   width: 100%;
   aspect-ratio: 3/4;
@@ -63,7 +81,7 @@
   object-position: top;
   border-radius: var(--radius);
   border: 1px solid var(--border);
-  background: #e0dbd0;
+  background: #e8e2d8;
 }
 .profile-photo-placeholder {
   width: 100%;
@@ -79,28 +97,152 @@
   color: var(--border);
   font-weight: 900;
 }
+
+/* Meta del candidato */
 .profile-meta { margin-top: 1.25rem; }
 .profile-meta__partido {
-  font-size: 0.7rem;
-  font-weight: 600;
+  font-size: 0.68rem;
+  font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.35rem;
 }
 .profile-meta__nombre {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-weight: 900;
-  line-height: 1.2;
+  line-height: 1.15;
   letter-spacing: -0.02em;
+  color: var(--ink);
 }
-.profile-meta__cargo { font-size: 0.85rem; color: var(--ink-muted); margin-top: 0.35rem; }
-.profile-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; }
-.profile-sidebar__actions { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 1.25rem; }
+.profile-meta__cargo {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  margin-top: 0.3rem;
+}
 
-/* ── Main content ── */
-.profile-main > * + * { margin-top: 2rem; }
+/* ── RF-41: Completitud del perfil ── */
+.completitud-card {
+  background: #fafaf8;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  margin-top: 1.1rem;
+}
+.completitud-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.completitud-card__label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.completitud-card__pct {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2a7a50;
+}
+.completitud-bar {
+  background: #e5e0d8;
+  border-radius: 4px;
+  height: 5px;
+  margin-bottom: 0.7rem;
+  overflow: hidden;
+}
+.completitud-bar__fill {
+  height: 5px;
+  background: #2a7a50;
+  border-radius: 4px;
+  width: 0%;
+  transition: width 0.5s ease;
+}
+.completitud-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 0.5rem;
+}
+.completitud-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+}
+.completitud-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.completitud-dot--ok      { background: #2a7a50; }
+.completitud-dot--parcial { background: #c8920a; }
+.completitud-dot--vacio   { background: #ccc; }
+
+/* Tags temáticos */
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+/* Acciones */
+.profile-sidebar__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1.1rem;
+}
+
+/* ══════════════════════════════════════════════
+   PESTAÑAS DE NAVEGACIÓN
+══════════════════════════════════════════════ */
+.profile-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.profile-tabs::-webkit-scrollbar { display: none; }
+
+.profile-tab {
+  padding: 0.65rem 1.1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: var(--font-body);
+  transition: color 0.15s, border-color 0.15s;
+}
+.profile-tab:hover { color: var(--ink); }
+.profile-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* Paneles */
+.tab-panel { display: none; }
+.tab-panel.active { display: flex; flex-direction: column; gap: 1.5rem; }
+
+/* ══════════════════════════════════════════════
+   SECTION BLOCKS (cards)
+══════════════════════════════════════════════ */
 .section-block {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -108,23 +250,378 @@
   overflow: hidden;
 }
 .section-block__header {
-  padding: 1rem 1.4rem;
+  padding: 0.9rem 1.4rem;
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.55rem;
+  background: #fafaf8;
 }
-.section-block__icon { font-size: 1.1rem; }
+.section-block__icon { font-size: 1rem; line-height: 1; }
 .section-block__title {
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   letter-spacing: -0.01em;
+  color: var(--ink);
 }
-.section-block__body { padding: 1.4rem; }
-.section-block__body p { font-size: 0.9rem; line-height: 1.7; color: var(--ink); }
+.section-block__rf {
+  margin-left: auto;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #bbb;
+  background: #f0ece4;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+}
+.section-block__body { padding: 1.25rem 1.4rem; }
+.section-block__body p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
 
-/* ── Propuestas list ── */
+/* Estado vacío reutilizable */
+.empty-state {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--ink-muted);
+  font-size: 0.85rem;
+  border: 1px dashed var(--border);
+  border-radius: calc(var(--radius) - 2px);
+  background: #fafaf8;
+}
+
+/* ══════════════════════════════════════════════
+   ① DATOS BÁSICOS
+══════════════════════════════════════════════ */
+
+/* RF-25 + RF-26: grid de datos personales */
+.datos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.5rem;
+}
+.dato-item__label {
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 0.2rem;
+}
+.dato-item__value {
+  font-size: 0.9rem;
+  color: var(--ink);
+  line-height: 1.4;
+}
+.dato-item__value--highlight { color: var(--accent); font-weight: 600; }
+
+/* Badges de verificación */
+.badge-verificado {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.67rem;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+.badge-verificado--ok {
+  background: #e6f4ec;
+  color: #1e6e3e;
+}
+.badge-verificado--no {
+  background: #fef0e8;
+  color: #b84c1a;
+}
+
+/* RF-27: Formación académica */
+.formacion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.formacion-item:last-child { border-bottom: none; }
+.formacion-item__grado {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.2rem;
+}
+.formacion-item__inst {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+.formacion-item__nota {
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  margin-top: 0.2rem;
+  font-style: italic;
+}
+
+/* RF-28: Timeline de partidos */
+.party-timeline {
+  position: relative;
+  padding-left: 1.5rem;
+}
+.party-timeline::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  bottom: 10px;
+  width: 1.5px;
+  background: var(--border);
+}
+.party-item {
+  position: relative;
+  padding-bottom: 1.1rem;
+}
+.party-item:last-child { padding-bottom: 0; }
+.party-item__dot {
+  position: absolute;
+  left: -1.5rem;
+  top: 5px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  background: #fff;
+}
+.party-item__dot--current { background: var(--accent); }
+.party-item__name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.party-item__years {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin-top: 0.15rem;
+}
+.party-item__fundador {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  background: #fef2f1;
+  border-radius: 3px;
+  padding: 0.1rem 0.35rem;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+.party-item__nota {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin-top: 0.2rem;
+  font-style: italic;
+}
+
+/* ══════════════════════════════════════════════
+   ② TRAYECTORIA
+══════════════════════════════════════════════ */
+
+/* RF-29 + RF-30: listas de cargos */
+.cargo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.cargo-item:last-child { border-bottom: none; }
+.cargo-item__titulo {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.2rem;
+}
+.cargo-item__sub {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+.cargo-item__desc {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+.cargo-badge {
+  flex-shrink: 0;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  background: #eee8dc;
+  color: var(--ink-muted);
+  white-space: nowrap;
+  margin-top: 3px;
+}
+.cargo-badge--electo { background: #e6f4ec; color: #1e6e3e; }
+
+/* RF-31: Tabla electoral */
+.electoral-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.electoral-table th {
+  text-align: left;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1.5px solid var(--border);
+}
+.electoral-table td {
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--ink);
+  vertical-align: middle;
+}
+.electoral-table tr:last-child td { border-bottom: none; }
+.resultado-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}
+.resultado-badge--gano   { background: #e6f4ec; color: #1e6e3e; }
+.resultado-badge--perdio { background: #f5ece8; color: #944422; }
+.resultado-badge--curso  { background: #fef7e6; color: #8a6200; }
+
+/* ══════════════════════════════════════════════
+   ③ IDEOLOGÍA
+══════════════════════════════════════════════ */
+
+/* RF-32: Espectro */
+.espectro-tag {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  background: #fef2f1;
+  color: var(--accent);
+  border-radius: 4px;
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #f5cac7;
+}
+.espectro-wrapper { position: relative; margin-bottom: 0.5rem; }
+.espectro-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #3b6dd4, #5ba358, #c8b42a, #c87a2a, #c8372d);
+}
+.espectro-pin {
+  position: absolute;
+  top: -4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2.5px solid var(--accent);
+  transform: translateX(-50%);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+.espectro-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+  margin-top: 0.35rem;
+}
+.espectro-justificacion {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  line-height: 1.6;
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+}
+
+/* RF-33: Posiciones en temas clave */
+.posiciones-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.posiciones-table tr { border-bottom: 1px solid var(--border); }
+.posiciones-table tr:last-child { border-bottom: none; }
+.posiciones-table td {
+  padding: 0.75rem 1.4rem;
+  font-size: 0.85rem;
+  vertical-align: top;
+}
+.posiciones-table td:first-child {
+  width: 30%;
+  color: var(--ink-muted);
+  font-weight: 500;
+  font-size: 0.82rem;
+}
+.posicion-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+.posicion-badge--favor    { background: #e6f4ec; color: #1e6e3e; }
+.posicion-badge--contra   { background: #f5ece8; color: #944422; }
+.posicion-badge--neutro   { background: #f0ece4; color: var(--ink-muted); }
+.posicion-declaracion {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  margin-top: 0.3rem;
+  line-height: 1.5;
+}
+.posicion-fuente {
+  font-size: 0.72rem;
+  color: #bbb;
+  margin-top: 0.2rem;
+}
+.posicion-fuente a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+/* RF-34: Coherencia */
+.coherencia-item {
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.coherencia-item:last-child { border-bottom: none; }
+.coherencia-icon { font-size: 1rem; flex-shrink: 0; margin-top: 2px; }
+.coherencia-tension {
+  font-size: 0.87rem;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.coherencia-fuente {
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  margin-top: 0.25rem;
+}
+.coherencia-fuente a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+/* ══════════════════════════════════════════════
+   ④ PROPUESTAS (sin cambios respecto al original)
+══════════════════════════════════════════════ */
 .propuestas-list { display: flex; flex-direction: column; gap: 0; }
 .propuesta-item {
   display: flex;
@@ -148,14 +645,14 @@
   font-weight: 700;
 }
 .propuesta-item__eje {
-  font-size: 0.68rem;
-  font-weight: 600;
+  font-size: 0.67rem;
+  font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
   margin-bottom: 0.25rem;
 }
-.propuesta-item__text { font-size: 0.88rem; line-height: 1.5; }
+.propuesta-item__text { font-size: 0.88rem; line-height: 1.55; }
 .propuesta-item__fuente {
   margin-top: 0.35rem;
   font-size: 0.75rem;
@@ -167,59 +664,305 @@
   text-underline-offset: 2px;
 }
 
-/* ── Timeline ── */
-.timeline { position: relative; padding-left: 1.5rem; }
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 0; top: 8px; bottom: 0;
-  width: 2px;
-  background: var(--border);
-}
-.timeline-item { position: relative; padding-bottom: 1.5rem; }
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -1.5rem; top: 8px;
-  width: 10px; height: 10px;
-  border-radius: 50%;
-  background: var(--accent);
-  border: 2px solid var(--bg-card);
-}
-.timeline-item__year {
-  font-size: 0.72rem; font-weight: 700; color: var(--ink-muted);
-  letter-spacing: 0.06em; margin-bottom: 0.2rem;
-}
-.timeline-item__title { font-weight: 600; font-size: 0.9rem; }
-.timeline-item__desc { font-size: 0.82rem; color: var(--ink-muted); margin-top: 0.15rem; }
-
-/* ── Fuentes ── */
-.fuentes-list { display: flex; flex-direction: column; gap: 0.6rem; }
+/* ── Fuentes y referencias ── */
+.fuentes-list { display: flex; flex-direction: column; gap: 0; }
 .fuente-item {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   font-size: 0.85rem;
-  padding: 0.6rem 0;
+  padding: 0.65rem 0;
   border-bottom: 1px solid var(--border);
 }
 .fuente-item:last-child { border-bottom: none; }
 .fuente-item__tipo {
-  font-size: 0.65rem;
-  font-weight: 600;
+  flex-shrink: 0;
+  font-size: 0.62rem;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-muted);
   background: #eee8dc;
   padding: 0.15rem 0.4rem;
   border-radius: 2px;
-  white-space: nowrap;
 }
 .fuente-item a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 .fuente-item a:hover { color: #a82e25; }
 
+/* ══════════════════════════════════════════════
+   ⑤ INTEGRIDAD
+══════════════════════════════════════════════ */
+
+/* RF-35: Antecedentes legales */
+.proceso-item {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.proceso-item:last-child { border-bottom: none; }
+.proceso-estado {
+  flex-shrink: 0;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+.proceso-estado--activo    { background: #fde8e8; color: #b02020; }
+.proceso-estado--archivado { background: #f0ece4; color: var(--ink-muted); }
+.proceso-nombre {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.2rem;
+}
+.proceso-desc {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  line-height: 1.5;
+}
+.proceso-fuente {
+  font-size: 0.72rem;
+  color: #bbb;
+  margin-top: 0.2rem;
+}
+.proceso-fuente a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+/* RF-36: Declaración jurada de bienes */
+.patrimonio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.1rem;
+}
+.patrimonio-stat {
+  background: #fafaf8;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) - 2px);
+  padding: 0.8rem;
+  text-align: center;
+}
+.patrimonio-stat__val {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.2rem;
+}
+.patrimonio-stat__lbl {
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+  letter-spacing: 0.04em;
+}
+.patrimonio-detalle {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  line-height: 1.6;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+}
+.patrimonio-detalle a { color: var(--accent); text-decoration: underline; }
+.patrimonio-obs {
+  margin-top: 0.6rem;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  font-style: italic;
+  padding: 0.6rem 0.8rem;
+  background: #fef7e6;
+  border-left: 3px solid #c8920a;
+  border-radius: 0 3px 3px 0;
+}
+
+/* RF-37: Fuentes de ingresos */
+.ingreso-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.ingreso-item:last-child { border-bottom: none; }
+.ingreso-item__actividad { font-size: 0.88rem; font-weight: 500; color: var(--ink); }
+.ingreso-item__tipo {
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  margin-top: 0.15rem;
+}
+.ingreso-item__monto {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+  text-align: right;
+}
+.ingreso-item__nota {
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  margin-top: 0.15rem;
+  text-align: right;
+}
+
+/* RF-38: Controversias */
+.controversia-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.controversia-item:last-child { border-bottom: none; }
+.controversia-item__titulo {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.3rem;
+}
+.controversia-item__desc {
+  font-size: 0.84rem;
+  color: var(--ink-muted);
+  line-height: 1.55;
+}
+.controversia-item__meta {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+.controversia-item__fecha {
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  background: #f0ece4;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+}
+.controversia-item__fuente { font-size: 0.72rem; }
+.controversia-item__fuente a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+/* RF-39: Asistencia al Congreso */
+.congreso-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.congreso-stat {
+  background: #fafaf8;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) - 2px);
+  padding: 0.8rem;
+  text-align: center;
+}
+.congreso-stat__val {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.2rem;
+}
+.congreso-stat__lbl {
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+}
+.congreso-nota {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  line-height: 1.6;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ══════════════════════════════════════════════
+   ⑥ FINANZAS
+══════════════════════════════════════════════ */
+.fin-total {
+  margin-bottom: 1.25rem;
+}
+.fin-total__valor {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+.fin-total__label {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin-top: 0.2rem;
+}
+
+.fin-barras { margin-bottom: 1.25rem; }
+.fin-barra-item { margin-bottom: 0.75rem; }
+.fin-barra-item__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+  color: var(--ink-muted);
+}
+.fin-barra-item__header span:last-child {
+  font-weight: 600;
+  color: var(--ink);
+}
+.fin-barra-track {
+  background: #e5e0d8;
+  border-radius: 4px;
+  height: 7px;
+  overflow: hidden;
+}
+.fin-barra-fill {
+  height: 7px;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+.fin-barra-fill--propio    { background: #2a7a50; }
+.fin-barra-fill--afiliados { background: #c8920a; }
+.fin-barra-fill--empresas  { background: #c8372d; }
+
+.fin-aportantes { margin-top: 1.1rem; padding-top: 1.1rem; border-top: 1px solid var(--border); }
+.fin-aportantes__titulo {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 0.6rem;
+}
+.aportante-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+.aportante-item:last-child { border-bottom: none; }
+.aportante-item__nombre { color: var(--ink); }
+.aportante-item__monto { font-weight: 600; color: var(--ink); }
+
+.fin-obs {
+  margin-top: 0.9rem;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  line-height: 1.6;
+  font-style: italic;
+}
+.fin-obs a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+/* ══════════════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════════════ */
 @media (max-width: 768px) {
-  .profile-layout { grid-template-columns: 1fr; }
+  .profile-layout {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+    margin: 1.5rem auto;
+  }
   .profile-sidebar { position: static; }
-  .profile-photo, .profile-photo-placeholder { aspect-ratio: 4/3; }
+  .profile-photo,
+  .profile-photo-placeholder { aspect-ratio: 4/3; }
+  .patrimonio-grid,
+  .congreso-grid { grid-template-columns: repeat(2, 1fr); }
+  .datos-grid { grid-template-columns: 1fr; }
+  .profile-tab { font-size: 0.75rem; padding: 0.55rem 0.8rem; }
 }
