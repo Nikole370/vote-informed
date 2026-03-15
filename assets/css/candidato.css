@@ -1039,22 +1039,46 @@
 
 /* ─── Fix overflow horizontal ─── */
 @media (max-width: 768px) {
-  .candidato-selector {
-    padding: 0.5rem 0;
-    overflow: hidden;
+  .profile-layout {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+    margin: 1.5rem auto;
+    width: 100%;
+    box-sizing: border-box;
   }
+  .profile-sidebar { position: static; }
+  .profile-photo,
+  .profile-photo-placeholder { aspect-ratio: 16/9; max-height: 220px; }
+  .patrimonio-grid,
+  .congreso-grid { grid-template-columns: repeat(2, 1fr); }
+  .datos-grid { grid-template-columns: 1fr; }
+  .profile-tab { font-size: 0.75rem; padding: 0.55rem 0.8rem; }
+  .candidato-selector { padding: 0.5rem 0; }
   .candidato-selector__inner {
     flex-wrap: nowrap;
     overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
     padding: 0.5rem 1rem;
     width: 100%;
-    max-width: 100%;
     box-sizing: border-box;
-  }
-  .selector-btn {
-    flex-shrink: 0;
     white-space: nowrap;
+  }
+  .selector-btn { flex-shrink: 0; font-size: 0.78rem; padding: 0.4rem 0.75rem; }
+  .posiciones-table td:first-child { width: 40%; }
+  .posiciones-table td { padding: 0.65rem 0.75rem; font-size: 0.8rem; }
+  .patrimonio-stat__val { font-size: 1rem; }
+  .patrimonio-grid { gap: 0.5rem; }
+  .section-block__body { padding: 1rem; }
+  .section-block__header { padding: 0.75rem 1rem; }
+  .electoral-table { font-size: 0.78rem; }
+  .electoral-table td, .electoral-table th { padding: 0.5rem; }
+  .fin-total__valor { font-size: 1.4rem; }
+  .profile-main {
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+  .section-block {
+    width: 100%;
+    box-sizing: border-box;
   }
 }

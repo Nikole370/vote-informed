@@ -209,11 +209,8 @@ ul { list-style: none; }
     font-size: 1rem;
     border-radius: 0;
   }
-
-}
-
-/* ─── Fix overflow horizontal móvil ─── */
-html, body {
-  overflow-x: hidden;
-  max-width: 100%;
+  main {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }
