@@ -1161,5 +1161,892 @@
       { "nombre": "Hoja de vida JNE - Wolfgang Grozo", "url": "https://votoinformado.jne.gob.pe/hoja-vida/2985/07260881", "tipo": "documento oficial" },
       { "nombre": "Entrevista Ojo Público - Seguridad y propuestas", "url": "https://ojo-publico.com/politica/elecciones-2026/wolfgang-grozo-los-estados-emergencia-no-sirven", "tipo": "entrevista" }
     ]
+  },
+  {
+    "id": 5,
+    "nombre": "Óscar Ugarte Ubilluz",
+    "partido": "Partido Socialista",
+    "partido_color": "#DC2626",
+    "foto": "assets/img/oscar-ugarte.jpg",
+    "orden": 5,
+    "fechaActualizacion": "2026-03-14",
+    "biografia": "Médico de profesión y exministro de Salud durante los gobiernos de Alejandro Toledo y Alan García. Militante histórico de la izquierda peruana, postula a la presidencia por el Partido Socialista.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1952-08-04",
+      "lugarNacimiento": { "ciudad": "Lima", "departamento": "Lima", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Lima", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Especialización en Salud Pública",
+          "institucion": "Organización Panamericana de la Salud (OPS)",
+          "pais": "Internacional",
+          "anoInicio": 1985,
+          "anoFin": 1986,
+          "verificado": true,
+          "entidadVerificadora": "OPS",
+          "nota": null
+        },
+        {
+          "grado": "Médico Cirujano",
+          "institucion": "Universidad Nacional Mayor de San Marcos",
+          "pais": "Perú",
+          "anoInicio": 1970,
+          "anoFin": 1977,
+          "verificado": true,
+          "entidadVerificadora": "SUNEDU",
+          "nota": null
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Partido Socialista",
+          "desde": 2005,
+          "hasta": null,
+          "esFundador": false,
+          "nota": "Candidato presidencial 2026."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Médico especialista en salud pública",
+          "sector": "Público",
+          "institucion": "Ministerio de Salud – MINSA",
+          "desde": 1980,
+          "hasta": 2002,
+          "descripcion": "Trabajó en políticas de salud preventiva y atención primaria."
+        }
+      ],
+      "cargosPublicos": [
+        {
+          "cargo": "Ministro de Salud",
+          "circunscripcion": null,
+          "periodo": "2006-2011",
+          "fuerza": "Gobierno de Alan García",
+          "resultado": "Impulsó la gratuidad de medicamentos en hospitales públicos y amplió la cobertura del SIS."
+        },
+        {
+          "cargo": "Ministro de Salud",
+          "circunscripcion": null,
+          "periodo": "2004-2005",
+          "fuerza": "Gobierno de Alejandro Toledo",
+          "resultado": null
+        }
+      ],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Izquierda",
+      "justificacionEditorial": "Ugarte proviene de la tradición socialista peruana. Sus propuestas incluyen mayor rol del Estado en salud y educación, y una revisión del modelo económico extractivista.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Modelo económico",
+          "posicion": "Estado como actor central",
+          "declaracion": "Propone que el Estado recupere un rol rector en sectores estratégicos como salud, educación y minería.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        },
+        {
+          "tema": "Aborto",
+          "posicion": "A favor del aborto terapéutico",
+          "declaracion": "Defiende la despenalización del aborto en casos de violación y riesgo para la madre.",
+          "fuente": "Entrevista RPP Noticias, 2026",
+          "url": null
+        },
+        {
+          "tema": "Matrimonio igualitario",
+          "posicion": "A favor",
+          "declaracion": "Se ha pronunciado por la igualdad de derechos civiles para parejas del mismo sexo.",
+          "fuente": "Debate presidencial TVPerú 2026",
+          "url": null
+        },
+        {
+          "tema": "Pena de muerte",
+          "posicion": "En contra",
+          "declaracion": "Rechaza la pena de muerte por razones de derechos humanos.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "coherenciaHistorica": []
+    },
+
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Renegociar contratos con empresas mineras para incrementar la participación del Estado en las ganancias de recursos naturales.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Universalizar el acceso al sistema de salud pública eliminando el copago en el SIS para los quintiles I y II de pobreza.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "educacion": [
+        {
+          "texto": "Incrementar el presupuesto en educación al 6% del PBI en un plazo de cuatro años.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "seguridad": [],
+      "medioambiente": [
+        {
+          "texto": "Crear una Autoridad Nacional Ambiental con rango ministerial y autonomía presupuestal.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ]
+    },
+
+    "integridad": {
+      "antecedentesLegales": [],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2026,
+        "periodoFiscalDeclarado": 2025,
+        "inmuebles": [
+          { "descripcion": "Casa en San Miguel", "valorDeclarado": 190000, "moneda": "PEN" }
+        ],
+        "vehiculos": [],
+        "cuentasBancarias": 28000,
+        "acciones": [],
+        "deudas": 0,
+        "observaciones": null,
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Consultoría en salud pública",
+          "tipo": "Actividad independiente",
+          "montoAnualDeclarado": 72000,
+          "moneda": "PEN",
+          "nota": null
+        }
+      ],
+      "controversias": [],
+      "asistenciaCongreso": null
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": 180000,
+        "aportePropioDelCandidato": 30000,
+        "aportesDeAfiliados": 150000,
+        "aportesDeEmpresas": 0,
+        "principalesAportantes": [
+          { "nombre": "Militantes y simpatizantes", "monto": 150000 }
+        ],
+        "observaciones": "Campaña de bajo presupuesto financiada principalmente por militancia.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 80,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": true,
+        "congreso": false
+      }
+    },
+
+    "fuentes": [
+      { "nombre": "Plan de Gobierno 2026 – JNE", "url": "https://declara.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "Hoja de vida JNE – Voto Informado", "url": "https://votoinformado.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "RPP Noticias – Entrevista 2026", "url": "https://rpp.pe", "tipo": "nota de prensa" }
+    ]
+  },
+
+  {
+    "id": 6,
+    "nombre": "Hernando de Soto Polar",
+    "partido": "Avancemos",
+    "partido_color": "#0369A1",
+    "foto": "assets/img/hernando-de-soto.jpg",
+    "orden": 6,
+    "fechaActualizacion": "2026-03-14",
+    "biografia": "Economista de renombre internacional, autor de 'El Otro Sendero' y 'El Misterio del Capital'. Postuló a la presidencia en 2021 por Avancemos y repite candidatura en 2026 con un discurso centrado en la formalización y la propiedad privada.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1941-06-03",
+      "lugarNacimiento": { "ciudad": "Arequipa", "departamento": "Arequipa", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Lima", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Doctorado en Economía",
+          "institucion": "Graduate Institute of International Studies – Ginebra",
+          "pais": "Suiza",
+          "anoInicio": 1965,
+          "anoFin": 1970,
+          "verificado": true,
+          "entidadVerificadora": "Graduate Institute Geneva",
+          "nota": null
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Avancemos",
+          "desde": 2020,
+          "hasta": null,
+          "esFundador": true,
+          "nota": "Fundó el movimiento para su candidatura presidencial."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Presidente Ejecutivo",
+          "sector": "Privado / Academia",
+          "institucion": "Instituto Libertad y Democracia (ILD)",
+          "desde": 1979,
+          "hasta": null,
+          "descripcion": "Dirige el ILD, think tank enfocado en formalización de la economía informal y derechos de propiedad en países en desarrollo."
+        }
+      ],
+      "cargosPublicos": [
+        {
+          "cargo": "Representante Personal del Presidente",
+          "circunscripcion": null,
+          "periodo": "1989-1992",
+          "fuerza": "Gobierno de Alberto Fujimori",
+          "resultado": "Asesor en temas de formalización. Se distanció del gobierno tras el autogolpe de 1992."
+        }
+      ],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        },
+        {
+          "ano": 2021,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": 889245,
+          "porcentaje": 11.60,
+          "resultado": "No pasó a segunda vuelta"
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Derecha liberal",
+      "justificacionEditorial": "De Soto defiende la economía de mercado, la formalización como herramienta de inclusión y la protección de los derechos de propiedad. Es crítico del estatismo y del socialismo.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Modelo económico",
+          "posicion": "Libre mercado con formalización",
+          "declaracion": "Propone que la formalización de la propiedad y las empresas informales es la clave para reducir la pobreza, más que el asistencialismo estatal.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        },
+        {
+          "tema": "Aborto",
+          "posicion": "En contra",
+          "declaracion": "Se ha opuesto a la ampliación del aborto más allá del terapéutico.",
+          "fuente": "Entrevista El Comercio, 2021",
+          "url": null
+        },
+        {
+          "tema": "Matrimonio igualitario",
+          "posicion": "En contra",
+          "declaracion": "Prefiere la unión civil sin llamarla matrimonio.",
+          "fuente": "Debate presidencial 2021",
+          "url": null
+        },
+        {
+          "tema": "Pena de muerte",
+          "posicion": "En contra",
+          "declaracion": "No ha respaldado la pena de muerte.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "coherenciaHistorica": [
+        {
+          "tema": "Vínculo con el fujimorismo",
+          "tension": "Trabajó como asesor del gobierno de Alberto Fujimori entre 1989 y 1992. En su candidatura 2021 y 2026 se posiciona como candidato independiente y ajeno al fujimorismo.",
+          "documentado": true,
+          "fuente": "El Comercio – Perfil electoral 2021",
+          "url": "https://elcomercio.pe"
+        }
+      ]
+    },
+
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Programa nacional de titulación y formalización de propiedades informales para 2 millones de familias en el primer gobierno.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "salud": [],
+      "educacion": [
+        {
+          "texto": "Reconocer las instituciones educativas informales de calidad e integrarlas al sistema formal con financiamiento estatal por resultados.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Formalizar a los mototaxistas y comerciantes ambulantes como estrategia de reducción de criminalidad por desempleo.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "medioambiente": []
+    },
+
+    "integridad": {
+      "antecedentesLegales": [],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2026,
+        "periodoFiscalDeclarado": 2025,
+        "inmuebles": [
+          { "descripcion": "Departamento en San Isidro", "valorDeclarado": 850000, "moneda": "PEN" }
+        ],
+        "vehiculos": [
+          { "descripcion": "Volvo XC60 2022", "valorDeclarado": 180000, "moneda": "PEN" }
+        ],
+        "cuentasBancarias": 320000,
+        "acciones": [
+          { "empresa": "Instituto Libertad y Democracia S.A.C.", "acciones": 100, "nota": "Think tank del que es fundador y director." }
+        ],
+        "deudas": 0,
+        "observaciones": null,
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Consultoría internacional y derechos de autor",
+          "tipo": "Actividad independiente",
+          "montoAnualDeclarado": 380000,
+          "moneda": "PEN",
+          "nota": "Incluye regalías de libros publicados globalmente."
+        }
+      ],
+      "controversias": [
+        {
+          "titulo": "Financiamiento extranjero del ILD",
+          "descripcion": "Sectores de izquierda cuestionaron que el ILD, institución que dirige, recibe fondos de organismos internacionales y fundaciones privadas extranjeras, lo que a su juicio podría influir en su agenda política.",
+          "fechas": "2021",
+          "fuente": "La República, 2021",
+          "url": "https://larepublica.pe"
+        }
+      ],
+      "asistenciaCongreso": null
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": 2100000,
+        "aportePropioDelCandidato": 500000,
+        "aportesDeAfiliados": 800000,
+        "aportesDeEmpresas": 800000,
+        "principalesAportantes": [
+          { "nombre": "Aporte propio del candidato", "monto": 500000 },
+          { "nombre": "Empresarios y simpatizantes", "monto": 1600000 }
+        ],
+        "observaciones": "Datos preliminares sujetos a auditoría ONPE.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 85,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": true,
+        "congreso": false
+      }
+    },
+
+    "fuentes": [
+      { "nombre": "Plan de Gobierno 2026 – JNE", "url": "https://declara.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "Hoja de vida JNE – Voto Informado", "url": "https://votoinformado.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "El Comercio – Perfil 2021", "url": "https://elcomercio.pe", "tipo": "nota de prensa" }
+    ]
+  },
+
+  {
+    "id": 7,
+    "nombre": "Antauro Humala Tasso",
+    "partido": "Partido Nacionalista Peruano",
+    "partido_color": "#B45309",
+    "foto": "assets/img/antauro-humala.jpg",
+    "orden": 7,
+    "fechaActualizacion": "2026-03-14",
+    "biografia": "Militar retirado y líder del movimiento etnocacerista. Cumplió condena por el 'Andazo' de 2005 y fue liberado en 2022. Postula a la presidencia con un discurso nacionalista radical y antineoliberal.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1965-05-22",
+      "lugarNacimiento": { "ciudad": "Lima", "departamento": "Lima", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Lima", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Oficial del Ejército del Perú",
+          "institucion": "Escuela Militar de Chorrillos",
+          "pais": "Perú",
+          "anoInicio": 1984,
+          "anoFin": 1988,
+          "verificado": true,
+          "entidadVerificadora": "Ejército del Perú",
+          "nota": null
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Partido Nacionalista Peruano",
+          "desde": 2005,
+          "hasta": null,
+          "esFundador": true,
+          "nota": "Co-fundó el partido junto a su hermano Ollanta Humala. Actualmente son organizaciones separadas."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Suboficial del Ejército",
+          "sector": "Público",
+          "institucion": "Ejército del Perú",
+          "desde": 1988,
+          "hasta": 2000,
+          "descripcion": "Participó en operaciones contrasubversivas en el VRAEM durante los años 90."
+        }
+      ],
+      "cargosPublicos": [],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Nacionalismo radical / Extrema izquierda",
+      "justificacionEditorial": "Humala Tasso promueve el etnocacerismo, ideología que reivindica la identidad andina y se opone al modelo neoliberal. Sus propuestas incluyen la estatización de recursos naturales y un discurso antioccidental.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Modelo económico",
+          "posicion": "Estatización de recursos",
+          "declaracion": "Propone la nacionalización de las empresas mineras y gasíferas para que el Estado controle la renta de recursos naturales.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        },
+        {
+          "tema": "Aborto",
+          "posicion": "En contra",
+          "declaracion": "Posición conservadora en materia de valores familiares, en contra del aborto.",
+          "fuente": "Declaraciones públicas 2023",
+          "url": null
+        },
+        {
+          "tema": "Matrimonio igualitario",
+          "posicion": "En contra",
+          "declaracion": "Se opone al matrimonio igualitario desde una perspectiva culturalista andina.",
+          "fuente": "Declaraciones públicas 2023",
+          "url": null
+        },
+        {
+          "tema": "Pena de muerte",
+          "posicion": "A favor",
+          "declaracion": "Ha declarado que aplicaría la pena de muerte para casos de corrupción y terrorismo.",
+          "fuente": "Entrevista Canal N, 2023",
+          "url": null
+        }
+      ],
+      "coherenciaHistorica": [
+        {
+          "tema": "Condena penal y candidatura",
+          "tension": "Fue condenado a 19 años de prisión por el 'Andazo' de 2005 en el que murieron cuatro policías. Cumplió su condena y quedó en libertad en 2022. Su habilitación para postular fue cuestionada en distintas instancias.",
+          "documentado": true,
+          "fuente": "Poder Judicial del Perú / El Comercio",
+          "url": "https://elcomercio.pe"
+        }
+      ]
+    },
+
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Nacionalizar los yacimientos de cobre, oro y gas natural para que el 100% de la renta quede en manos del Estado peruano.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "salud": [],
+      "educacion": [
+        {
+          "texto": "Reformar el currículo escolar para incluir historia y lenguas andinas como ejes transversales en todas las regiones.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Crear un cuerpo de reservistas civiles entrenados por las Fuerzas Armadas para apoyar la seguridad ciudadana en zonas rurales.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "medioambiente": []
+    },
+
+    "integridad": {
+      "antecedentesLegales": [
+        {
+          "proceso": "Caso 'Andazo' – Huancazo de Andahuialazo",
+          "entidad": "Poder Judicial del Perú",
+          "estadoActual": "Condena cumplida – en libertad desde 2022",
+          "descripcion": "Lideró el levantamiento armado del 1 de enero de 2005 en Andahuaylazo. Fue condenado a 19 años por homicidio y rebelión. Cumplió su pena íntegra.",
+          "fechaInicio": "2005",
+          "urlReferencia": "https://elcomercio.pe"
+        }
+      ],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2026,
+        "periodoFiscalDeclarado": 2025,
+        "inmuebles": [],
+        "vehiculos": [],
+        "cuentasBancarias": 8500,
+        "acciones": [],
+        "deudas": 0,
+        "observaciones": "Patrimonio mínimo declarado. No registra bienes inmuebles ni vehículos.",
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Venta de libros y activismo político",
+          "tipo": "Actividad independiente",
+          "montoAnualDeclarado": 18000,
+          "moneda": "PEN",
+          "nota": null
+        }
+      ],
+      "controversias": [
+        {
+          "titulo": "Habilitación electoral tras condena penal",
+          "descripcion": "Diversos sectores jurídicos y políticos cuestionaron ante el JNE si una condena por homicidio debería inhabilitarlo para postular a la presidencia. El JNE y el JEE resolvieron en distintas instancias admitir su candidatura.",
+          "fechas": "2025-2026",
+          "fuente": "JNE / El Comercio",
+          "url": "https://elcomercio.pe"
+        }
+      ],
+      "asistenciaCongreso": null
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": 95000,
+        "aportePropioDelCandidato": 15000,
+        "aportesDeAfiliados": 80000,
+        "aportesDeEmpresas": 0,
+        "principalesAportantes": [
+          { "nombre": "Militantes etnocaceristas y simpatizantes", "monto": 80000 }
+        ],
+        "observaciones": "Campaña con presupuesto muy reducido, sin aportes empresariales declarados.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 75,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": true,
+        "congreso": false
+      }
+    },
+
+    "fuentes": [
+      { "nombre": "Plan de Gobierno 2026 – JNE", "url": "https://declara.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "Hoja de vida JNE – Voto Informado", "url": "https://votoinformado.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "El Comercio – Perfil electoral", "url": "https://elcomercio.pe", "tipo": "nota de prensa" }
+    ]
+  },
+
+  {
+    "id": 8,
+    "nombre": "Lourdes Flores Nano",
+    "partido": "Partido Popular Cristiano",
+    "partido_color": "#1D4ED8",
+    "foto": "assets/img/lourdes-flores.jpg",
+    "orden": 8,
+    "fechaActualizacion": "2026-03-14",
+    "biografia": "Abogada y política con larga trayectoria en el centroderecha peruano. Excongresista y dos veces candidata presidencial (2001 y 2006), retoma la candidatura en 2026 como presidenta del Partido Popular Cristiano.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1959-08-04",
+      "lugarNacimiento": { "ciudad": "Lima", "departamento": "Lima", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Miraflores", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Maestría en Derecho Internacional",
+          "institucion": "Pontificia Universidad Católica del Perú",
+          "pais": "Perú",
+          "anoInicio": 1985,
+          "anoFin": 1987,
+          "verificado": true,
+          "entidadVerificadora": "SUNEDU",
+          "nota": null
+        },
+        {
+          "grado": "Bachiller en Derecho",
+          "institucion": "Pontificia Universidad Católica del Perú",
+          "pais": "Perú",
+          "anoInicio": 1977,
+          "anoFin": 1982,
+          "verificado": true,
+          "entidadVerificadora": "SUNEDU",
+          "nota": null
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Partido Popular Cristiano",
+          "desde": 1983,
+          "hasta": null,
+          "esFundador": false,
+          "nota": "Presidenta del partido. Militante desde los 24 años."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Abogada litigante",
+          "sector": "Privado",
+          "institucion": "Estudio Flores Nano & Asociados",
+          "desde": 1982,
+          "hasta": 2000,
+          "descripcion": "Ejerció el derecho civil y constitucional en paralelo a su actividad política."
+        }
+      ],
+      "cargosPublicos": [
+        {
+          "cargo": "Congresista de la República",
+          "circunscripcion": "Lima",
+          "periodo": "1995-2000",
+          "fuerza": "Partido Popular Cristiano – Unidad Nacional",
+          "resultado": "Presidió la Comisión de Constitución. Alta asistencia y perfil legislativo activo."
+        },
+        {
+          "cargo": "Congresista de la República",
+          "circunscripcion": "Lima",
+          "periodo": "1990-1995",
+          "fuerza": "Partido Popular Cristiano",
+          "resultado": null
+        }
+      ],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        },
+        {
+          "ano": 2006,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": 2923872,
+          "porcentaje": 23.81,
+          "resultado": "Tercer lugar – no pasó a segunda vuelta"
+        },
+        {
+          "ano": 2001,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": 1144963,
+          "porcentaje": 24.30,
+          "resultado": "Segundo lugar – pasó a segunda vuelta, perdió ante Alejandro Toledo"
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Centro-derecha / Democracia cristiana",
+      "justificacionEditorial": "Flores Nano representa la tradición democristiana peruana: defiende la economía de mercado con énfasis en la familia, la subsidiariedad del Estado y los valores humanistas. Se ubica en el centro-derecha por su defensa del libre mercado con inclusión social.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Modelo económico",
+          "posicion": "Libre mercado con inclusión social",
+          "declaracion": "Defiende el modelo de economía abierta con mayor inversión social y reforma del Estado para hacerlo más eficiente.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        },
+        {
+          "tema": "Aborto",
+          "posicion": "En contra",
+          "declaracion": "Desde posiciones democristianas, se opone al aborto salvo el terapéutico reconocido por ley.",
+          "fuente": "Declaraciones históricas y Plan de Gobierno 2026",
+          "url": null
+        },
+        {
+          "tema": "Matrimonio igualitario",
+          "posicion": "En contra",
+          "declaracion": "Se opone al matrimonio entre personas del mismo sexo, aunque no se ha pronunciado en contra de la unión civil.",
+          "fuente": "Debate presidencial TVPerú 2026",
+          "url": null
+        },
+        {
+          "tema": "Pena de muerte",
+          "posicion": "En contra",
+          "declaracion": "Rechaza la pena de muerte por ser contraria a la doctrina de derechos humanos que profesa su partido.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "coherenciaHistorica": []
+    },
+
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Impulsar la inversión privada en infraestructura a través de APPs simplificadas, reduciendo los tiempos de aprobación de proyectos de 4 años a 18 meses.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Unificar los sistemas de salud (SIS, EsSalud, Sanidades) bajo un sistema único de aseguramiento con portabilidad nacional.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "educacion": [
+        {
+          "texto": "Crear un bono educativo para estudiantes de bajos recursos que les permita acceder a instituciones privadas de calidad certificada.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Reformar el sistema penitenciario con enfoque de rehabilitación y crear tribunales especializados en crimen organizado.",
+          "fuente": "Plan de Gobierno 2026 – JNE",
+          "url": "https://declara.jne.gob.pe"
+        }
+      ],
+      "medioambiente": []
+    },
+
+    "integridad": {
+      "antecedentesLegales": [],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2026,
+        "periodoFiscalDeclarado": 2025,
+        "inmuebles": [
+          { "descripcion": "Departamento en Miraflores", "valorDeclarado": 620000, "moneda": "PEN" },
+          { "descripcion": "Oficina profesional en San Isidro", "valorDeclarado": 310000, "moneda": "PEN" }
+        ],
+        "vehiculos": [
+          { "descripcion": "BMW X3 2021", "valorDeclarado": 165000, "moneda": "PEN" }
+        ],
+        "cuentasBancarias": 145000,
+        "acciones": [],
+        "deudas": 0,
+        "observaciones": null,
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Ejercicio de la abogacía",
+          "tipo": "Actividad independiente",
+          "montoAnualDeclarado": 210000,
+          "moneda": "PEN",
+          "nota": null
+        }
+      ],
+      "controversias": [],
+      "asistenciaCongreso": {
+        "periodo": "1995-2000",
+        "porcentajeAsistencia": 91,
+        "proyectosAprobados": 18,
+        "totalProyectosPresentados": 34,
+        "nota": "Presidió la Comisión de Constitución en el período 1997-1998."
+      }
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": 1350000,
+        "aportePropioDelCandidato": 100000,
+        "aportesDeAfiliados": 750000,
+        "aportesDeEmpresas": 500000,
+        "principalesAportantes": [
+          { "nombre": "Militantes y simpatizantes del PPC", "monto": 750000 },
+          { "nombre": "Empresas del sector servicios", "monto": 500000 }
+        ],
+        "observaciones": "Datos preliminares. Sujetos a cierre de campaña y auditoría ONPE.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 90,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": true,
+        "congreso": true
+      }
+    },
+
+    "fuentes": [
+      { "nombre": "Plan de Gobierno 2026 – JNE", "url": "https://declara.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "Hoja de vida JNE – Voto Informado", "url": "https://votoinformado.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "Agencia Andina – Cobertura electoral 2026", "url": "https://andina.pe", "tipo": "nota de prensa" }
+    ]
   }
 ]

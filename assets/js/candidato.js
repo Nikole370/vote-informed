@@ -846,14 +846,29 @@
       btn.className    = 'selector-btn';
       btn.dataset.id   = id;
 
-      // Avatar: imagen pequeña o iniciales
-      const avatarHTML = c.foto
-        ? `<img class="selector-btn__avatar" src="${c.foto}" alt="${c.nombre}" onerror="this.outerHTML='<div class=\\"selector-btn__avatar\\" style=\\"background:${c.partido_color || '#888'};\\">${iniciales(c.nombre)}</div>'">`
-        : `<div class="selector-btn__avatar" style="background:${c.partido_color || '#888'};">${iniciales(c.nombre)}</div>`;
+      // DESPUÉS — sin onerror inline, manejo por JS limpio
+      let avatarHTML;
+      if (c.foto) {
+        const img = document.createElement('img');
+        img.className = 'selector-btn__avatar';
+        img.alt = c.nombre;
+        img.src = c.foto;
+        img.onerror = function () {
+          const div = document.createElement('div');
+          div.className = 'selector-btn__avatar';
+          div.style.background = c.partido_color || '#888';
+          div.textContent = iniciales(c.nombre);
+          this.replaceWith(div);
+        };
+        btn.appendChild(img);
+        avatarHTML = ''; // ya fue agregado directo al btn
+      } else {
+        avatarHTML = `<div class="selector-btn__avatar" style="background:${c.partido_color || '#888'};">${iniciales(c.nombre)}</div>`;
+      }
 
-      btn.innerHTML = `
+      btn.innerHTML += `
         ${avatarHTML}
-        ${c.nombre.split(' ').slice(0, 2).join(' ')}
+        <span class="selector-btn__nombre">${c.nombre.split(' ').slice(0, 2).join(' ')}</span>
       `;
       btn.addEventListener('click', () => renderCandidato(c));
       container.appendChild(btn);
