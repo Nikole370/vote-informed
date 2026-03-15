@@ -102,10 +102,16 @@
 .candidatos-grid {
   max-width: 1100px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1.25rem;
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 0.5rem 1.25rem 1.5rem;
 }
+.candidatos-grid::-webkit-scrollbar { display: none; }
 .candidato-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -114,11 +120,15 @@
   box-shadow: var(--shadow);
   transition: box-shadow var(--transition), transform var(--transition);
   cursor: pointer;
+  min-width: 220px;
+  width: 220px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
 }
 .candidato-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-3px); }
 .candidato-card__img {
   width: 100%;
-  aspect-ratio: 3/4;
+  aspect-ratio: 4/5;
   object-fit: cover;
   object-position: top;
   background: #e0dbd0;
@@ -184,11 +194,10 @@
   .hero::after { font-size: 8rem; }
   .hero__actions { flex-direction: column; }
   .hero__actions .btn { width: 100%; justify-content: center; }
-  .candidatos-grid { grid-template-columns: 1fr 1fr; gap: 0.75rem; padding: 0 1rem; }
   .section__header { padding: 0 1rem; flex-direction: column; align-items: flex-start; }
 }
 
 /* Celulares muy chicos: 1 sola columna */
 @media (max-width: 400px) {
-  .candidatos-grid { grid-template-columns: 1fr; }
+  
 }
