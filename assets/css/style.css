@@ -159,8 +159,13 @@ ul { list-style: none; }
 .mb-1 { margin-bottom: 0.5rem; }
 .mb-2 { margin-bottom: 1rem; }
 
+/* Ocultar hamburguesa en desktop */
+@media (min-width: 769px) {
+  .navbar__toggle { display: none; }
+}
 /* ─── Responsive ─── */
 @media (max-width: 768px) {
+  .navbar { position: relative; }
   .navbar { padding: 0 1rem; }
   .navbar__nav a { padding: 0.4rem 0.5rem; font-size: 0.78rem; }
   .container { padding: 0 1rem; }
@@ -204,6 +209,5 @@ ul { list-style: none; }
     font-size: 1rem;
     border-radius: 0;
   }
-  .navbar { position: relative; }
+
 }
-.navbar__toggle { display: none; }
