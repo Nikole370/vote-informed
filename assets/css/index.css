@@ -2,7 +2,11 @@
 .hero {
   background: var(--ink);
   color: #fff;
-  padding: 5rem 2rem 4rem;
+  padding: 3rem 2rem 2.5rem;
+  min-height: 62vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
   overflow: hidden;
 }
@@ -63,10 +67,10 @@
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: var(--radius);
 }
-.hero__stat { background: rgba(255,255,255,0.04); padding: 1.5rem; text-align: center; }
+.hero__stat { background: rgba(255,255,255,0.04); padding: 1rem 1.5rem; text-align: center; }
 .hero__stat-num {
   font-family: var(--font-display);
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: 900;
   color: var(--accent);
   line-height: 1;
@@ -74,7 +78,7 @@
 .hero__stat-label { font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 0.35rem; letter-spacing: 0.04em; }
 
 /* ── Section ── */
-.section { padding: 4rem 2rem; }
+.section { padding: 1rem 2rem 2rem; }
 .section__header {
   max-width: 1100px;
   margin: 0 auto 2rem;
@@ -102,16 +106,19 @@
 .candidatos-grid {
   max-width: 1100px;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  padding: 0.5rem 1.25rem 1.5rem;
+  padding: 0 1.25rem 1.5rem;
 }
 .candidatos-grid::-webkit-scrollbar { display: none; }
+.candidato-card__img {
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: top;
+  background: #e0dbd0;
+}
 .candidato-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -120,22 +127,20 @@
   box-shadow: var(--shadow);
   transition: box-shadow var(--transition), transform var(--transition);
   cursor: pointer;
-  min-width: 220px;
-  width: 220px;
-  scroll-snap-align: start;
-  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
 }
 .candidato-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-3px); }
 .candidato-card__img {
   width: 100%;
-  aspect-ratio: 4/5;
+  aspect-ratio: 1/1;
   object-fit: cover;
   object-position: top;
   background: #e0dbd0;
 }
 .candidato-card__img-placeholder {
   width: 100%;
-  aspect-ratio: 3/4;
+  aspect-ratio: 1/1;
   background: linear-gradient(160deg, #e8e2d8 0%, #d5cfc4 100%);
   display: flex;
   align-items: center;
@@ -145,28 +150,40 @@
   color: var(--border);
   font-weight: 900;
 }
-.candidato-card__body { padding: 1rem 1.1rem 1.25rem; }
+.candidato-card__body { padding: 0.75rem 1rem 0.5rem; }
 .candidato-card__partido {
-  font-size: 0.68rem;
+  font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 .candidato-card__nombre {
   font-family: var(--font-display);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 700;
-  line-height: 1.25;
-  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
 }
-.candidato-card__desc { font-size: 0.82rem; color: var(--ink-muted); line-height: 1.5; }
+.candidato-card__desc { font-size: 0.75rem; color: var(--ink-muted); line-height: 1.4; }
 .candidato-card__footer {
-  padding: 0.75rem 1.1rem;
+  padding: 0.6rem 1rem;
   border-top: 1px solid var(--border);
   display: flex;
   gap: 0.5rem;
+  margin-top: auto;
+}
+.candidato-card__espectro {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 0.15rem 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 /* ── Features ── */

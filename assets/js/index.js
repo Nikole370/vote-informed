@@ -23,7 +23,18 @@
     if (!propuestas) return 0;
     return Object.values(propuestas).reduce((acc, arr) => acc + arr.length, 0);
   }
-
+  function espectroColor(espectro) {
+    if (!espectro) return '#888';
+    const e = espectro.toLowerCase();
+    if (e.includes('izquierda')) return '#c8372d';
+    if (e.includes('derecha'))   return '#1E3A8A';
+    if (e.includes('centro'))    return '#15803D';
+    return '#888';
+  }
+  function espectroCorto(espectro) {
+    if (!espectro) return '';
+    return espectro.split('/')[0].trim();
+  }
   function renderCard(c) {
     const id    = slugId(c);
     console.log(c.nombre, '→ slug:', id, '→ href:', `candidato.html?id=${id}`);
@@ -37,6 +48,10 @@
       : `<div class="candidato-card__img-placeholder">${inits}</div>`;
 
     const accentStyle = c.partido_color ? `style="color:${c.partido_color}"` : '';
+    const espectro = c.ideologia?.espectro ?? null;
+    const espectroHTML = espectro
+      ? `<span class="candidato-card__espectro" style="background:${espectroColor(espectro)}20;color:${espectroColor(espectro)};border-color:${espectroColor(espectro)}40">${espectro}</span>`
+      : '';
 
     const card = document.createElement('article');
     card.className = 'candidato-card';
@@ -45,7 +60,7 @@
       <div class="candidato-card__body">
         <div class="candidato-card__partido" ${accentStyle}>${c.partido}</div>
         <div class="candidato-card__nombre">${c.nombre}</div>
-        <p class="candidato-card__desc">${total} propuesta${total !== 1 ? 's' : ''} registrada${total !== 1 ? 's' : ''}</p>
+        ${espectroHTML}
       </div>
       <div class="candidato-card__footer">
         <a href="candidato.html?id=${id}" class="btn btn-outline"
@@ -67,6 +82,7 @@
         grid.innerHTML = '';
         candidatos
           .sort((a, b) => (a.orden ?? 99) - (b.orden ?? 99))
+          .slice(0, 4)
           .forEach(c => grid.appendChild(renderCard(c)));
       })
       .catch(() => {

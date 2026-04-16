@@ -1,0 +1,1375 @@
+[
+  {
+    "id": 9,
+    "nombre": "César Acuña Peralta",
+    "partido": "Alianza para el Progreso",
+    "partido_color": "#F59E0B",
+    "foto": "assets/img/cesar-acuna.jpg",
+    "orden": 9,
+    "fechaActualizacion": "2026-03-20",
+    "biografia": "Ingeniero químico, empresario y político de Cajamarca. Fundador de la Universidad César Vallejo y del partido Alianza para el Progreso. Exalcalde de Trujillo (dos periodos) y exgobernador de La Libertad. Candidato presidencial por tercera vez.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1952-08-11",
+      "lugarNacimiento": { "ciudad": "Tacabamba", "departamento": "Cajamarca", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Trujillo", "departamento": "La Libertad" },
+      "formacionAcademica": [
+        {
+          "grado": "Doctorado en Administración de Empresas",
+          "institucion": "Universidad Complutense de Madrid",
+          "pais": "España",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE",
+          "nota": "Grado académico registrado en hoja de vida JNE 2026."
+        },
+        {
+          "grado": "Maestría en Administración de la Educación",
+          "institucion": "Universidad de Lima",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "entidadVerificadora": "SUNEDU",
+          "nota": null
+        },
+        {
+          "grado": "Ingeniería Química",
+          "institucion": "Universidad Nacional de Trujillo",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "entidadVerificadora": "SUNEDU",
+          "nota": null
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Alianza para el Progreso",
+          "desde": 2001,
+          "hasta": null,
+          "esFundador": true,
+          "nota": "Fundó el partido el 8 de diciembre de 2001 en Trujillo."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Fundador y presidente del directorio",
+          "sector": "Privado / Educación",
+          "institucion": "Universidad César Vallejo",
+          "desde": 1991,
+          "hasta": null,
+          "descripcion": "Fundó la UCV en 1991. También creó la Universidad Señor de Sipán y la Universidad Autónoma del Perú. Grupo educativo con presencia en múltiples regiones del país."
+        }
+      ],
+      "cargosPublicos": [
+        {
+          "cargo": "Gobernador Regional de La Libertad",
+          "circunscripcion": "La Libertad",
+          "periodo": "2023-2025",
+          "fuerza": "Alianza para el Progreso",
+          "resultado": "Renunció en octubre de 2025 para postular a la presidencia."
+        },
+        {
+          "cargo": "Gobernador Regional de La Libertad",
+          "circunscripcion": "La Libertad",
+          "periodo": "2015",
+          "fuerza": "Alianza para el Progreso",
+          "resultado": "Renunció en 2015 para postular a la presidencia en las elecciones de 2016."
+        },
+        {
+          "cargo": "Alcalde Provincial de Trujillo",
+          "circunscripcion": "Trujillo",
+          "periodo": "2007-2014",
+          "fuerza": "Alianza para el Progreso",
+          "resultado": "Dos periodos consecutivos. Donó el 100% de su sueldo durante ambas gestiones, según declaraciones propias."
+        },
+        {
+          "cargo": "Congresista de la República",
+          "circunscripcion": "La Libertad",
+          "periodo": "2000-2006",
+          "fuerza": "Alianza para el Progreso / Unidad Nacional",
+          "resultado": "Lideró proyectos sobre normativa educativa y fue miembro de la comisión investigadora sobre corrupción en el régimen de Fujimori."
+        }
+      ],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        },
+        {
+          "ano": 2021,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": 6.02,
+          "resultado": "Séptimo lugar. No pasó a segunda vuelta."
+        },
+        {
+          "ano": 2016,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "Excluido por el JNE por entregar dinero a electores en actos de campaña (donaciones a particulares en Chosica y Piura)."
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Centro",
+      "justificacionEditorial": "Acuña combina discurso pragmático y populista de gestión local con propuestas de libre mercado moderado. No se adscribe doctrinariamente a la izquierda ni a la derecha; su base electoral es principalmente regional (norte del país) y su perfil es el de un empresario-político con énfasis en infraestructura y educación.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Modelo económico",
+          "posicion": "Libre mercado con inversión social",
+          "declaracion": "Propone mantener el modelo económico vigente, impulsar exportaciones por más de USD 100 mil millones anuales y aumentar la inversión en infraestructura regional.",
+          "fuente": "Plan de Gobierno APP 2026 – El Peruano",
+          "url": "https://elperuano.pe/noticia/290767-elecciones-2026-conoce-el-plan-de-gobierno-del-candidato-cesar-acuna-peralta"
+        },
+        {
+          "tema": "Seguridad ciudadana",
+          "posicion": "Mano dura con inversión policial",
+          "declaracion": "Propone incorporar 5000 licenciados a la PNP, capacitarlos como servicio de inteligencia y reducir drásticamente homicidios y extorsiones.",
+          "fuente": "TVPerú – Tu Decisión 2026",
+          "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-cesar-acuna-del-partido-alianza-para-el-progreso"
+        },
+        {
+          "tema": "Aborto",
+          "posicion": "No declarada públicamente",
+          "declaracion": "No ha hecho pronunciamientos explícitos sobre este tema en su campaña 2026.",
+          "fuente": null,
+          "url": null
+        },
+        {
+          "tema": "Matrimonio igualitario",
+          "posicion": "No declarada públicamente",
+          "declaracion": "No ha hecho pronunciamientos explícitos sobre este tema en su campaña 2026.",
+          "fuente": null,
+          "url": null
+        }
+      ],
+      "coherenciaHistorica": [
+        {
+          "tema": "Exclusión electoral por dádivas",
+          "tension": "Fue excluido de las elecciones de 2016 por el JNE tras probarse que entregó dinero a electores durante la campaña, acción prohibida por la ley electoral. En 2026 presenta una plataforma de transparencia y lucha anticorrupción.",
+          "documentado": true,
+          "fuente": "JNE / Panorama 2016",
+          "url": "https://es.wikipedia.org/wiki/C%C3%A9sar_Acu%C3%B1a"
+        },
+        {
+          "tema": "Plagio académico",
+          "tension": "Ha enfrentado acusaciones de plagio en sus tesis de maestría y doctorado, documentadas por medios de investigación. El candidato no ha reconocido las acusaciones.",
+          "documentado": true,
+          "fuente": "IDL-Reporteros / La República",
+          "url": "https://larepublica.pe/politica/2026/03/17/elecciones-2026-los-aciertos-errores-y-antecedentes-de-6-candidatos-presidenciales-hnews-376822"
+        }
+      ]
+    },
+
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Generar condiciones para que las exportaciones superen los USD 100 mil millones anuales, con política de promoción del desarrollo agroexportador.",
+          "fuente": "Plan de Gobierno APP 2026 – Andina",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-del-candidato-cesar-acuna-peralta-1065322.aspx"
+        },
+        {
+          "texto": "Reactivar la economía mediante un pool de maquinarias para cada provincia, mejorando carreteras e infraestructura productiva regional.",
+          "fuente": "TVPerú – Tu Decisión 2026",
+          "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-cesar-acuna-del-partido-alianza-para-el-progreso"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Implementar el 'Plan Mil': mejora de más de 1000 centros de salud de primer nivel mediante APPs, dotándolos de infraestructura, equipamiento moderno e historias clínicas digitales interoperables.",
+          "fuente": "Andina – Propuestas de salud César Acuña 2026",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-cesar-acuna-promete-fortalecer-primer-nivel-atencion-salud-1067395.aspx"
+        },
+        {
+          "texto": "Lograr cobertura de aseguramiento del 99% al 2031, espera máxima de 10 días en consulta externa y 95% de establecimientos con medicamentos disponibles.",
+          "fuente": "Andina – Propuestas de salud César Acuña 2026",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-cesar-acuna-promete-fortalecer-primer-nivel-atencion-salud-1067395.aspx"
+        }
+      ],
+      "educacion": [
+        {
+          "texto": "Reestructurar el Ministerio de Educación y fortalecer las Direcciones Regionales de Educación y UGEL para mejorar la calidad educativa desde lo regional.",
+          "fuente": "Plan de Gobierno APP 2026 – El Peruano",
+          "url": "https://elperuano.pe/noticia/290767-elecciones-2026-conoce-el-plan-de-gobierno-del-candidato-cesar-acuna-peralta"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Reducción drástica de homicidios, extorsiones y delitos violentos como condición habilitante para la inversión privada, incorporando 5000 licenciados a la PNP como servicio de inteligencia.",
+          "fuente": "Plan de Gobierno APP 2026 – Andina",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-del-candidato-cesar-acuna-peralta-1065322.aspx"
+        }
+      ],
+      "medioambiente": [
+        {
+          "texto": "Dotar de mayor presencia del Estado en zonas fronterizas asoladas por la minería ilegal.",
+          "fuente": "Plan de Gobierno APP 2026 – Andina",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-del-candidato-cesar-acuna-peralta-1065322.aspx"
+        }
+      ]
+    },
+
+    "integridad": {
+      "antecedentesLegales": [
+        {
+          "proceso": "Exclusión electoral por dádivas a electores",
+          "entidad": "Jurado Nacional de Elecciones",
+          "estadoActual": "Resolución firme – exclusión ejecutada en 2016",
+          "descripcion": "El JNE lo excluyó de las elecciones de 2016 por entregar S/ 10,000 a un comerciante en Chosica y S/ 5,000 a un joven con discapacidad en Piura durante actividades de campaña, vulnerando el artículo 42 de la Ley de Partidos.",
+          "fechaInicio": "2016",
+          "urlReferencia": "https://es.wikipedia.org/wiki/C%C3%A9sar_Acu%C3%B1a"
+        }
+      ],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2026,
+        "periodoFiscalDeclarado": 2025,
+        "inmuebles": [
+          { "descripcion": "Inmuebles declarados ante JNE (detalle en hoja de vida oficial)", "valorDeclarado": null, "moneda": "PEN" }
+        ],
+        "vehiculos": [],
+        "cuentasBancarias": null,
+        "acciones": [
+          { "empresa": "Universidad César Vallejo S.A.C.", "acciones": null, "nota": "Fundador y presidente del directorio." }
+        ],
+        "deudas": null,
+        "observaciones": "Datos completos disponibles en hoja de vida JNE. ONPE multó a APP en 2012 con más de 9 millones de soles por recibir aportes de la UCV diez veces por encima del límite permitido.",
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Presidente del directorio – Universidad César Vallejo y grupo educativo",
+          "tipo": "Remuneración sector privado",
+          "montoAnualDeclarado": null,
+          "moneda": "PEN",
+          "nota": "Monto exacto sujeto a declaración oficial ante JNE."
+        }
+      ],
+      "controversias": [
+        {
+          "titulo": "Plagio en tesis de maestría y doctorado",
+          "descripcion": "Medios de investigación documentaron similitudes textuales no atribuidas en sus tesis académicas. El candidato no reconoció las acusaciones.",
+          "fechas": "2015-2016",
+          "fuente": "IDL-Reporteros / La República",
+          "url": "https://larepublica.pe/politica/2026/03/17/elecciones-2026-los-aciertos-errores-y-antecedentes-de-6-candidatos-presidenciales-hnews-376822"
+        },
+        {
+          "titulo": "Multa ONPE a APP por aportes de la UCV",
+          "descripcion": "La ONPE multó a APP en 2012 por haber recibido aportes de la Universidad César Vallejo por un valor diez veces superior al límite legal permitido.",
+          "fechas": "2012",
+          "fuente": "Wikipedia – Alianza para el Progreso (Perú)",
+          "url": "https://es.wikipedia.org/wiki/Alianza_para_el_Progreso_(Per%C3%BA)"
+        },
+        {
+          "titulo": "Campaña publicitaria del Gobierno Regional La Libertad tras renuncia",
+          "descripcion": "A inicios de marzo de 2026, el Gore La Libertad lanzó una campaña de publicidad institucional justo después de la renuncia de Acuña. Sectores políticos cuestionaron el uso de recursos del Estado para beneficiar la imagen del candidato. El partido señaló que los contratos fueron firmados antes de su renuncia.",
+          "fechas": "Marzo 2026",
+          "fuente": "La República",
+          "url": "https://larepublica.pe/politica/2026/03/17/elecciones-2026-los-aciertos-errores-y-antecedentes-de-6-candidatos-presidenciales-hnews-376822"
+        }
+      ],
+      "asistenciaCongreso": {
+        "periodo": "2000-2006",
+        "porcentajeAsistencia": null,
+        "proyectosAprobados": null,
+        "totalProyectosPresentados": null,
+        "nota": "Lideró proyectos sobre normativa educativa y fue miembro de comisión investigadora sobre el régimen de Fujimori. Datos de asistencia no disponibles en fuentes públicas verificadas."
+      }
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": null,
+        "aportePropioDelCandidato": null,
+        "aportesDeAfiliados": null,
+        "aportesDeEmpresas": null,
+        "principalesAportantes": [],
+        "observaciones": "Datos ONPE pendientes de publicación oficial al cierre de esta edición.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 75,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": false,
+        "congreso": true
+      }
+    },
+
+    "fuentes": [
+      { "nombre": "Plan de Gobierno APP 2026 – Andina", "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-del-candidato-cesar-acuna-peralta-1065322.aspx", "tipo": "nota de prensa" },
+      { "nombre": "Hoja de vida JNE – Voto Informado", "url": "https://votoinformado.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "El Peruano – Plan de gobierno César Acuña 2026", "url": "https://elperuano.pe/noticia/290767-elecciones-2026-conoce-el-plan-de-gobierno-del-candidato-cesar-acuna-peralta", "tipo": "nota de prensa" },
+      { "nombre": "Infobae – Perfil César Acuña 2026", "url": "https://www.infobae.com/peru/2025/10/31/cesar-acuna-lidera-lista-presidencial-por-alianza-para-el-progreso-para-las-elecciones-2026-quienes-son-los-canditatos-a-la-vicepresidencia-del-partido/", "tipo": "nota de prensa" }
+    ]
+  },
+
+  {
+    "id": 10,
+    "nombre": "Alfonso López Chau Nava",
+    "partido": "Ahora Nación",
+    "partido_color": "#0D9488",
+    "foto": "assets/img/alfonso-lopez-chau.jpg",
+    "orden": 10,
+    "fechaActualizacion": "2026-03-20",
+    "biografia": "Economista y académico limeño. Exdirector del Banco Central de Reserva del Perú y exrector de la Universidad Nacional de Ingeniería (UNI), cargo al que renunció para postular. Fundador de Ahora Nación. Se hizo conocido en 2023 al acoger a manifestantes de las protestas del sur del país en el campus de la UNI.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1950-07-17",
+      "lugarNacimiento": { "ciudad": "Lima", "departamento": "Lima", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Lima", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Doctorado en Economía",
+          "institucion": "Universidad Nacional Autónoma de México (UNAM)",
+          "pais": "México",
+          "anoInicio": null,
+          "anoFin": 2005,
+          "verificado": true,
+          "entidadVerificadora": "UNAM – graduado con carta de felicitación",
+          "nota": null
+        },
+        {
+          "grado": "Maestría en Economía",
+          "institucion": "Universidad Nacional Autónoma de México (UNAM)",
+          "pais": "México",
+          "anoInicio": null,
+          "anoFin": 2002,
+          "verificado": true,
+          "entidadVerificadora": "UNAM",
+          "nota": null
+        },
+        {
+          "grado": "Licenciatura en Economía",
+          "institucion": "Universidad Nacional del Callao",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": 1981,
+          "verificado": true,
+          "entidadVerificadora": "SUNEDU",
+          "nota": "Bachiller en Ciencias Económicas obtenido en 1976."
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Ahora Nación",
+          "desde": 2023,
+          "hasta": null,
+          "esFundador": true,
+          "nota": "Fundó el partido el 13 de mayo de 2023 durante el estallido social. Inscripción legal obtenida el 24 de julio de 2024."
+        },
+        {
+          "partido": "Apertura para el Desarrollo Nacional – Partido Socialista",
+          "desde": 1994,
+          "hasta": 1996,
+          "esFundador": false,
+          "nota": "Postuló sin éxito al Congreso en 1995 con esta organización."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Rector",
+          "sector": "Académico",
+          "institucion": "Universidad Nacional de Ingeniería (UNI)",
+          "desde": 2021,
+          "hasta": 2025,
+          "descripcion": "Renunció en mayo de 2025 para concentrarse en su candidatura presidencial. Fue profesor principal desde 1990 y director de la Escuela de Ingeniería Económica (2017-2019)."
+        },
+        {
+          "cargo": "Director",
+          "sector": "Público",
+          "institucion": "Banco Central de Reserva del Perú (BCRP)",
+          "desde": 2006,
+          "hasta": 2012,
+          "descripcion": "Nombrado por el Congreso para el directorio del BCRP presidido por Julio Velarde."
+        },
+        {
+          "cargo": "Catedrático",
+          "sector": "Académico",
+          "institucion": "Centro de Altos Estudios Nacionales (CAEN)",
+          "desde": null,
+          "hasta": null,
+          "descripcion": "Dictó cursos en el doctorado del CAEN. Premiado como catedrático distinguido."
+        }
+      ],
+      "cargosPublicos": [],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        },
+        {
+          "ano": 1995,
+          "cargo": "Congresista de la República",
+          "vuelta": "única",
+          "votosObtenidos": 1019,
+          "porcentaje": null,
+          "resultado": "No elegido. Postuló por el Partido Socialista Apertura para el Desarrollo Nacional."
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Centro-izquierda / Socialdemocracia",
+      "justificacionEditorial": "López Chau se autodefine como socialdemócrata y social-liberal. Propone cambiar la Constitución manteniendo el modelo económico de mercado, y plantea el fortalecimiento del Estado y la descentralización como ejes. Su base social emerge de las protestas del sur del país en 2022-2023.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Modelo económico",
+          "posicion": "Libre mercado con descentralización y fortalecimiento del Estado",
+          "declaracion": "Propone mantener el modelo económico neoliberal de la Constitución de 1993 en lo económico, pero impulsando una nueva Constitución que refuerce las instituciones y descentralice el poder hacia las regiones.",
+          "fuente": "Wikipedia – Alfonso López-Chau",
+          "url": "https://es.wikipedia.org/wiki/Alfonso_L%C3%B3pez-Chau"
+        },
+        {
+          "tema": "Nueva Constitución",
+          "posicion": "A favor (actualización de la Constitución de 1979)",
+          "declaracion": "Propone actualizar la Constitución de 1979 para mantener el sistema económico pero fortalecer los derechos sociales y la institucionalidad democrática.",
+          "fuente": "Infobae – Perfil Alfonso López Chau 2026",
+          "url": "https://www.infobae.com/peru/2026/02/15/alfonso-lopez-chau-perfil-del-economista-que-busca-llegar-a-palacio-con-ahora-nacion/"
+        },
+        {
+          "tema": "Seguridad ciudadana",
+          "posicion": "Reforma policial estructural",
+          "declaracion": "Propone reinstaurar la Policía de Investigaciones del Perú (PIP) y promulgar una nueva ley del sistema nacional de seguridad ciudadana con liderazgo claro del Ejecutivo.",
+          "fuente": "El Peruano – Plan de gobierno López Chau 2026",
+          "url": "https://elperuano.pe/noticia/290892-elecciones-2026-conoce-el-plan-de-gobierno-de-alfonso-lopez-chau"
+        },
+        {
+          "tema": "Aborto",
+          "posicion": "No declarada públicamente",
+          "declaracion": "No ha hecho pronunciamientos explícitos sobre este tema en su campaña 2026.",
+          "fuente": null,
+          "url": null
+        }
+      ],
+      "coherenciaHistorica": []
+    },
+
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Promover la industrialización nacional a través de MiPymes formalizadas, con un Régimen de Exención Temporal del Impuesto a la Renta para empresas que incrementen su planilla de forma sostenible.",
+          "fuente": "Peruhoy.pe – Propuestas Alfonso López Chau 2026",
+          "url": "https://peruhoy.pe/propuestas-alfonso-lopez-chau-2026/"
+        },
+        {
+          "texto": "Descentralizar la producción bajo el lema 'Todo el poder a las regiones para conquistar los mercados del mundo', fortaleciendo la competitividad regional e internacional.",
+          "fuente": "Peruhoy.pe – Propuestas Alfonso López Chau 2026",
+          "url": "https://peruhoy.pe/propuestas-alfonso-lopez-chau-2026/"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Mejorar la cobertura universal de salud efectiva integrando los servicios del Minsa, gobiernos regionales, EsSalud y privados en un sistema articulado.",
+          "fuente": "El Peruano – Plan de gobierno López Chau 2026",
+          "url": "https://elperuano.pe/noticia/290892-elecciones-2026-conoce-el-plan-de-gobierno-de-alfonso-lopez-chau"
+        }
+      ],
+      "educacion": [
+        {
+          "texto": "Fortalecer la educación pública y priorizar la inversión en infraestructura educativa como eje central del desarrollo nacional, con énfasis en ciencia y tecnología.",
+          "fuente": "Infobae – Perfil Alfonso López Chau 2026",
+          "url": "https://www.infobae.com/peru/2026/02/15/alfonso-lopez-chau-perfil-del-economista-que-busca-llegar-a-palacio-con-ahora-nacion/"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Promulgar una nueva ley del sistema nacional de seguridad ciudadana con liderazgo claro del Ejecutivo y reinstaurar la Policía de Investigaciones del Perú.",
+          "fuente": "El Peruano – Plan de gobierno López Chau 2026",
+          "url": "https://elperuano.pe/noticia/290892-elecciones-2026-conoce-el-plan-de-gobierno-de-alfonso-lopez-chau"
+        }
+      ],
+      "medioambiente": [
+        {
+          "texto": "Rediseñar integralmente el proceso de formalización minera, simplificando trámites, estableciendo plazos claros y diferenciando territorios y tipologías de mineros.",
+          "fuente": "El Peruano – Plan de gobierno López Chau 2026",
+          "url": "https://elperuano.pe/noticia/290892-elecciones-2026-conoce-el-plan-de-gobierno-de-alfonso-lopez-chau"
+        }
+      ]
+    },
+
+    "integridad": {
+      "antecedentesLegales": [],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2026,
+        "periodoFiscalDeclarado": 2025,
+        "inmuebles": [],
+        "vehiculos": [],
+        "cuentasBancarias": null,
+        "acciones": [],
+        "deudas": null,
+        "observaciones": "El candidato ha declarado públicamente que no cuenta con financistas para su campaña y que aspira a 'ser un presidente pobre y morir pobre'. Datos patrimoniales completos en hoja de vida JNE.",
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Docencia universitaria y publicaciones académicas",
+          "tipo": "Actividad independiente",
+          "montoAnualDeclarado": null,
+          "moneda": "PEN",
+          "nota": "Exrector de la UNI. Monto exacto en hoja de vida JNE."
+        }
+      ],
+      "controversias": [],
+      "asistenciaCongreso": null
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": null,
+        "aportePropioDelCandidato": null,
+        "aportesDeAfiliados": null,
+        "aportesDeEmpresas": 0,
+        "principalesAportantes": [
+          { "nombre": "Candidatos y simpatizantes del partido", "monto": null }
+        ],
+        "observaciones": "El candidato afirma que el partido se financia exclusivamente con aportes de candidatos y simpatizantes, sin financistas externos.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 72,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": false,
+        "congreso": false
+      }
+    },
+
+    "fuentes": [
+      { "nombre": "Wikipedia – Alfonso López-Chau", "url": "https://es.wikipedia.org/wiki/Alfonso_L%C3%B3pez-Chau", "tipo": "referencia" },
+      { "nombre": "Infobae – Perfil Alfonso López Chau 2026", "url": "https://www.infobae.com/peru/2026/02/15/alfonso-lopez-chau-perfil-del-economista-que-busca-llegar-a-palacio-con-ahora-nacion/", "tipo": "nota de prensa" },
+      { "nombre": "El Peruano – Plan de gobierno López Chau 2026", "url": "https://elperuano.pe/noticia/290892-elecciones-2026-conoce-el-plan-de-gobierno-de-alfonso-lopez-chau", "tipo": "nota de prensa" },
+      { "nombre": "Hoja de vida JNE – Voto Informado", "url": "https://votoinformado.jne.gob.pe", "tipo": "documento" }
+    ]
+  },
+
+  {
+    "id": 11,
+    "nombre": "George Patrick Forsyth Sommer",
+    "partido": "Somos Perú",
+    "partido_color": "#DC2626",
+    "foto": "assets/img/george-forsyth.jpg",
+    "orden": 11,
+    "fechaActualizacion": "2026-03-20",
+    "biografia": "Exfutbolista profesional (arquero de Alianza Lima) y exalcalde del distrito de La Victoria. Nació en Caracas, Venezuela, hijo del diplomático Harold Forsyth. Postula por segunda vez a la presidencia, esta vez con Somos Perú.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1982-06-20",
+      "lugarNacimiento": { "ciudad": "Caracas", "departamento": null, "pais": "Venezuela" },
+      "residenciaActual": { "ciudad": "La Victoria", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Maestría en Administración",
+          "institucion": "Universidad del Pacífico",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": 2023,
+          "verificado": true,
+          "entidadVerificadora": "SUNEDU",
+          "nota": null
+        },
+        {
+          "grado": "Bachiller en Administración de Empresas",
+          "institucion": "Universidad Peruana de Ciencias Aplicadas (UPC)",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": 2021,
+          "verificado": true,
+          "entidadVerificadora": "SUNEDU",
+          "nota": "Grado obtenido en modalidad presencial. Anteriormente inició estudios en la Universidad de San Martín de Porres sin concluirlos."
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Somos Perú",
+          "desde": 2019,
+          "hasta": null,
+          "esFundador": false,
+          "nota": "Afiliado desde su primera alcaldía. Se alejó para postular con Victoria Nacional en 2021 y retornó para la candidatura 2026."
+        },
+        {
+          "partido": "Victoria Nacional",
+          "desde": 2020,
+          "hasta": 2021,
+          "esFundador": false,
+          "nota": "Partido con el que postuló a la presidencia en 2021. La organización fue disuelta al no superar la valla electoral."
+        },
+        {
+          "partido": "Partido Popular Cristiano – Unidad Nacional",
+          "desde": 2011,
+          "hasta": 2014,
+          "esFundador": false,
+          "nota": "Fue regidor de La Victoria bajo esta afiliación."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Futbolista profesional (arquero)",
+          "sector": "Privado / Deportes",
+          "institucion": "Club Alianza Lima",
+          "desde": 2001,
+          "hasta": 2016,
+          "descripcion": "Carrera profesional como portero. También fue representante de crédito fiscal del club entre 2012 y 2020."
+        },
+        {
+          "cargo": "Gerente General",
+          "sector": "Privado",
+          "institucion": "Alhambra Inversiones S.R.L.",
+          "desde": 2024,
+          "hasta": 2025,
+          "descripcion": null
+        }
+      ],
+      "cargosPublicos": [
+        {
+          "cargo": "Alcalde Distrital de La Victoria",
+          "circunscripcion": "La Victoria, Lima",
+          "periodo": "2019-2020",
+          "fuerza": "Somos Perú",
+          "resultado": "Renunció en 2020 para postular a la presidencia con Victoria Nacional."
+        },
+        {
+          "cargo": "Regidor Distrital de La Victoria",
+          "circunscripcion": "La Victoria, Lima",
+          "periodo": "2011-2014",
+          "fuerza": "Partido Popular Cristiano – Unidad Nacional",
+          "resultado": null
+        }
+      ],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Alcalde Metropolitano de Lima",
+          "vuelta": "única",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "No elegido."
+        },
+        {
+          "ano": 2021,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "Octavo lugar. No pasó a segunda vuelta. Victoria Nacional no superó la valla electoral."
+        },
+        {
+          "ano": 2018,
+          "cargo": "Alcalde Distrital de La Victoria",
+          "vuelta": "única",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "Elegido alcalde de La Victoria con Somos Perú."
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Centro",
+      "justificacionEditorial": "Forsyth no pertenece a una corriente ideológica definida. Su discurso se centra en la lucha contra la corrupción, la seguridad ciudadana y la reconstrucción institucional. Se presenta como un candidato de gestión y renovación, sin alineamiento ideológico explícito.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Seguridad ciudadana",
+          "posicion": "Mano dura y anticorrupción",
+          "declaracion": "Propone firmeza y transparencia en la gestión pública. Durante su alcaldía lideró operativos contra el comercio informal y mafias de cobro de cupos en La Victoria.",
+          "fuente": "Caretas – George Forsyth candidato presidencial Somos Perú",
+          "url": "https://caretas.pe/home_web/home_principal/george-forsyth-sera-candidato-presidencial-por-somos-peru/"
+        },
+        {
+          "tema": "Modelo económico",
+          "posicion": "No definida explícitamente",
+          "declaracion": "Prioriza la gestión eficiente y la lucha anticorrupción por encima de posiciones ideológicas económicas.",
+          "fuente": "Infobae – Perfil Forsyth 2026",
+          "url": "https://www.infobae.com/peru/2026/02/07/george-forsyth-vuelve-a-tentar-la-presidencia-en-las-elecciones-2026-perfil-del-candidato-de-somos-peru/"
+        },
+        {
+          "tema": "Aborto",
+          "posicion": "No declarada públicamente",
+          "declaracion": "No ha hecho pronunciamientos explícitos sobre este tema.",
+          "fuente": null,
+          "url": null
+        },
+        {
+          "tema": "Matrimonio igualitario",
+          "posicion": "No declarada públicamente",
+          "declaracion": "No ha hecho pronunciamientos explícitos sobre este tema.",
+          "fuente": null,
+          "url": null
+        }
+      ],
+      "coherenciaHistorica": [
+        {
+          "tema": "Renuncia a la alcaldía de La Victoria",
+          "tension": "En 2022, el propio Forsyth reconoció que dejar la alcaldía de La Victoria para postularse a la presidencia en 2021 fue un error. En 2026 repite la decisión de postular a la presidencia.",
+          "documentado": true,
+          "fuente": "Infobae – Perfil Forsyth 2026",
+          "url": "https://www.infobae.com/peru/2026/02/07/george-forsyth-vuelve-a-tentar-la-presidencia-en-las-elecciones-2026-perfil-del-candidato-de-somos-peru/"
+        }
+      ]
+    },
+
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Reducción de la pobreza a través de programas antianemia, alimentación complementaria en Cuna Más y equipamiento de establecimientos de salud rurales con laboratorios básicos.",
+          "fuente": "La República – Plan de gobierno Somos Perú 2026",
+          "url": "https://larepublica.pe/politica/2026/03/16/elecciones-2026-los-aciertos-dudas-y-errores-de-lopez-aliaga-perez-tello-forsyth-y-belmont-hnews-1305648"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Salud universal efectiva con programas antianemia y alimentación complementaria. Equipar establecimientos rurales con laboratorios básicos.",
+          "fuente": "La República – Plan de gobierno Somos Perú 2026",
+          "url": "https://larepublica.pe/politica/2026/03/16/elecciones-2026-los-aciertos-dudas-y-errores-de-lopez-aliaga-perez-tello-forsyth-y-belmont-hnews-1305648"
+        },
+        {
+          "texto": "Crear centros de desarrollo personal y gestión del trato humanizado para combatir el maltrato en la atención hospitalaria.",
+          "fuente": "La República – Plan de gobierno Somos Perú 2026",
+          "url": "https://larepublica.pe/politica/2026/03/16/elecciones-2026-los-aciertos-dudas-y-errores-de-lopez-aliaga-perez-tello-forsyth-y-belmont-hnews-1305648"
+        }
+      ],
+      "educacion": [
+        {
+          "texto": "Garantizar educación de calidad conectada al empleo, con protección de la primera infancia e impulso al Módulo Nacional de Calificación Profesional continuo.",
+          "fuente": "La República – Plan de gobierno Somos Perú 2026",
+          "url": "https://larepublica.pe/politica/2026/03/16/elecciones-2026-los-aciertos-dudas-y-errores-de-lopez-aliaga-perez-tello-forsyth-y-belmont-hnews-1305648"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Lucha frontal contra la corrupción y el crimen organizado. Reconstrucción institucional con firmeza y transparencia.",
+          "fuente": "Caretas – George Forsyth candidato presidencial Somos Perú",
+          "url": "https://caretas.pe/home_web/home_principal/george-forsyth-sera-candidato-presidencial-por-somos-peru/"
+        }
+      ],
+      "medioambiente": []
+    },
+
+    "integridad": {
+      "antecedentesLegales": [],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2026,
+        "periodoFiscalDeclarado": 2025,
+        "inmuebles": [
+          { "descripcion": "Dos propiedades en Magdalena del Mar (declaradas en 2021, USD 132,800 y USD 1,892,400)", "valorDeclarado": null, "moneda": "USD" }
+        ],
+        "vehiculos": [
+          { "descripcion": "BMW en desuso", "valorDeclarado": 2000, "moneda": "PEN" },
+          { "descripcion": "Motocicleta Kawasaki", "valorDeclarado": 40000, "moneda": "PEN" }
+        ],
+        "cuentasBancarias": null,
+        "acciones": [
+          { "empresa": "Alhambra Inversiones S.R.L.", "acciones": 500, "nota": "Empresa de la que fue gerente general entre 2024 y 2025." }
+        ],
+        "deudas": null,
+        "observaciones": "Ingresos anuales declarados: S/ 244,000 en 2024. No presenta información actual sobre bienes inmuebles en la hoja de vida 2026.",
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Gerencia de empresas y representación comercial",
+          "tipo": "Actividad independiente",
+          "montoAnualDeclarado": 244000,
+          "moneda": "PEN",
+          "nota": "Ingreso declarado ante JNE para el año 2024."
+        }
+      ],
+      "controversias": [
+        {
+          "titulo": "Renuncia a la alcaldía de La Victoria",
+          "descripcion": "Abandonó el cargo de alcalde de La Victoria en 2020 para postularse a la presidencia, incumpliendo el periodo para el que fue elegido. El propio candidato reconoció en 2022 que fue un error.",
+          "fechas": "2020",
+          "fuente": "Infobae – Perfil Forsyth 2026",
+          "url": "https://www.infobae.com/peru/2026/02/07/george-forsyth-vuelve-a-tentar-la-presidencia-en-las-elecciones-2026-perfil-del-candidato-de-somos-peru/"
+        }
+      ],
+      "asistenciaCongreso": null
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": null,
+        "aportePropioDelCandidato": null,
+        "aportesDeAfiliados": null,
+        "aportesDeEmpresas": null,
+        "principalesAportantes": [],
+        "observaciones": "Datos ONPE pendientes de publicación oficial al cierre de esta edición.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 68,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": false,
+        "congreso": false
+      }
+    },
+
+    "fuentes": [
+      { "nombre": "Infobae – Perfil George Forsyth 2026", "url": "https://www.infobae.com/peru/2026/02/07/george-forsyth-vuelve-a-tentar-la-presidencia-en-las-elecciones-2026-perfil-del-candidato-de-somos-peru/", "tipo": "nota de prensa" },
+      { "nombre": "Andina – Hoja de vida George Forsyth 2026", "url": "https://andina.pe/agencia/noticia-elecciones-2026-revisa-hoja-vida-george-forsyth-somos-peru-1065404.aspx", "tipo": "nota de prensa" },
+      { "nombre": "Hoja de vida JNE – Voto Informado", "url": "https://votoinformado.jne.gob.pe", "tipo": "documento" },
+      { "nombre": "La República – Plan de gobierno Somos Perú 2026", "url": "https://larepublica.pe/politica/2026/03/16/elecciones-2026-los-aciertos-dudas-y-errores-de-lopez-aliaga-perez-tello-forsyth-y-belmont-hnews-1305648", "tipo": "nota de prensa" }
+    ]
+  },
+
+  {
+    "id": 12,
+    "nombre": "José Daniel Williams Zapata",
+    "partido": "Avanza País – Partido de Integración Social",
+    "partido_color": "#1D4ED8",
+    "foto": "assets/img/jose-williams.jpg",
+    "orden": 12,
+    "fechaActualizacion": "2026-03-20",
+    "biografia": "General de división (r) del Ejército del Perú. Comandó la Operación Chavín de Huántar en 1997, que liberó a 72 rehenes del MRTA. Excongresista y expresidente del Congreso (2022-2023). Candidato presidencial de Avanza País.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1951-11-09",
+      "lugarNacimiento": { "ciudad": "Lima", "departamento": "Lima", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "Lima", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Doctorado en Gobierno y Política Pública",
+          "institucion": "Universidad San Martín de Porres (USMP)",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": true,
+          "entidadVerificadora": "Hoja de vida JNE",
+          "nota": "Presentado como concluido en registros oficiales JNE."
+        },
+        {
+          "grado": "Magíster en Desarrollo y Defensa Nacional",
+          "institucion": "Centro de Altos Estudios Nacionales (CAEN)",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": 2011,
+          "verificado": true,
+          "entidadVerificadora": "CAEN / Ministerio de Defensa",
+          "nota": null
+        },
+        {
+          "grado": "Bachiller y Licenciado en Ciencias Militares",
+          "institucion": "Escuela Militar de Chorrillos 'Coronel Francisco Bolognesi'",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": 2009,
+          "verificado": true,
+          "entidadVerificadora": "Ejército del Perú",
+          "nota": null
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "Avanza País – Partido de Integración Social",
+          "desde": 2021,
+          "hasta": null,
+          "esFundador": false,
+          "nota": "Se afilió al partido para las elecciones de 2021. Fue elegido congresista y presidió el Congreso en 2022-2023."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "General de División – Jefe del Comando Conjunto de las Fuerzas Armadas",
+          "sector": "Público",
+          "institucion": "Ejército del Perú",
+          "desde": 1971,
+          "hasta": 2009,
+          "descripcion": "Carrera militar de 38 años. Comandó la Operación Chavín de Huántar el 22 de abril de 1997, liberando a 72 rehenes secuestrados por el MRTA en la residencia del embajador de Japón."
+        },
+        {
+          "cargo": "Director Académico",
+          "sector": "Académico / Defensa",
+          "institucion": "Centro de Altos Estudios Nacionales (CAEN)",
+          "desde": 2009,
+          "hasta": 2011,
+          "descripcion": null
+        },
+        {
+          "cargo": "Profesor",
+          "sector": "Académico",
+          "institucion": "Universidad San Ignacio de Loyola / Escuela Superior de Guerra",
+          "desde": 2018,
+          "hasta": null,
+          "descripcion": "Conferencista y docente en temas de seguridad y defensa nacional."
+        }
+      ],
+      "cargosPublicos": [
+        {
+          "cargo": "Presidente del Congreso de la República",
+          "circunscripcion": null,
+          "periodo": "2022-2023",
+          "fuerza": "Avanza País",
+          "resultado": "Elegido el 12 de septiembre de 2022 en reemplazo de Lady Camones, censurada. Cumplió funciones hasta el 26 de julio de 2023."
+        },
+        {
+          "cargo": "Congresista de la República",
+          "circunscripcion": "Lima",
+          "periodo": "2021-2026",
+          "fuerza": "Avanza País",
+          "resultado": "Elegido con 44,791 votos. Participó en debates clave sobre seguridad y defensa nacional."
+        }
+      ],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        },
+        {
+          "ano": 2021,
+          "cargo": "Congresista de la República",
+          "vuelta": "única",
+          "votosObtenidos": 44791,
+          "porcentaje": null,
+          "resultado": "Elegido congresista por Lima con Avanza País."
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Derecha / Conservador",
+      "justificacionEditorial": "Williams proviene del sector militar y se ubica en la derecha con énfasis en orden, seguridad e institucionalidad. En 2021 rechazó otorgar voto de confianza a un gabinete por no haber deslindado del marxismo-leninismo, posición que refleja su conservadurismo ideológico.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Seguridad ciudadana",
+          "posicion": "Reforma estructural de la PNP",
+          "declaracion": "Propone dividir la Policía Nacional en dos cuerpos: la Guardia Nacional (orden territorial, comisarías, fronteras) y una Policía de Investigación Criminal (inteligencia y delitos graves).",
+          "fuente": "Caretas – Williams propone crecimiento y reforma policial 2026",
+          "url": "https://caretas.pe/politica/jose-williams-crecimiento-reforma-policial-peru-2026"
+        },
+        {
+          "tema": "Modelo económico",
+          "posicion": "Libre mercado con competitividad",
+          "declaracion": "Propone alcanzar un crecimiento del 5%, formalizar 1.3 millones de empleos y fortalecer zonas económicas especiales como la de Tacna.",
+          "fuente": "Canal N – José Williams propone crecimiento económico 2026",
+          "url": "https://canaln.pe/actualidad/jose-williams-propone-crecimiento-economico-empleo-formal-y-reformas-mineria-y-trabajo-n490952"
+        },
+        {
+          "tema": "Marxismo-leninismo",
+          "posicion": "En contra",
+          "declaracion": "En 2021 rechazó otorgar voto de confianza a un gabinete argumentando que el gobierno no había deslindado del marxismo, maoísmo y leninismo.",
+          "fuente": "La República – José Williams Avanza País 2026",
+          "url": "https://larepublica.pe/politica/2025/12/07/elecciones-2026-jose-williams-sera-candidato-presidencial-de-avanza-pais-tras-renuncia-de-phillip-butters-hnews-136122"
+        },
+        {
+          "tema": "Aborto",
+          "posicion": "No declarada públicamente",
+          "declaracion": "No ha hecho pronunciamientos explícitos sobre este tema en campaña.",
+          "fuente": null,
+          "url": null
+        }
+      ],
+      "coherenciaHistorica": []
+    },
+
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Impulsar el crecimiento económico hasta el 5% reactivando clústeres productivos, formalizando 1.3 millones de empleos y desarrollando un programa nacional de talentos en nuevas tecnologías.",
+          "fuente": "Canal N – Williams propone crecimiento económico 2026",
+          "url": "https://canaln.pe/actualidad/jose-williams-propone-crecimiento-economico-empleo-formal-y-reformas-mineria-y-trabajo-n490952"
+        },
+        {
+          "texto": "Construir un ferrocarril desde La Libertad hasta Ica para mejorar el transporte de productos y fortalecer zonas francas como la de Tacna para captar flujos comerciales del sur del continente.",
+          "fuente": "Caretas – Williams propone crecimiento y reforma policial 2026",
+          "url": "https://caretas.pe/politica/jose-williams-crecimiento-reforma-policial-peru-2026"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Crear el Consejo Estratégico Nacional de Salud (CENS) para establecer un catálogo esencial de prestaciones, estándares mínimos de atención y compras estratégicas articuladas.",
+          "fuente": "Andina – Plan de gobierno José Williams 2026",
+          "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-jose-williams-zapata-1065743.aspx"
+        }
+      ],
+      "educacion": [
+        {
+          "texto": "Elevar en 20% el nivel satisfactorio del logro educativo en cinco años, impulsando la enseñanza de lectura, ciencias, matemáticas y herramientas digitales, y reducir en 40% la brecha en infraestructura y conectividad educativa.",
+          "fuente": "Canal N – Williams propone crecimiento económico 2026",
+          "url": "https://canaln.pe/actualidad/jose-williams-propone-crecimiento-economico-empleo-formal-y-reformas-mineria-y-trabajo-n490952"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Dividir la Policía Nacional en una Guardia Nacional (orden territorial y fronteras) y una Policía de Investigación Criminal (inteligencia y delitos de mayor cuantía), acompañado de despliegue inmediato del Escuadrón de Emergencia y el SUAT.",
+          "fuente": "Caretas – Williams propone crecimiento y reforma policial 2026",
+          "url": "https://caretas.pe/politica/jose-williams-crecimiento-reforma-policial-peru-2026"
+        },
+        {
+          "texto": "Aumentar la presencia policial en zonas de alta incidencia delictiva mediante mapas de calor e Inteligencia Artificial.",
+          "fuente": "El Peruano – Plan de gobierno José Williams 2026",
+          "url": "https://elperuano.pe/noticia/290992-elecciones-2026-conoce-el-plan-de-gobierno-de-jose-williams-zapata"
+        }
+      ],
+      "medioambiente": [
+        {
+          "texto": "Crear un nuevo Código Minero que ordene la normativa vigente y regule la minería en todos sus niveles. Eliminar los reinfos que operan en zonas intangibles (60,000 de 90,000 registros).",
+          "fuente": "Diario Correo – Williams propone nuevo código minero 2026",
+          "url": "https://diariocorreo.pe/politica/jose-williams-propone-crecimiento-economico-nuevo-codigo-minero-y-reformar-la-policia-en-foro-de-la-sni-noticia/"
+        }
+      ]
+    },
+
+    "integridad": {
+      "antecedentesLegales": [],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2026,
+        "periodoFiscalDeclarado": 2025,
+        "inmuebles": [],
+        "vehiculos": [],
+        "cuentasBancarias": null,
+        "acciones": [],
+        "deudas": null,
+        "observaciones": "Datos patrimoniales completos en hoja de vida JNE.",
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Docencia universitaria y conferencias",
+          "tipo": "Actividad independiente",
+          "montoAnualDeclarado": null,
+          "moneda": "PEN",
+          "nota": "Profesor en USIL y conferencista en la Escuela Superior de Guerra desde 2018 y 2020 respectivamente."
+        }
+      ],
+      "controversias": [],
+      "asistenciaCongreso": {
+        "periodo": "2021-2026",
+        "porcentajeAsistencia": null,
+        "proyectosAprobados": null,
+        "totalProyectosPresentados": null,
+        "nota": "Presidió el Congreso entre septiembre de 2022 y julio de 2023. Datos de asistencia no disponibles en fuentes verificadas consultadas."
+      }
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": null,
+        "aportePropioDelCandidato": null,
+        "aportesDeAfiliados": null,
+        "aportesDeEmpresas": null,
+        "principalesAportantes": [],
+        "observaciones": "Datos ONPE pendientes de publicación oficial al cierre de esta edición.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 78,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": false,
+        "congreso": true
+      }
+    },
+
+    "fuentes": [
+      { "nombre": "Infobae – Perfil José Williams 2026", "url": "https://www.infobae.com/peru/2026/02/27/jose-williams-zapata-perfil-patrimonio-y-trayectoria-del-candidato-presidencial-de-avanza-pais/", "tipo": "nota de prensa" },
+      { "nombre": "Andina – Plan de gobierno José Williams 2026", "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-jose-williams-zapata-1065743.aspx", "tipo": "nota de prensa" },
+      { "nombre": "Canal N – Williams propone crecimiento económico 2026", "url": "https://canaln.pe/actualidad/jose-williams-propone-crecimiento-economico-empleo-formal-y-reformas-mineria-y-trabajo-n490952", "tipo": "nota de prensa" },
+      { "nombre": "Hoja de vida JNE – Voto Informado", "url": "https://votoinformado.jne.gob.pe", "tipo": "documento" }
+    ]
+  },
+
+  {
+    "id": 13,
+    "nombre": "Carlos Gonzalo Álvarez Loayza",
+    "partido": "País para Todos",
+    "partido_color": "#CA8A04",
+    "foto": "assets/img/carlos-alvarez.jpg",
+    "orden": 13,
+    "fechaActualizacion": "2026-03-20",
+    "biografia": "Comediante y conductor de televisión con más de 42 años de trayectoria artística. Nacido en Lima en 1964, inició su carrera en 'Trampolín a la Fama'. Sin experiencia previa en cargos públicos. Candidato presidencial de País para Todos.",
+
+    "datosBasicos": {
+      "fechaNacimiento": "1964-01-07",
+      "lugarNacimiento": { "ciudad": "Lima", "departamento": "Lima", "pais": "Perú" },
+      "residenciaActual": { "ciudad": "San Isidro", "departamento": "Lima" },
+      "formacionAcademica": [
+        {
+          "grado": "Estudios artísticos y de comunicación",
+          "institucion": "No especificada",
+          "pais": "Perú",
+          "anoInicio": null,
+          "anoFin": null,
+          "verificado": false,
+          "entidadVerificadora": null,
+          "nota": "Su hoja de vida ante el JNE no consigna estudios universitarios concluidos."
+        }
+      ],
+      "historialPartidos": [
+        {
+          "partido": "País para Todos",
+          "desde": 2025,
+          "hasta": null,
+          "esFundador": false,
+          "nota": "Se afilió formalmente en 2025 coincidiendo con su inscripción como candidato presidencial. Es candidato invitado (20% invitados, 80% afiliados)."
+        },
+        {
+          "partido": "Vamos Perú",
+          "desde": null,
+          "hasta": 2021,
+          "esFundador": false,
+          "nota": "Renunció al partido en 2021."
+        }
+      ]
+    },
+
+    "trayectoria": {
+      "experienciaPrevia": [
+        {
+          "cargo": "Conductor y comediante de televisión",
+          "sector": "Privado / Entretenimiento",
+          "institucion": "Panamericana TV, ATV, Latina, Willax Televisión, Canal 7",
+          "desde": 1983,
+          "hasta": null,
+          "descripcion": "Más de 42 años de carrera. Programas destacados: Trampolín a la fama (1983), Las mil y una de Carlos Álvarez (1989-1997), Caiga quien caiga, El especial del humor. Elegido mejor humorista nacional 4 veces consecutivas (2004-2007) por consultora Apoyo."
+        }
+      ],
+      "cargosPublicos": [],
+      "participacionElectoral": [
+        {
+          "ano": 2026,
+          "cargo": "Presidente de la República",
+          "vuelta": "primera",
+          "votosObtenidos": null,
+          "porcentaje": null,
+          "resultado": "En curso"
+        }
+      ]
+    },
+
+    "ideologia": {
+      "espectro": "Variable / Populismo de centro",
+      "justificacionEditorial": "Álvarez se autodefine como 'de izquierda, de derecha y de centro'. Su discurso se centra en la seguridad ciudadana y la lucha anticorrupción desde un enfoque pragmático. No tiene adscripción ideológica definida; su candidatura se basa en su popularidad mediática y su capacidad de interpelación ciudadana.",
+      "posicionesEnTemasClave": [
+        {
+          "tema": "Seguridad ciudadana",
+          "posicion": "Mano dura / Orden y autoridad",
+          "declaracion": "Sin seguridad no hay educación, salud, inversión ni convivencia social. Propone un grupo de búsqueda, captura y aniquilamiento contra delincuentes, y cadena perpetua para corruptos.",
+          "fuente": "Plan de Gobierno País para Todos 2026 – JNE",
+          "url": "https://mpesije.jne.gob.pe/docs/76291ee3-eba2-4c88-adef-2530f2d70bb8.pdf"
+        },
+        {
+          "tema": "Modelo económico",
+          "posicion": "Pragmático / Sin posición ideológica definida",
+          "declaracion": "Se declara 'de izquierda, de derecha y de centro' según el tema. Prioriza que el Estado funcione para todos, especialmente para los más vulnerables.",
+          "fuente": "La Voz del 21 – Carlos Álvarez declaraciones",
+          "url": "https://larepublica.pe/politica/2026/03/18/elecciones-2026-lo-bueno-lo-malo-y-lo-peor-de-alfonso-lopez-chau-carlos-alvarez-luna-galvez-y-carlos-espa-hnews-1230246"
+        },
+        {
+          "tema": "Corrupción",
+          "posicion": "Cadena perpetua para corruptos",
+          "declaracion": "Propone cadena perpetua para corruptos y corruptores, y un centro de persecución de la corrupción y criminalidad.",
+          "fuente": "La República – Foro SNI candidatos 2026",
+          "url": "https://larepublica.pe/politica/2026/03/17/en-vivo-foro-de-candidatos-a-la-presidencia-keiko-fujimori-acuna-lopez-aliaga-y-lopez-chau-exponen-sus-propuestas-hnews-441048"
+        },
+        {
+          "tema": "Aborto",
+          "posicion": "No declarada públicamente",
+          "declaracion": "No ha hecho pronunciamientos explícitos sobre este tema.",
+          "fuente": null,
+          "url": null
+        }
+      ],
+      "coherenciaHistorica": [
+        {
+          "tema": "Rol en el fujimorismo",
+          "tension": "Reconoció públicamente que apoyó al gobierno de Fujimori en los años 90: 'La época de Fujimori fue un momento totalmente distinto. Yo apoyaba a ese gobierno, pero no a las tropelías que estaba haciendo'. En 2026 postula con un discurso anticorrupción.",
+          "documentado": true,
+          "fuente": "El Comercio – Entrevista Carlos Álvarez 2026",
+          "url": "https://elcomercio.pe/politica/elecciones-2026-carlos-alvarez-loayza-candidato-presidencial-de-pais-para-todos-tenemos-que-recuperar-la-dignidad-de-la-institucion-presidencial-12-de-abril-noticia/"
+        },
+        {
+          "tema": "Condena por peculado (2002)",
+          "tension": "El programa Beto A Saber reveló una condena judicial por peculado dictada en 2002 por la Tercera Sala Penal Especial de la Corte Superior de Justicia de Lima. El candidato no la declaró en su hoja de vida ante el JNE.",
+          "documentado": true,
+          "fuente": "Willax – Beto A Saber 2026",
+          "url": "https://www.infobae.com/peru/2026/02/22/carlos-alvarez-perfil-y-hoja-de-vida-del-candidato-del-partido-pais-para-todos-para-las-elecciones-2026/"
+        }
+      ]
+    },
+
+    "propuestas": {
+      "economia": [
+        {
+          "texto": "Un Estado que funcione para todos y no solo para algunos, priorizando a quienes menos protección tienen. Impulsando la libertad de las personas para crecer.",
+          "fuente": "Plan de Gobierno País para Todos 2026 – JNE",
+          "url": "https://mpesije.jne.gob.pe/docs/76291ee3-eba2-4c88-adef-2530f2d70bb8.pdf"
+        }
+      ],
+      "salud": [
+        {
+          "texto": "Unificar el sistema de salud, garantizando que cada región tenga farmacias con precios accesibles para los ciudadanos.",
+          "fuente": "La República – Foro SNI candidatos 2026",
+          "url": "https://larepublica.pe/politica/2026/03/17/en-vivo-foro-de-candidatos-a-la-presidencia-keiko-fujimori-acuna-lopez-aliaga-y-lopez-chau-exponen-sus-propuestas-hnews-441048"
+        }
+      ],
+      "educacion": [
+        {
+          "texto": "Impulsar la capacitación continua al trabajador para que sea emprendedor, basando la política en la educación y la pedagogía como herramientas de desarrollo.",
+          "fuente": "La República – Foro SNI candidatos 2026",
+          "url": "https://larepublica.pe/politica/2026/03/17/en-vivo-foro-de-candidatos-a-la-presidencia-keiko-fujimori-acuna-lopez-aliaga-y-lopez-chau-exponen-sus-propuestas-hnews-441048"
+        }
+      ],
+      "seguridad": [
+        {
+          "texto": "Crear un grupo de búsqueda, captura y aniquilamiento contra los delincuentes y un centro de persecución de la corrupción y criminalidad. Cadena perpetua para corruptos y corruptores.",
+          "fuente": "La República – Foro SNI candidatos 2026",
+          "url": "https://larepublica.pe/politica/2026/03/17/en-vivo-foro-de-candidatos-a-la-presidencia-keiko-fujimori-acuna-lopez-aliaga-y-lopez-chau-exponen-sus-propuestas-hnews-441048"
+        }
+      ],
+      "medioambiente": []
+    },
+
+    "integridad": {
+      "antecedentesLegales": [
+        {
+          "proceso": "Condena por peculado – 2002",
+          "entidad": "Tercera Sala Penal Especial de la Corte Superior de Justicia de Lima",
+          "estadoActual": "Condena firme (2002). No declarada en hoja de vida JNE 2026.",
+          "descripcion": "El programa Beto A Saber de Willax reveló una sentencia condenatoria por peculado dictada en 2002. El candidato no incluyó este antecedente en su declaración jurada ante el JNE para las elecciones 2026.",
+          "fechaInicio": "2002",
+          "urlReferencia": "https://www.infobae.com/peru/2026/02/22/carlos-alvarez-perfil-y-hoja-de-vida-del-candidato-del-partido-pais-para-todos-para-las-elecciones-2026/"
+        }
+      ],
+      "declaracionJuradaBienes": {
+        "anoDeclaracion": 2026,
+        "periodoFiscalDeclarado": 2025,
+        "inmuebles": [
+          { "descripcion": "Dúplex en Breña", "valorDeclarado": 66000, "moneda": "PEN" },
+          { "descripcion": "Inmueble en San Isidro (sin valorización declarada)", "valorDeclarado": null, "moneda": "PEN" },
+          { "descripcion": "Estacionamiento en San Isidro", "valorDeclarado": 33000, "moneda": "PEN" },
+          { "descripcion": "Departamento en San Isidro", "valorDeclarado": 415744, "moneda": "PEN" }
+        ],
+        "vehiculos": [
+          { "descripcion": "Auto deportivo 2013", "valorDeclarado": 102000, "moneda": "PEN" }
+        ],
+        "cuentasBancarias": null,
+        "acciones": [],
+        "deudas": null,
+        "observaciones": "Ingresos anuales declarados: más de S/ 200,000. La condena por peculado de 2002 no fue declarada en la hoja de vida JNE 2026, lo que generó cuestionamientos mediáticos.",
+        "urlJNE": "https://votoinformado.jne.gob.pe"
+      },
+      "fuentesIngreso": [
+        {
+          "actividad": "Actividad artística (televisión, radio, espectáculos)",
+          "tipo": "Actividad independiente",
+          "montoAnualDeclarado": 200000,
+          "moneda": "PEN",
+          "nota": "Monto aproximado según declaración ante JNE (más de S/ 200,000)."
+        }
+      ],
+      "controversias": [
+        {
+          "titulo": "Condena por peculado no declarada ante JNE",
+          "descripcion": "Willax reveló una sentencia de 2002 por peculado que el candidato no consignó en su hoja de vida electoral. El JNE y la opinión pública cuestionaron la omisión.",
+          "fechas": "2002 / Febrero 2026",
+          "fuente": "Infobae – Perfil Carlos Álvarez 2026",
+          "url": "https://www.infobae.com/peru/2026/02/22/carlos-alvarez-perfil-y-hoja-de-vida-del-candidato-del-partido-pais-para-todos-para-las-elecciones-2026/"
+        },
+        {
+          "titulo": "Candidatos de relleno en listas de País para Todos",
+          "descripcion": "El Comercio reveló que la lista de País para Todos incluía a tres hermanos de una misma familia como candidatos al Congreso, algunos sin conocimiento de su propia postulación. Álvarez reconoció la irregularidad y asumió responsabilidad parcial como candidato presidencial invitado.",
+          "fechas": "Marzo 2026",
+          "fuente": "El Comercio – País para Todos candidatos de relleno",
+          "url": "https://elcomercio.pe/politica/elecciones/pais-para-todos-la-historia-de-sus-listas-al-congreso-con-candidatos-de-relleno-carlos-alvarez-elecciones-2026-tlcnota-noticia/"
+        }
+      ],
+      "asistenciaCongreso": null
+    },
+
+    "financiamiento": {
+      "campana2026": {
+        "montoTotalDeclarado": null,
+        "aportePropioDelCandidato": null,
+        "aportesDeAfiliados": null,
+        "aportesDeEmpresas": null,
+        "principalesAportantes": [],
+        "observaciones": "Datos ONPE pendientes de publicación oficial al cierre de esta edición.",
+        "urlONPE": "https://www.onpe.gob.pe/financiamiento-politico/"
+      }
+    },
+
+    "completitudPerfil": {
+      "porcentajeTotal": 70,
+      "secciones": {
+        "datosBasicos": true,
+        "trayectoria": true,
+        "ideologia": true,
+        "propuestas": true,
+        "integridad": true,
+        "financiamiento": false,
+        "congreso": false
+      }
+    },
+
+    "fuentes": [
+      { "nombre": "Infobae – Perfil Carlos Álvarez 2026", "url": "https://www.infobae.com/peru/2026/02/22/carlos-alvarez-perfil-y-hoja-de-vida-del-candidato-del-partido-pais-para-todos-para-las-elecciones-2026/", "tipo": "nota de prensa" },
+      { "nombre": "Plan de Gobierno País para Todos 2026 – JNE", "url": "https://mpesije.jne.gob.pe/docs/76291ee3-eba2-4c88-adef-2530f2d70bb8.pdf", "tipo": "documento" },
+      { "nombre": "El Comercio – Entrevista Carlos Álvarez 2026", "url": "https://elcomercio.pe/politica/elecciones-2026-carlos-alvarez-loayza-candidato-presidencial-de-pais-para-todos-tenemos-que-recuperar-la-dignidad-de-la-institucion-presidencial-12-de-abril-noticia/", "tipo": "entrevista" },
+      { "nombre": "Hoja de vida JNE – Voto Informado", "url": "https://votoinformado.jne.gob.pe", "tipo": "documento" }
+    ]
+  }
+]
